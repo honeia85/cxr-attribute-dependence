@@ -1,0 +1,44 @@
+{
+  "upload_type": "software",
+  "title": "Analysis code for \"Encoding Versus Linear Use of Patient Characteristics in Chest X-Ray Foundation Models on MIMIC-CXR\"",
+  "description": "Analysis code and aggregate result tables reproducing the paper \"Encoding Versus Linear Use of Patient Characteristics in Chest X-Ray Foundation Models on MIMIC-CXR\" (Diagnostics 2026, 16(13), 2030). The code computes attribute encoding strength, residualization-sensitive attribute dependence, attribute-finding odds ratios, nested OLS regressions, leave-one-out cross-validation and robustness checks, and subgroup fairness gaps for nine frozen chest X-ray foundation models on MIMIC-CXR. Credentialed MIMIC-CXR / MIMIC-IV / CheXpert data are not included and are not redistributed; the shipped result CSVs are aggregate statistics only. See README.md and REPRODUCIBILITY.md for data access and the full reproduction recipe.",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Kim, Yeonsu"
+    },
+    {
+      "name": "Kim, Yangwon",
+      "orcid": "0009-0004-1123-9858"
+    },
+    {
+      "name": "Nam, Yoojin",
+      "orcid": "0000-0001-8565-1360"
+    },
+    {
+      "name": "Kim, Namjoon"
+    },
+    {
+      "name": "Hong, Pa",
+      "orcid": "0000-0001-5495-5230"
+    }
+  ],
+  "keywords": [
+    "chest radiography",
+    "foundation models",
+    "representation learning",
+    "algorithmic fairness",
+    "demographic encoding",
+    "MIMIC-CXR",
+    "medical imaging",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.3390/diagnostics16132030",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    }
+  ]
+}
