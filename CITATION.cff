@@ -4,6 +4,10 @@ title: >-
   Analysis code for "Encoding Versus Linear Use of Patient Characteristics
   in Chest X-Ray Foundation Models on MIMIC-CXR"
 license: MIT
+version: 1.0.0
+date-released: 2026-07-02
+repository-code: "https://github.com/honeia85/cxr-attribute-dependence"
+doi: 10.5281/zenodo.21142236
 authors:
   - family-names: Kim
     given-names: Yeonsu

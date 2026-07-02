@@ -1,5 +1,7 @@
 # Encoding vs. Linear Use of Patient Characteristics in CXR Foundation Models
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21142236.svg)](https://doi.org/10.5281/zenodo.21142236)
+
 Analysis code and result tables for:
 
 > **Encoding Versus Linear Use of Patient Characteristics in Chest X-Ray Foundation Models on MIMIC-CXR**
@@ -116,6 +118,9 @@ request to the corresponding author.
   doi     = {10.3390/diagnostics16132030}
 }
 ```
+
+To cite this code archive specifically (all versions), use the Zenodo concept DOI
+[10.5281/zenodo.21142236](https://doi.org/10.5281/zenodo.21142236).
 
 ## Contact
 
