@@ -93,6 +93,14 @@ under a credentialed data use agreement; CheXpert Plus is available from the Sta
 AIMI portal. None of these datasets is redistributed here. See `REPRODUCIBILITY.md`
 for links and access requirements.
 
+**Extracted embeddings and probe weights.** The paper's Data Availability Statement
+refers to the extracted foundation-model embeddings. These are derived from
+credentialed MIMIC-CXR and CheXpert data and cannot be redistributed here under the
+PhysioNet and Stanford AIMI data use agreements. They can be regenerated exactly from
+`extract_full_mimic.py` / `extract_chexpert_plus.py` using credentialed data and the
+model weights listed in `REPRODUCIBILITY.md`, or obtained by credentialed users on
+request to the corresponding author.
+
 ## Citation
 
 ```bibtex
