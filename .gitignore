@@ -1,0 +1,37 @@
+# =====================================================================
+# Credentialed MIMIC / CheXpert data — NEVER commit (PhysioNet DUA).
+# These are placed locally by the user; they are not part of the release.
+# =====================================================================
+/full_mimic_cxr_metadata.csv
+/patient_metadata.csv
+/chexpert_plus_metadata.csv
+/mimic-cxr-2.0.0-*.csv
+/mimic-iv/
+mimic-cxr-jpg/
+chexpert_source/
+chexpert_temp/
+
+# Embeddings and cached model weights (regenerate via extract_*.py)
+embeddings/
+embeddings_full/
+embeddings_chexpert/
+*.npy
+*.npz
+.cache/
+cxr_foundation_models/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+
+# Logs / build artifacts / OS cruft
+*.log
+.DS_Store
+Thumbs.db
+
+# Note: result CSVs under results/, results_chexpert/, results_chexpert_impression/
+# are aggregate statistics and ARE tracked (they back the paper's tables/figures).

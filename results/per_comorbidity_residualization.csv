@@ -1,0 +1,1381 @@
+attribute,attribute_type,model,disease,auroc_baseline,auroc_residualized,auroc_drop
+sex,demographic,ResNet50-ImageNet,Atelectasis,0.616978,0.617585,-0.000607
+sex,demographic,ResNet50-ImageNet,Cardiomegaly,0.782652,0.782740,-0.000088
+sex,demographic,ResNet50-ImageNet,Consolidation,0.800031,0.796652,0.003379
+sex,demographic,ResNet50-ImageNet,Edema,0.858816,0.858777,0.000038
+sex,demographic,ResNet50-ImageNet,Enlarged Cardiomediastinum,0.664323,0.665609,-0.001286
+sex,demographic,ResNet50-ImageNet,Lung Opacity,0.646126,0.646043,0.000083
+sex,demographic,ResNet50-ImageNet,Pleural Effusion,0.850925,0.851384,-0.000460
+sex,demographic,ResNet50-ImageNet,Pneumonia,0.710925,0.710606,0.000319
+sex,demographic,ResNet50-ImageNet,Pneumothorax,0.672481,0.671740,0.000741
+sex,demographic,ResNet50-ImageNet,Support Devices,0.680371,0.680240,0.000131
+age,demographic,ResNet50-ImageNet,Atelectasis,0.616978,0.608935,0.008042
+age,demographic,ResNet50-ImageNet,Cardiomegaly,0.782652,0.750706,0.031946
+age,demographic,ResNet50-ImageNet,Consolidation,0.800031,0.795995,0.004037
+age,demographic,ResNet50-ImageNet,Edema,0.858816,0.847328,0.011487
+age,demographic,ResNet50-ImageNet,Enlarged Cardiomediastinum,0.664323,0.645484,0.018840
+age,demographic,ResNet50-ImageNet,Lung Opacity,0.646126,0.630476,0.015650
+age,demographic,ResNet50-ImageNet,Pleural Effusion,0.850925,0.829423,0.021502
+age,demographic,ResNet50-ImageNet,Pneumonia,0.710925,0.709019,0.001906
+age,demographic,ResNet50-ImageNet,Pneumothorax,0.672481,0.679331,-0.006849
+age,demographic,ResNet50-ImageNet,Support Devices,0.680371,0.675675,0.004696
+bmi,demographic,ResNet50-ImageNet,Atelectasis,0.616978,0.617082,-0.000104
+bmi,demographic,ResNet50-ImageNet,Cardiomegaly,0.782652,0.771739,0.010913
+bmi,demographic,ResNet50-ImageNet,Consolidation,0.800031,0.792096,0.007935
+bmi,demographic,ResNet50-ImageNet,Edema,0.858816,0.859020,-0.000205
+bmi,demographic,ResNet50-ImageNet,Enlarged Cardiomediastinum,0.664323,0.662280,0.002044
+bmi,demographic,ResNet50-ImageNet,Lung Opacity,0.646126,0.644248,0.001878
+bmi,demographic,ResNet50-ImageNet,Pleural Effusion,0.850925,0.849259,0.001666
+bmi,demographic,ResNet50-ImageNet,Pneumonia,0.710925,0.707145,0.003780
+bmi,demographic,ResNet50-ImageNet,Pneumothorax,0.672481,0.658869,0.013612
+bmi,demographic,ResNet50-ImageNet,Support Devices,0.680371,0.680223,0.000149
+hypertension,comorbidity,ResNet50-ImageNet,Atelectasis,0.645214,0.645730,-0.000516
+hypertension,comorbidity,ResNet50-ImageNet,Cardiomegaly,0.785237,0.779751,0.005486
+hypertension,comorbidity,ResNet50-ImageNet,Consolidation,0.826050,0.826254,-0.000204
+hypertension,comorbidity,ResNet50-ImageNet,Edema,0.867714,0.867407,0.000307
+hypertension,comorbidity,ResNet50-ImageNet,Enlarged Cardiomediastinum,0.703780,0.698209,0.005570
+hypertension,comorbidity,ResNet50-ImageNet,Lung Opacity,0.647063,0.645271,0.001792
+hypertension,comorbidity,ResNet50-ImageNet,Pleural Effusion,0.849999,0.847859,0.002140
+hypertension,comorbidity,ResNet50-ImageNet,Pneumonia,0.723065,0.722953,0.000112
+hypertension,comorbidity,ResNet50-ImageNet,Pneumothorax,0.676774,0.675890,0.000884
+hypertension,comorbidity,ResNet50-ImageNet,Support Devices,0.699298,0.697197,0.002101
+heart_failure,comorbidity,ResNet50-ImageNet,Atelectasis,0.645214,0.635632,0.009582
+heart_failure,comorbidity,ResNet50-ImageNet,Cardiomegaly,0.785237,0.712444,0.072792
+heart_failure,comorbidity,ResNet50-ImageNet,Consolidation,0.826050,0.820566,0.005484
+heart_failure,comorbidity,ResNet50-ImageNet,Edema,0.867714,0.834650,0.033064
+heart_failure,comorbidity,ResNet50-ImageNet,Enlarged Cardiomediastinum,0.703780,0.672697,0.031083
+heart_failure,comorbidity,ResNet50-ImageNet,Lung Opacity,0.647063,0.638792,0.008272
+heart_failure,comorbidity,ResNet50-ImageNet,Pleural Effusion,0.849999,0.834095,0.015904
+heart_failure,comorbidity,ResNet50-ImageNet,Pneumonia,0.723065,0.718343,0.004722
+heart_failure,comorbidity,ResNet50-ImageNet,Pneumothorax,0.676774,0.675570,0.001204
+heart_failure,comorbidity,ResNet50-ImageNet,Support Devices,0.699298,0.692969,0.006329
+atrial_fibrillation,comorbidity,ResNet50-ImageNet,Atelectasis,0.645214,0.634763,0.010451
+atrial_fibrillation,comorbidity,ResNet50-ImageNet,Cardiomegaly,0.785237,0.732880,0.052356
+atrial_fibrillation,comorbidity,ResNet50-ImageNet,Consolidation,0.826050,0.817525,0.008525
+atrial_fibrillation,comorbidity,ResNet50-ImageNet,Edema,0.867714,0.850514,0.017200
+atrial_fibrillation,comorbidity,ResNet50-ImageNet,Enlarged Cardiomediastinum,0.703780,0.680352,0.023427
+atrial_fibrillation,comorbidity,ResNet50-ImageNet,Lung Opacity,0.647063,0.638363,0.008700
+atrial_fibrillation,comorbidity,ResNet50-ImageNet,Pleural Effusion,0.849999,0.829276,0.020723
+atrial_fibrillation,comorbidity,ResNet50-ImageNet,Pneumonia,0.723065,0.720906,0.002159
+atrial_fibrillation,comorbidity,ResNet50-ImageNet,Pneumothorax,0.676774,0.676877,-0.000103
+atrial_fibrillation,comorbidity,ResNet50-ImageNet,Support Devices,0.699298,0.691587,0.007711
+coronary_artery_disease,comorbidity,ResNet50-ImageNet,Atelectasis,0.645214,0.641536,0.003678
+coronary_artery_disease,comorbidity,ResNet50-ImageNet,Cardiomegaly,0.785237,0.757020,0.028217
+coronary_artery_disease,comorbidity,ResNet50-ImageNet,Consolidation,0.826050,0.825389,0.000661
+coronary_artery_disease,comorbidity,ResNet50-ImageNet,Edema,0.867714,0.858079,0.009635
+coronary_artery_disease,comorbidity,ResNet50-ImageNet,Enlarged Cardiomediastinum,0.703780,0.696191,0.007589
+coronary_artery_disease,comorbidity,ResNet50-ImageNet,Lung Opacity,0.647063,0.643538,0.003526
+coronary_artery_disease,comorbidity,ResNet50-ImageNet,Pleural Effusion,0.849999,0.844521,0.005478
+coronary_artery_disease,comorbidity,ResNet50-ImageNet,Pneumonia,0.723065,0.723144,-0.000079
+coronary_artery_disease,comorbidity,ResNet50-ImageNet,Pneumothorax,0.676774,0.675766,0.001008
+coronary_artery_disease,comorbidity,ResNet50-ImageNet,Support Devices,0.699298,0.699196,0.000102
+stroke,comorbidity,ResNet50-ImageNet,Atelectasis,0.645214,0.645310,-0.000096
+stroke,comorbidity,ResNet50-ImageNet,Cardiomegaly,0.785237,0.782675,0.002562
+stroke,comorbidity,ResNet50-ImageNet,Consolidation,0.826050,0.826624,-0.000574
+stroke,comorbidity,ResNet50-ImageNet,Edema,0.867714,0.865742,0.001972
+stroke,comorbidity,ResNet50-ImageNet,Enlarged Cardiomediastinum,0.703780,0.703209,0.000570
+stroke,comorbidity,ResNet50-ImageNet,Lung Opacity,0.647063,0.648406,-0.001343
+stroke,comorbidity,ResNet50-ImageNet,Pleural Effusion,0.849999,0.849599,0.000400
+stroke,comorbidity,ResNet50-ImageNet,Pneumonia,0.723065,0.722963,0.000102
+stroke,comorbidity,ResNet50-ImageNet,Pneumothorax,0.676774,0.676810,-0.000035
+stroke,comorbidity,ResNet50-ImageNet,Support Devices,0.699298,0.695339,0.003959
+diabetes,comorbidity,ResNet50-ImageNet,Atelectasis,0.645214,0.643113,0.002101
+diabetes,comorbidity,ResNet50-ImageNet,Cardiomegaly,0.785237,0.767510,0.017726
+diabetes,comorbidity,ResNet50-ImageNet,Consolidation,0.826050,0.827462,-0.001411
+diabetes,comorbidity,ResNet50-ImageNet,Edema,0.867714,0.862608,0.005106
+diabetes,comorbidity,ResNet50-ImageNet,Enlarged Cardiomediastinum,0.703780,0.700337,0.003442
+diabetes,comorbidity,ResNet50-ImageNet,Lung Opacity,0.647063,0.647767,-0.000704
+diabetes,comorbidity,ResNet50-ImageNet,Pleural Effusion,0.849999,0.849247,0.000752
+diabetes,comorbidity,ResNet50-ImageNet,Pneumonia,0.723065,0.724450,-0.001385
+diabetes,comorbidity,ResNet50-ImageNet,Pneumothorax,0.676774,0.671311,0.005464
+diabetes,comorbidity,ResNet50-ImageNet,Support Devices,0.699298,0.697806,0.001492
+hyperlipidemia,comorbidity,ResNet50-ImageNet,Atelectasis,0.645214,0.644335,0.000879
+hyperlipidemia,comorbidity,ResNet50-ImageNet,Cardiomegaly,0.785237,0.765808,0.019428
+hyperlipidemia,comorbidity,ResNet50-ImageNet,Consolidation,0.826050,0.826647,-0.000597
+hyperlipidemia,comorbidity,ResNet50-ImageNet,Edema,0.867714,0.863301,0.004413
+hyperlipidemia,comorbidity,ResNet50-ImageNet,Enlarged Cardiomediastinum,0.703780,0.695617,0.008162
+hyperlipidemia,comorbidity,ResNet50-ImageNet,Lung Opacity,0.647063,0.645936,0.001127
+hyperlipidemia,comorbidity,ResNet50-ImageNet,Pleural Effusion,0.849999,0.848165,0.001834
+hyperlipidemia,comorbidity,ResNet50-ImageNet,Pneumonia,0.723065,0.723904,-0.000839
+hyperlipidemia,comorbidity,ResNet50-ImageNet,Pneumothorax,0.676774,0.674884,0.001891
+hyperlipidemia,comorbidity,ResNet50-ImageNet,Support Devices,0.699298,0.697551,0.001747
+obesity,comorbidity,ResNet50-ImageNet,Atelectasis,0.645214,0.645406,-0.000192
+obesity,comorbidity,ResNet50-ImageNet,Cardiomegaly,0.785237,0.771744,0.013493
+obesity,comorbidity,ResNet50-ImageNet,Consolidation,0.826050,0.825691,0.000359
+obesity,comorbidity,ResNet50-ImageNet,Edema,0.867714,0.866768,0.000946
+obesity,comorbidity,ResNet50-ImageNet,Enlarged Cardiomediastinum,0.703780,0.699445,0.004334
+obesity,comorbidity,ResNet50-ImageNet,Lung Opacity,0.647063,0.647602,-0.000539
+obesity,comorbidity,ResNet50-ImageNet,Pleural Effusion,0.849999,0.850537,-0.000537
+obesity,comorbidity,ResNet50-ImageNet,Pneumonia,0.723065,0.722527,0.000538
+obesity,comorbidity,ResNet50-ImageNet,Pneumothorax,0.676774,0.669302,0.007473
+obesity,comorbidity,ResNet50-ImageNet,Support Devices,0.699298,0.698762,0.000536
+hypothyroidism,comorbidity,ResNet50-ImageNet,Atelectasis,0.645214,0.646389,-0.001175
+hypothyroidism,comorbidity,ResNet50-ImageNet,Cardiomegaly,0.785237,0.781765,0.003471
+hypothyroidism,comorbidity,ResNet50-ImageNet,Consolidation,0.826050,0.826115,-0.000065
+hypothyroidism,comorbidity,ResNet50-ImageNet,Edema,0.867714,0.863472,0.004242
+hypothyroidism,comorbidity,ResNet50-ImageNet,Enlarged Cardiomediastinum,0.703780,0.704097,-0.000317
+hypothyroidism,comorbidity,ResNet50-ImageNet,Lung Opacity,0.647063,0.646915,0.000148
+hypothyroidism,comorbidity,ResNet50-ImageNet,Pleural Effusion,0.849999,0.847958,0.002041
+hypothyroidism,comorbidity,ResNet50-ImageNet,Pneumonia,0.723065,0.721636,0.001429
+hypothyroidism,comorbidity,ResNet50-ImageNet,Pneumothorax,0.676774,0.676491,0.000283
+hypothyroidism,comorbidity,ResNet50-ImageNet,Support Devices,0.699298,0.697861,0.001437
+ckd,comorbidity,ResNet50-ImageNet,Atelectasis,0.645214,0.640633,0.004581
+ckd,comorbidity,ResNet50-ImageNet,Cardiomegaly,0.785237,0.752078,0.033159
+ckd,comorbidity,ResNet50-ImageNet,Consolidation,0.826050,0.825814,0.000236
+ckd,comorbidity,ResNet50-ImageNet,Edema,0.867714,0.854557,0.013158
+ckd,comorbidity,ResNet50-ImageNet,Enlarged Cardiomediastinum,0.703780,0.694478,0.009301
+ckd,comorbidity,ResNet50-ImageNet,Lung Opacity,0.647063,0.645373,0.001690
+ckd,comorbidity,ResNet50-ImageNet,Pleural Effusion,0.849999,0.843615,0.006385
+ckd,comorbidity,ResNet50-ImageNet,Pneumonia,0.723065,0.722877,0.000188
+ckd,comorbidity,ResNet50-ImageNet,Pneumothorax,0.676774,0.674911,0.001863
+ckd,comorbidity,ResNet50-ImageNet,Support Devices,0.699298,0.697457,0.001841
+aki,comorbidity,ResNet50-ImageNet,Atelectasis,0.645214,0.636723,0.008491
+aki,comorbidity,ResNet50-ImageNet,Cardiomegaly,0.785237,0.761458,0.023778
+aki,comorbidity,ResNet50-ImageNet,Consolidation,0.826050,0.814830,0.011220
+aki,comorbidity,ResNet50-ImageNet,Edema,0.867714,0.848645,0.019069
+aki,comorbidity,ResNet50-ImageNet,Enlarged Cardiomediastinum,0.703780,0.688085,0.015695
+aki,comorbidity,ResNet50-ImageNet,Lung Opacity,0.647063,0.639593,0.007471
+aki,comorbidity,ResNet50-ImageNet,Pleural Effusion,0.849999,0.835679,0.014320
+aki,comorbidity,ResNet50-ImageNet,Pneumonia,0.723065,0.715995,0.007070
+aki,comorbidity,ResNet50-ImageNet,Pneumothorax,0.676774,0.675864,0.000910
+aki,comorbidity,ResNet50-ImageNet,Support Devices,0.699298,0.684991,0.014307
+copd,comorbidity,ResNet50-ImageNet,Atelectasis,0.645214,0.644525,0.000689
+copd,comorbidity,ResNet50-ImageNet,Cardiomegaly,0.785237,0.781444,0.003792
+copd,comorbidity,ResNet50-ImageNet,Consolidation,0.826050,0.820661,0.005390
+copd,comorbidity,ResNet50-ImageNet,Edema,0.867714,0.860006,0.007709
+copd,comorbidity,ResNet50-ImageNet,Enlarged Cardiomediastinum,0.703780,0.699055,0.004724
+copd,comorbidity,ResNet50-ImageNet,Lung Opacity,0.647063,0.637620,0.009443
+copd,comorbidity,ResNet50-ImageNet,Pleural Effusion,0.849999,0.846554,0.003445
+copd,comorbidity,ResNet50-ImageNet,Pneumonia,0.723065,0.720475,0.002590
+copd,comorbidity,ResNet50-ImageNet,Pneumothorax,0.676774,0.677075,-0.000301
+copd,comorbidity,ResNet50-ImageNet,Support Devices,0.699298,0.697541,0.001757
+asthma,comorbidity,ResNet50-ImageNet,Atelectasis,0.645214,0.645311,-0.000096
+asthma,comorbidity,ResNet50-ImageNet,Cardiomegaly,0.785237,0.785163,0.000074
+asthma,comorbidity,ResNet50-ImageNet,Consolidation,0.826050,0.824981,0.001069
+asthma,comorbidity,ResNet50-ImageNet,Edema,0.867714,0.867692,0.000022
+asthma,comorbidity,ResNet50-ImageNet,Enlarged Cardiomediastinum,0.703780,0.704061,-0.000282
+asthma,comorbidity,ResNet50-ImageNet,Lung Opacity,0.647063,0.647541,-0.000477
+asthma,comorbidity,ResNet50-ImageNet,Pleural Effusion,0.849999,0.849696,0.000304
+asthma,comorbidity,ResNet50-ImageNet,Pneumonia,0.723065,0.723246,-0.000181
+asthma,comorbidity,ResNet50-ImageNet,Pneumothorax,0.676774,0.676191,0.000583
+asthma,comorbidity,ResNet50-ImageNet,Support Devices,0.699298,0.699539,-0.000241
+respiratory_failure,comorbidity,ResNet50-ImageNet,Atelectasis,0.645214,0.644537,0.000677
+respiratory_failure,comorbidity,ResNet50-ImageNet,Cardiomegaly,0.785237,0.776937,0.008299
+respiratory_failure,comorbidity,ResNet50-ImageNet,Consolidation,0.826050,0.819519,0.006531
+respiratory_failure,comorbidity,ResNet50-ImageNet,Edema,0.867714,0.860995,0.006720
+respiratory_failure,comorbidity,ResNet50-ImageNet,Enlarged Cardiomediastinum,0.703780,0.696745,0.007035
+respiratory_failure,comorbidity,ResNet50-ImageNet,Lung Opacity,0.647063,0.643236,0.003827
+respiratory_failure,comorbidity,ResNet50-ImageNet,Pleural Effusion,0.849999,0.845575,0.004424
+respiratory_failure,comorbidity,ResNet50-ImageNet,Pneumonia,0.723065,0.721597,0.001468
+respiratory_failure,comorbidity,ResNet50-ImageNet,Pneumothorax,0.676774,0.676750,0.000024
+respiratory_failure,comorbidity,ResNet50-ImageNet,Support Devices,0.699298,0.695441,0.003857
+pulmonary_fibrosis,comorbidity,ResNet50-ImageNet,Atelectasis,0.645214,0.645819,-0.000605
+pulmonary_fibrosis,comorbidity,ResNet50-ImageNet,Cardiomegaly,0.785237,0.784945,0.000292
+pulmonary_fibrosis,comorbidity,ResNet50-ImageNet,Consolidation,0.826050,0.825928,0.000122
+pulmonary_fibrosis,comorbidity,ResNet50-ImageNet,Edema,0.867714,0.865203,0.002511
+pulmonary_fibrosis,comorbidity,ResNet50-ImageNet,Enlarged Cardiomediastinum,0.703780,0.704277,-0.000498
+pulmonary_fibrosis,comorbidity,ResNet50-ImageNet,Lung Opacity,0.647063,0.643854,0.003209
+pulmonary_fibrosis,comorbidity,ResNet50-ImageNet,Pleural Effusion,0.849999,0.851159,-0.001160
+pulmonary_fibrosis,comorbidity,ResNet50-ImageNet,Pneumonia,0.723065,0.720727,0.002338
+pulmonary_fibrosis,comorbidity,ResNet50-ImageNet,Pneumothorax,0.676774,0.676834,-0.000059
+pulmonary_fibrosis,comorbidity,ResNet50-ImageNet,Support Devices,0.699298,0.699369,-0.000072
+liver_disease,comorbidity,ResNet50-ImageNet,Atelectasis,0.645214,0.644543,0.000671
+liver_disease,comorbidity,ResNet50-ImageNet,Cardiomegaly,0.785237,0.785229,0.000007
+liver_disease,comorbidity,ResNet50-ImageNet,Consolidation,0.826050,0.825959,0.000091
+liver_disease,comorbidity,ResNet50-ImageNet,Edema,0.867714,0.866006,0.001708
+liver_disease,comorbidity,ResNet50-ImageNet,Enlarged Cardiomediastinum,0.703780,0.703980,-0.000201
+liver_disease,comorbidity,ResNet50-ImageNet,Lung Opacity,0.647063,0.647483,-0.000420
+liver_disease,comorbidity,ResNet50-ImageNet,Pleural Effusion,0.849999,0.849059,0.000940
+liver_disease,comorbidity,ResNet50-ImageNet,Pneumonia,0.723065,0.722363,0.000702
+liver_disease,comorbidity,ResNet50-ImageNet,Pneumothorax,0.676774,0.678035,-0.001260
+liver_disease,comorbidity,ResNet50-ImageNet,Support Devices,0.699298,0.696995,0.002303
+anemia,comorbidity,ResNet50-ImageNet,Atelectasis,0.645214,0.637236,0.007978
+anemia,comorbidity,ResNet50-ImageNet,Cardiomegaly,0.785237,0.770521,0.014715
+anemia,comorbidity,ResNet50-ImageNet,Consolidation,0.826050,0.814046,0.012004
+anemia,comorbidity,ResNet50-ImageNet,Edema,0.867714,0.857987,0.009727
+anemia,comorbidity,ResNet50-ImageNet,Enlarged Cardiomediastinum,0.703780,0.687991,0.015788
+anemia,comorbidity,ResNet50-ImageNet,Lung Opacity,0.647063,0.639715,0.007348
+anemia,comorbidity,ResNet50-ImageNet,Pleural Effusion,0.849999,0.836674,0.013325
+anemia,comorbidity,ResNet50-ImageNet,Pneumonia,0.723065,0.715432,0.007633
+anemia,comorbidity,ResNet50-ImageNet,Pneumothorax,0.676774,0.677137,-0.000363
+anemia,comorbidity,ResNet50-ImageNet,Support Devices,0.699298,0.693591,0.005707
+smoking_history,comorbidity,ResNet50-ImageNet,Atelectasis,0.645214,0.645397,-0.000183
+smoking_history,comorbidity,ResNet50-ImageNet,Cardiomegaly,0.785237,0.784198,0.001039
+smoking_history,comorbidity,ResNet50-ImageNet,Consolidation,0.826050,0.826521,-0.000470
+smoking_history,comorbidity,ResNet50-ImageNet,Edema,0.867714,0.867714,0.000000
+smoking_history,comorbidity,ResNet50-ImageNet,Enlarged Cardiomediastinum,0.703780,0.704625,-0.000845
+smoking_history,comorbidity,ResNet50-ImageNet,Lung Opacity,0.647063,0.646925,0.000139
+smoking_history,comorbidity,ResNet50-ImageNet,Pleural Effusion,0.849999,0.850096,-0.000097
+smoking_history,comorbidity,ResNet50-ImageNet,Pneumonia,0.723065,0.723058,0.000008
+smoking_history,comorbidity,ResNet50-ImageNet,Pneumothorax,0.676774,0.676796,-0.000021
+smoking_history,comorbidity,ResNet50-ImageNet,Support Devices,0.699298,0.699125,0.000173
+cancer_history,comorbidity,ResNet50-ImageNet,Atelectasis,0.645214,0.646090,-0.000876
+cancer_history,comorbidity,ResNet50-ImageNet,Cardiomegaly,0.785237,0.786291,-0.001054
+cancer_history,comorbidity,ResNet50-ImageNet,Consolidation,0.826050,0.823263,0.002787
+cancer_history,comorbidity,ResNet50-ImageNet,Edema,0.867714,0.866959,0.000755
+cancer_history,comorbidity,ResNet50-ImageNet,Enlarged Cardiomediastinum,0.703780,0.701121,0.002659
+cancer_history,comorbidity,ResNet50-ImageNet,Lung Opacity,0.647063,0.642747,0.004317
+cancer_history,comorbidity,ResNet50-ImageNet,Pleural Effusion,0.849999,0.846047,0.003952
+cancer_history,comorbidity,ResNet50-ImageNet,Pneumonia,0.723065,0.722710,0.000355
+cancer_history,comorbidity,ResNet50-ImageNet,Pneumothorax,0.676774,0.675225,0.001550
+cancer_history,comorbidity,ResNet50-ImageNet,Support Devices,0.699298,0.699176,0.000122
+depression,comorbidity,ResNet50-ImageNet,Atelectasis,0.645214,0.646610,-0.001396
+depression,comorbidity,ResNet50-ImageNet,Cardiomegaly,0.785237,0.785285,-0.000048
+depression,comorbidity,ResNet50-ImageNet,Consolidation,0.826050,0.825922,0.000128
+depression,comorbidity,ResNet50-ImageNet,Edema,0.867714,0.866866,0.000848
+depression,comorbidity,ResNet50-ImageNet,Enlarged Cardiomediastinum,0.703780,0.703364,0.000416
+depression,comorbidity,ResNet50-ImageNet,Lung Opacity,0.647063,0.647022,0.000041
+depression,comorbidity,ResNet50-ImageNet,Pleural Effusion,0.849999,0.850115,-0.000116
+depression,comorbidity,ResNet50-ImageNet,Pneumonia,0.723065,0.723145,-0.000080
+depression,comorbidity,ResNet50-ImageNet,Pneumothorax,0.676774,0.675418,0.001357
+depression,comorbidity,ResNet50-ImageNet,Support Devices,0.699298,0.699371,-0.000073
+sex,demographic,DINOv2-base,Atelectasis,0.706917,0.705311,0.001606
+sex,demographic,DINOv2-base,Cardiomegaly,0.809906,0.810013,-0.000107
+sex,demographic,DINOv2-base,Consolidation,0.862642,0.859024,0.003618
+sex,demographic,DINOv2-base,Edema,0.886404,0.886271,0.000133
+sex,demographic,DINOv2-base,Enlarged Cardiomediastinum,0.761144,0.762293,-0.001150
+sex,demographic,DINOv2-base,Lung Opacity,0.719201,0.719321,-0.000120
+sex,demographic,DINOv2-base,Pleural Effusion,0.885403,0.885703,-0.000300
+sex,demographic,DINOv2-base,Pneumonia,0.739516,0.739619,-0.000103
+sex,demographic,DINOv2-base,Pneumothorax,0.711447,0.710600,0.000847
+sex,demographic,DINOv2-base,Support Devices,0.730918,0.730771,0.000147
+age,demographic,DINOv2-base,Atelectasis,0.706917,0.689168,0.017748
+age,demographic,DINOv2-base,Cardiomegaly,0.809906,0.780861,0.029045
+age,demographic,DINOv2-base,Consolidation,0.862642,0.859098,0.003543
+age,demographic,DINOv2-base,Edema,0.886404,0.876286,0.010118
+age,demographic,DINOv2-base,Enlarged Cardiomediastinum,0.761144,0.741529,0.019614
+age,demographic,DINOv2-base,Lung Opacity,0.719201,0.698509,0.020693
+age,demographic,DINOv2-base,Pleural Effusion,0.885403,0.867686,0.017716
+age,demographic,DINOv2-base,Pneumonia,0.739516,0.737888,0.001629
+age,demographic,DINOv2-base,Pneumothorax,0.711447,0.714407,-0.002960
+age,demographic,DINOv2-base,Support Devices,0.730918,0.726979,0.003939
+bmi,demographic,DINOv2-base,Atelectasis,0.706917,0.706288,0.000629
+bmi,demographic,DINOv2-base,Cardiomegaly,0.809906,0.799905,0.010001
+bmi,demographic,DINOv2-base,Consolidation,0.862642,0.855891,0.006751
+bmi,demographic,DINOv2-base,Edema,0.886404,0.886319,0.000085
+bmi,demographic,DINOv2-base,Enlarged Cardiomediastinum,0.761144,0.761903,-0.000760
+bmi,demographic,DINOv2-base,Lung Opacity,0.719201,0.715366,0.003836
+bmi,demographic,DINOv2-base,Pleural Effusion,0.885403,0.882441,0.002962
+bmi,demographic,DINOv2-base,Pneumonia,0.739516,0.734860,0.004656
+bmi,demographic,DINOv2-base,Pneumothorax,0.711447,0.699798,0.011649
+bmi,demographic,DINOv2-base,Support Devices,0.730918,0.730926,-0.000008
+hypertension,comorbidity,DINOv2-base,Atelectasis,0.696113,0.696642,-0.000530
+hypertension,comorbidity,DINOv2-base,Cardiomegaly,0.813224,0.807515,0.005709
+hypertension,comorbidity,DINOv2-base,Consolidation,0.882760,0.882867,-0.000107
+hypertension,comorbidity,DINOv2-base,Edema,0.889433,0.888826,0.000607
+hypertension,comorbidity,DINOv2-base,Enlarged Cardiomediastinum,0.773702,0.770233,0.003469
+hypertension,comorbidity,DINOv2-base,Lung Opacity,0.718800,0.716729,0.002071
+hypertension,comorbidity,DINOv2-base,Pleural Effusion,0.883672,0.882361,0.001311
+hypertension,comorbidity,DINOv2-base,Pneumonia,0.745943,0.745947,-0.000004
+hypertension,comorbidity,DINOv2-base,Pneumothorax,0.702207,0.700817,0.001390
+hypertension,comorbidity,DINOv2-base,Support Devices,0.745245,0.744067,0.001178
+heart_failure,comorbidity,DINOv2-base,Atelectasis,0.696113,0.683254,0.012859
+heart_failure,comorbidity,DINOv2-base,Cardiomegaly,0.813224,0.745246,0.067979
+heart_failure,comorbidity,DINOv2-base,Consolidation,0.882760,0.877058,0.005702
+heart_failure,comorbidity,DINOv2-base,Edema,0.889433,0.859859,0.029574
+heart_failure,comorbidity,DINOv2-base,Enlarged Cardiomediastinum,0.773702,0.748690,0.025012
+heart_failure,comorbidity,DINOv2-base,Lung Opacity,0.718800,0.709521,0.009279
+heart_failure,comorbidity,DINOv2-base,Pleural Effusion,0.883672,0.870947,0.012725
+heart_failure,comorbidity,DINOv2-base,Pneumonia,0.745943,0.742539,0.003404
+heart_failure,comorbidity,DINOv2-base,Pneumothorax,0.702207,0.699564,0.002643
+heart_failure,comorbidity,DINOv2-base,Support Devices,0.745245,0.741475,0.003770
+atrial_fibrillation,comorbidity,DINOv2-base,Atelectasis,0.696113,0.681867,0.014245
+atrial_fibrillation,comorbidity,DINOv2-base,Cardiomegaly,0.813224,0.763941,0.049283
+atrial_fibrillation,comorbidity,DINOv2-base,Consolidation,0.882760,0.874074,0.008687
+atrial_fibrillation,comorbidity,DINOv2-base,Edema,0.889433,0.873930,0.015503
+atrial_fibrillation,comorbidity,DINOv2-base,Enlarged Cardiomediastinum,0.773702,0.757328,0.016374
+atrial_fibrillation,comorbidity,DINOv2-base,Lung Opacity,0.718800,0.708776,0.010024
+atrial_fibrillation,comorbidity,DINOv2-base,Pleural Effusion,0.883672,0.867166,0.016507
+atrial_fibrillation,comorbidity,DINOv2-base,Pneumonia,0.745943,0.743895,0.002048
+atrial_fibrillation,comorbidity,DINOv2-base,Pneumothorax,0.702207,0.702217,-0.000010
+atrial_fibrillation,comorbidity,DINOv2-base,Support Devices,0.745245,0.736370,0.008875
+coronary_artery_disease,comorbidity,DINOv2-base,Atelectasis,0.696113,0.688090,0.008023
+coronary_artery_disease,comorbidity,DINOv2-base,Cardiomegaly,0.813224,0.786317,0.026908
+coronary_artery_disease,comorbidity,DINOv2-base,Consolidation,0.882760,0.882739,0.000022
+coronary_artery_disease,comorbidity,DINOv2-base,Edema,0.889433,0.880779,0.008655
+coronary_artery_disease,comorbidity,DINOv2-base,Enlarged Cardiomediastinum,0.773702,0.770365,0.003337
+coronary_artery_disease,comorbidity,DINOv2-base,Lung Opacity,0.718800,0.714959,0.003841
+coronary_artery_disease,comorbidity,DINOv2-base,Pleural Effusion,0.883672,0.879108,0.004564
+coronary_artery_disease,comorbidity,DINOv2-base,Pneumonia,0.745943,0.745759,0.000184
+coronary_artery_disease,comorbidity,DINOv2-base,Pneumothorax,0.702207,0.699876,0.002331
+coronary_artery_disease,comorbidity,DINOv2-base,Support Devices,0.745245,0.745409,-0.000164
+stroke,comorbidity,DINOv2-base,Atelectasis,0.696113,0.696093,0.000020
+stroke,comorbidity,DINOv2-base,Cardiomegaly,0.813224,0.810362,0.002863
+stroke,comorbidity,DINOv2-base,Consolidation,0.882760,0.883235,-0.000475
+stroke,comorbidity,DINOv2-base,Edema,0.889433,0.887516,0.001918
+stroke,comorbidity,DINOv2-base,Enlarged Cardiomediastinum,0.773702,0.772947,0.000755
+stroke,comorbidity,DINOv2-base,Lung Opacity,0.718800,0.718506,0.000293
+stroke,comorbidity,DINOv2-base,Pleural Effusion,0.883672,0.883316,0.000356
+stroke,comorbidity,DINOv2-base,Pneumonia,0.745943,0.746093,-0.000150
+stroke,comorbidity,DINOv2-base,Pneumothorax,0.702207,0.701891,0.000316
+stroke,comorbidity,DINOv2-base,Support Devices,0.745245,0.740808,0.004437
+diabetes,comorbidity,DINOv2-base,Atelectasis,0.696113,0.693774,0.002339
+diabetes,comorbidity,DINOv2-base,Cardiomegaly,0.813224,0.796856,0.016368
+diabetes,comorbidity,DINOv2-base,Consolidation,0.882760,0.883645,-0.000885
+diabetes,comorbidity,DINOv2-base,Edema,0.889433,0.885800,0.003633
+diabetes,comorbidity,DINOv2-base,Enlarged Cardiomediastinum,0.773702,0.770875,0.002827
+diabetes,comorbidity,DINOv2-base,Lung Opacity,0.718800,0.719844,-0.001045
+diabetes,comorbidity,DINOv2-base,Pleural Effusion,0.883672,0.883119,0.000553
+diabetes,comorbidity,DINOv2-base,Pneumonia,0.745943,0.746665,-0.000722
+diabetes,comorbidity,DINOv2-base,Pneumothorax,0.702207,0.696256,0.005951
+diabetes,comorbidity,DINOv2-base,Support Devices,0.745245,0.744858,0.000387
+hyperlipidemia,comorbidity,DINOv2-base,Atelectasis,0.696113,0.692938,0.003175
+hyperlipidemia,comorbidity,DINOv2-base,Cardiomegaly,0.813224,0.794362,0.018863
+hyperlipidemia,comorbidity,DINOv2-base,Consolidation,0.882760,0.883551,-0.000791
+hyperlipidemia,comorbidity,DINOv2-base,Edema,0.889433,0.886089,0.003344
+hyperlipidemia,comorbidity,DINOv2-base,Enlarged Cardiomediastinum,0.773702,0.768723,0.004979
+hyperlipidemia,comorbidity,DINOv2-base,Lung Opacity,0.718800,0.716822,0.001977
+hyperlipidemia,comorbidity,DINOv2-base,Pleural Effusion,0.883672,0.882012,0.001660
+hyperlipidemia,comorbidity,DINOv2-base,Pneumonia,0.745943,0.746513,-0.000570
+hyperlipidemia,comorbidity,DINOv2-base,Pneumothorax,0.702207,0.699429,0.002778
+hyperlipidemia,comorbidity,DINOv2-base,Support Devices,0.745245,0.744073,0.001172
+obesity,comorbidity,DINOv2-base,Atelectasis,0.696113,0.697363,-0.001250
+obesity,comorbidity,DINOv2-base,Cardiomegaly,0.813224,0.800766,0.012458
+obesity,comorbidity,DINOv2-base,Consolidation,0.882760,0.882223,0.000538
+obesity,comorbidity,DINOv2-base,Edema,0.889433,0.888666,0.000767
+obesity,comorbidity,DINOv2-base,Enlarged Cardiomediastinum,0.773702,0.770575,0.003127
+obesity,comorbidity,DINOv2-base,Lung Opacity,0.718800,0.719050,-0.000250
+obesity,comorbidity,DINOv2-base,Pleural Effusion,0.883672,0.883767,-0.000095
+obesity,comorbidity,DINOv2-base,Pneumonia,0.745943,0.745004,0.000939
+obesity,comorbidity,DINOv2-base,Pneumothorax,0.702207,0.695050,0.007157
+obesity,comorbidity,DINOv2-base,Support Devices,0.745245,0.745182,0.000063
+hypothyroidism,comorbidity,DINOv2-base,Atelectasis,0.696113,0.694633,0.001480
+hypothyroidism,comorbidity,DINOv2-base,Cardiomegaly,0.813224,0.810854,0.002370
+hypothyroidism,comorbidity,DINOv2-base,Consolidation,0.882760,0.881894,0.000866
+hypothyroidism,comorbidity,DINOv2-base,Edema,0.889433,0.886325,0.003108
+hypothyroidism,comorbidity,DINOv2-base,Enlarged Cardiomediastinum,0.773702,0.773310,0.000392
+hypothyroidism,comorbidity,DINOv2-base,Lung Opacity,0.718800,0.717768,0.001032
+hypothyroidism,comorbidity,DINOv2-base,Pleural Effusion,0.883672,0.882371,0.001301
+hypothyroidism,comorbidity,DINOv2-base,Pneumonia,0.745943,0.744813,0.001130
+hypothyroidism,comorbidity,DINOv2-base,Pneumothorax,0.702207,0.701678,0.000529
+hypothyroidism,comorbidity,DINOv2-base,Support Devices,0.745245,0.743213,0.002033
+ckd,comorbidity,DINOv2-base,Atelectasis,0.696113,0.691279,0.004834
+ckd,comorbidity,DINOv2-base,Cardiomegaly,0.813224,0.782455,0.030769
+ckd,comorbidity,DINOv2-base,Consolidation,0.882760,0.882469,0.000291
+ckd,comorbidity,DINOv2-base,Edema,0.889433,0.877788,0.011645
+ckd,comorbidity,DINOv2-base,Enlarged Cardiomediastinum,0.773702,0.766488,0.007214
+ckd,comorbidity,DINOv2-base,Lung Opacity,0.718800,0.718470,0.000330
+ckd,comorbidity,DINOv2-base,Pleural Effusion,0.883672,0.878129,0.005543
+ckd,comorbidity,DINOv2-base,Pneumonia,0.745943,0.745158,0.000785
+ckd,comorbidity,DINOv2-base,Pneumothorax,0.702207,0.699809,0.002398
+ckd,comorbidity,DINOv2-base,Support Devices,0.745245,0.745618,-0.000373
+aki,comorbidity,DINOv2-base,Atelectasis,0.696113,0.692009,0.004104
+aki,comorbidity,DINOv2-base,Cardiomegaly,0.813224,0.792543,0.020682
+aki,comorbidity,DINOv2-base,Consolidation,0.882760,0.872840,0.009921
+aki,comorbidity,DINOv2-base,Edema,0.889433,0.872456,0.016978
+aki,comorbidity,DINOv2-base,Enlarged Cardiomediastinum,0.773702,0.759947,0.013755
+aki,comorbidity,DINOv2-base,Lung Opacity,0.718800,0.713085,0.005715
+aki,comorbidity,DINOv2-base,Pleural Effusion,0.883672,0.872775,0.010898
+aki,comorbidity,DINOv2-base,Pneumonia,0.745943,0.739959,0.005984
+aki,comorbidity,DINOv2-base,Pneumothorax,0.702207,0.700625,0.001582
+aki,comorbidity,DINOv2-base,Support Devices,0.745245,0.734419,0.010826
+copd,comorbidity,DINOv2-base,Atelectasis,0.696113,0.694113,0.002000
+copd,comorbidity,DINOv2-base,Cardiomegaly,0.813224,0.809244,0.003981
+copd,comorbidity,DINOv2-base,Consolidation,0.882760,0.877388,0.005372
+copd,comorbidity,DINOv2-base,Edema,0.889433,0.882401,0.007032
+copd,comorbidity,DINOv2-base,Enlarged Cardiomediastinum,0.773702,0.766485,0.007217
+copd,comorbidity,DINOv2-base,Lung Opacity,0.718800,0.703859,0.014941
+copd,comorbidity,DINOv2-base,Pleural Effusion,0.883672,0.881034,0.002639
+copd,comorbidity,DINOv2-base,Pneumonia,0.745943,0.743923,0.002020
+copd,comorbidity,DINOv2-base,Pneumothorax,0.702207,0.702531,-0.000324
+copd,comorbidity,DINOv2-base,Support Devices,0.745245,0.743780,0.001465
+asthma,comorbidity,DINOv2-base,Atelectasis,0.696113,0.695750,0.000363
+asthma,comorbidity,DINOv2-base,Cardiomegaly,0.813224,0.813053,0.000171
+asthma,comorbidity,DINOv2-base,Consolidation,0.882760,0.881794,0.000967
+asthma,comorbidity,DINOv2-base,Edema,0.889433,0.889373,0.000061
+asthma,comorbidity,DINOv2-base,Enlarged Cardiomediastinum,0.773702,0.773520,0.000182
+asthma,comorbidity,DINOv2-base,Lung Opacity,0.718800,0.718377,0.000423
+asthma,comorbidity,DINOv2-base,Pleural Effusion,0.883672,0.883393,0.000279
+asthma,comorbidity,DINOv2-base,Pneumonia,0.745943,0.746159,-0.000216
+asthma,comorbidity,DINOv2-base,Pneumothorax,0.702207,0.701581,0.000626
+asthma,comorbidity,DINOv2-base,Support Devices,0.745245,0.745528,-0.000283
+respiratory_failure,comorbidity,DINOv2-base,Atelectasis,0.696113,0.695964,0.000149
+respiratory_failure,comorbidity,DINOv2-base,Cardiomegaly,0.813224,0.806198,0.007027
+respiratory_failure,comorbidity,DINOv2-base,Consolidation,0.882760,0.876748,0.006012
+respiratory_failure,comorbidity,DINOv2-base,Edema,0.889433,0.883427,0.006007
+respiratory_failure,comorbidity,DINOv2-base,Enlarged Cardiomediastinum,0.773702,0.769206,0.004496
+respiratory_failure,comorbidity,DINOv2-base,Lung Opacity,0.718800,0.711912,0.006888
+respiratory_failure,comorbidity,DINOv2-base,Pleural Effusion,0.883672,0.881254,0.002418
+respiratory_failure,comorbidity,DINOv2-base,Pneumonia,0.745943,0.744861,0.001082
+respiratory_failure,comorbidity,DINOv2-base,Pneumothorax,0.702207,0.702328,-0.000121
+respiratory_failure,comorbidity,DINOv2-base,Support Devices,0.745245,0.742773,0.002472
+pulmonary_fibrosis,comorbidity,DINOv2-base,Atelectasis,0.696113,0.698133,-0.002020
+pulmonary_fibrosis,comorbidity,DINOv2-base,Cardiomegaly,0.813224,0.813106,0.000118
+pulmonary_fibrosis,comorbidity,DINOv2-base,Consolidation,0.882760,0.882623,0.000138
+pulmonary_fibrosis,comorbidity,DINOv2-base,Edema,0.889433,0.887708,0.001725
+pulmonary_fibrosis,comorbidity,DINOv2-base,Enlarged Cardiomediastinum,0.773702,0.773429,0.000273
+pulmonary_fibrosis,comorbidity,DINOv2-base,Lung Opacity,0.718800,0.714311,0.004489
+pulmonary_fibrosis,comorbidity,DINOv2-base,Pleural Effusion,0.883672,0.884263,-0.000590
+pulmonary_fibrosis,comorbidity,DINOv2-base,Pneumonia,0.745943,0.743808,0.002135
+pulmonary_fibrosis,comorbidity,DINOv2-base,Pneumothorax,0.702207,0.702206,0.000001
+pulmonary_fibrosis,comorbidity,DINOv2-base,Support Devices,0.745245,0.744543,0.000702
+liver_disease,comorbidity,DINOv2-base,Atelectasis,0.696113,0.695831,0.000282
+liver_disease,comorbidity,DINOv2-base,Cardiomegaly,0.813224,0.813395,-0.000171
+liver_disease,comorbidity,DINOv2-base,Consolidation,0.882760,0.883036,-0.000276
+liver_disease,comorbidity,DINOv2-base,Edema,0.889433,0.888172,0.001262
+liver_disease,comorbidity,DINOv2-base,Enlarged Cardiomediastinum,0.773702,0.774432,-0.000730
+liver_disease,comorbidity,DINOv2-base,Lung Opacity,0.718800,0.718823,-0.000023
+liver_disease,comorbidity,DINOv2-base,Pleural Effusion,0.883672,0.883094,0.000578
+liver_disease,comorbidity,DINOv2-base,Pneumonia,0.745943,0.745292,0.000651
+liver_disease,comorbidity,DINOv2-base,Pneumothorax,0.702207,0.703850,-0.001643
+liver_disease,comorbidity,DINOv2-base,Support Devices,0.745245,0.742769,0.002476
+anemia,comorbidity,DINOv2-base,Atelectasis,0.696113,0.685736,0.010377
+anemia,comorbidity,DINOv2-base,Cardiomegaly,0.813224,0.799133,0.014091
+anemia,comorbidity,DINOv2-base,Consolidation,0.882760,0.875005,0.007755
+anemia,comorbidity,DINOv2-base,Edema,0.889433,0.880901,0.008532
+anemia,comorbidity,DINOv2-base,Enlarged Cardiomediastinum,0.773702,0.757696,0.016006
+anemia,comorbidity,DINOv2-base,Lung Opacity,0.718800,0.713049,0.005751
+anemia,comorbidity,DINOv2-base,Pleural Effusion,0.883672,0.873462,0.010210
+anemia,comorbidity,DINOv2-base,Pneumonia,0.745943,0.739442,0.006501
+anemia,comorbidity,DINOv2-base,Pneumothorax,0.702207,0.702450,-0.000243
+anemia,comorbidity,DINOv2-base,Support Devices,0.745245,0.740867,0.004378
+smoking_history,comorbidity,DINOv2-base,Atelectasis,0.696113,0.697240,-0.001127
+smoking_history,comorbidity,DINOv2-base,Cardiomegaly,0.813224,0.812126,0.001099
+smoking_history,comorbidity,DINOv2-base,Consolidation,0.882760,0.883143,-0.000383
+smoking_history,comorbidity,DINOv2-base,Edema,0.889433,0.889406,0.000027
+smoking_history,comorbidity,DINOv2-base,Enlarged Cardiomediastinum,0.773702,0.774462,-0.000760
+smoking_history,comorbidity,DINOv2-base,Lung Opacity,0.718800,0.718008,0.000792
+smoking_history,comorbidity,DINOv2-base,Pleural Effusion,0.883672,0.883718,-0.000045
+smoking_history,comorbidity,DINOv2-base,Pneumonia,0.745943,0.745930,0.000013
+smoking_history,comorbidity,DINOv2-base,Pneumothorax,0.702207,0.701946,0.000261
+smoking_history,comorbidity,DINOv2-base,Support Devices,0.745245,0.744956,0.000289
+cancer_history,comorbidity,DINOv2-base,Atelectasis,0.696113,0.696197,-0.000084
+cancer_history,comorbidity,DINOv2-base,Cardiomegaly,0.813224,0.814008,-0.000783
+cancer_history,comorbidity,DINOv2-base,Consolidation,0.882760,0.880759,0.002001
+cancer_history,comorbidity,DINOv2-base,Edema,0.889433,0.889000,0.000433
+cancer_history,comorbidity,DINOv2-base,Enlarged Cardiomediastinum,0.773702,0.770417,0.003285
+cancer_history,comorbidity,DINOv2-base,Lung Opacity,0.718800,0.712602,0.006198
+cancer_history,comorbidity,DINOv2-base,Pleural Effusion,0.883672,0.880491,0.003182
+cancer_history,comorbidity,DINOv2-base,Pneumonia,0.745943,0.746029,-0.000086
+cancer_history,comorbidity,DINOv2-base,Pneumothorax,0.702207,0.701127,0.001080
+cancer_history,comorbidity,DINOv2-base,Support Devices,0.745245,0.745188,0.000057
+depression,comorbidity,DINOv2-base,Atelectasis,0.696113,0.697452,-0.001339
+depression,comorbidity,DINOv2-base,Cardiomegaly,0.813224,0.813075,0.000149
+depression,comorbidity,DINOv2-base,Consolidation,0.882760,0.882632,0.000128
+depression,comorbidity,DINOv2-base,Edema,0.889433,0.888793,0.000640
+depression,comorbidity,DINOv2-base,Enlarged Cardiomediastinum,0.773702,0.773498,0.000204
+depression,comorbidity,DINOv2-base,Lung Opacity,0.718800,0.718354,0.000446
+depression,comorbidity,DINOv2-base,Pleural Effusion,0.883672,0.883685,-0.000012
+depression,comorbidity,DINOv2-base,Pneumonia,0.745943,0.745924,0.000019
+depression,comorbidity,DINOv2-base,Pneumothorax,0.702207,0.701056,0.001151
+depression,comorbidity,DINOv2-base,Support Devices,0.745245,0.745325,-0.000080
+sex,demographic,BiomedCLIP,Atelectasis,0.713849,0.714943,-0.001094
+sex,demographic,BiomedCLIP,Cardiomegaly,0.851057,0.851135,-0.000078
+sex,demographic,BiomedCLIP,Consolidation,0.885102,0.882541,0.002561
+sex,demographic,BiomedCLIP,Edema,0.887578,0.887451,0.000127
+sex,demographic,BiomedCLIP,Enlarged Cardiomediastinum,0.786235,0.786848,-0.000613
+sex,demographic,BiomedCLIP,Lung Opacity,0.756644,0.756020,0.000624
+sex,demographic,BiomedCLIP,Pleural Effusion,0.892533,0.893514,-0.000981
+sex,demographic,BiomedCLIP,Pneumonia,0.764298,0.764314,-0.000017
+sex,demographic,BiomedCLIP,Pneumothorax,0.707989,0.707838,0.000151
+sex,demographic,BiomedCLIP,Support Devices,0.750065,0.749943,0.000122
+age,demographic,BiomedCLIP,Atelectasis,0.713849,0.694481,0.019368
+age,demographic,BiomedCLIP,Cardiomegaly,0.851057,0.821122,0.029935
+age,demographic,BiomedCLIP,Consolidation,0.885102,0.881105,0.003997
+age,demographic,BiomedCLIP,Edema,0.887578,0.877760,0.009818
+age,demographic,BiomedCLIP,Enlarged Cardiomediastinum,0.786235,0.764466,0.021769
+age,demographic,BiomedCLIP,Lung Opacity,0.756644,0.739087,0.017557
+age,demographic,BiomedCLIP,Pleural Effusion,0.892533,0.873091,0.019442
+age,demographic,BiomedCLIP,Pneumonia,0.764298,0.760908,0.003389
+age,demographic,BiomedCLIP,Pneumothorax,0.707989,0.712943,-0.004954
+age,demographic,BiomedCLIP,Support Devices,0.750065,0.748021,0.002044
+bmi,demographic,BiomedCLIP,Atelectasis,0.713849,0.714691,-0.000842
+bmi,demographic,BiomedCLIP,Cardiomegaly,0.851057,0.840967,0.010090
+bmi,demographic,BiomedCLIP,Consolidation,0.885102,0.878491,0.006611
+bmi,demographic,BiomedCLIP,Edema,0.887578,0.887699,-0.000121
+bmi,demographic,BiomedCLIP,Enlarged Cardiomediastinum,0.786235,0.785241,0.000995
+bmi,demographic,BiomedCLIP,Lung Opacity,0.756644,0.752743,0.003901
+bmi,demographic,BiomedCLIP,Pleural Effusion,0.892533,0.890005,0.002528
+bmi,demographic,BiomedCLIP,Pneumonia,0.764298,0.760014,0.004284
+bmi,demographic,BiomedCLIP,Pneumothorax,0.707989,0.693926,0.014063
+bmi,demographic,BiomedCLIP,Support Devices,0.750065,0.749631,0.000434
+hypertension,comorbidity,BiomedCLIP,Atelectasis,0.707465,0.711784,-0.004319
+hypertension,comorbidity,BiomedCLIP,Cardiomegaly,0.846561,0.840111,0.006451
+hypertension,comorbidity,BiomedCLIP,Consolidation,0.899835,0.899873,-0.000038
+hypertension,comorbidity,BiomedCLIP,Edema,0.889124,0.889246,-0.000122
+hypertension,comorbidity,BiomedCLIP,Enlarged Cardiomediastinum,0.796689,0.793197,0.003492
+hypertension,comorbidity,BiomedCLIP,Lung Opacity,0.757180,0.756114,0.001065
+hypertension,comorbidity,BiomedCLIP,Pleural Effusion,0.890088,0.888500,0.001587
+hypertension,comorbidity,BiomedCLIP,Pneumonia,0.770744,0.770260,0.000485
+hypertension,comorbidity,BiomedCLIP,Pneumothorax,0.699315,0.698246,0.001070
+hypertension,comorbidity,BiomedCLIP,Support Devices,0.762927,0.761718,0.001209
+heart_failure,comorbidity,BiomedCLIP,Atelectasis,0.707465,0.693615,0.013850
+heart_failure,comorbidity,BiomedCLIP,Cardiomegaly,0.846561,0.780763,0.065799
+heart_failure,comorbidity,BiomedCLIP,Consolidation,0.899835,0.892697,0.007137
+heart_failure,comorbidity,BiomedCLIP,Edema,0.889124,0.858625,0.030498
+heart_failure,comorbidity,BiomedCLIP,Enlarged Cardiomediastinum,0.796689,0.772625,0.024064
+heart_failure,comorbidity,BiomedCLIP,Lung Opacity,0.757180,0.745284,0.011895
+heart_failure,comorbidity,BiomedCLIP,Pleural Effusion,0.890088,0.873791,0.016297
+heart_failure,comorbidity,BiomedCLIP,Pneumonia,0.770744,0.766100,0.004644
+heart_failure,comorbidity,BiomedCLIP,Pneumothorax,0.699315,0.698035,0.001280
+heart_failure,comorbidity,BiomedCLIP,Support Devices,0.762927,0.760130,0.002796
+atrial_fibrillation,comorbidity,BiomedCLIP,Atelectasis,0.707465,0.693214,0.014251
+atrial_fibrillation,comorbidity,BiomedCLIP,Cardiomegaly,0.846561,0.797862,0.048699
+atrial_fibrillation,comorbidity,BiomedCLIP,Consolidation,0.899835,0.890630,0.009205
+atrial_fibrillation,comorbidity,BiomedCLIP,Edema,0.889124,0.873955,0.015169
+atrial_fibrillation,comorbidity,BiomedCLIP,Enlarged Cardiomediastinum,0.796689,0.779298,0.017391
+atrial_fibrillation,comorbidity,BiomedCLIP,Lung Opacity,0.757180,0.746675,0.010505
+atrial_fibrillation,comorbidity,BiomedCLIP,Pleural Effusion,0.890088,0.870844,0.019243
+atrial_fibrillation,comorbidity,BiomedCLIP,Pneumonia,0.770744,0.766744,0.004000
+atrial_fibrillation,comorbidity,BiomedCLIP,Pneumothorax,0.699315,0.699609,-0.000294
+atrial_fibrillation,comorbidity,BiomedCLIP,Support Devices,0.762927,0.752487,0.010440
+coronary_artery_disease,comorbidity,BiomedCLIP,Atelectasis,0.707465,0.702731,0.004734
+coronary_artery_disease,comorbidity,BiomedCLIP,Cardiomegaly,0.846561,0.820810,0.025751
+coronary_artery_disease,comorbidity,BiomedCLIP,Consolidation,0.899835,0.898890,0.000944
+coronary_artery_disease,comorbidity,BiomedCLIP,Edema,0.889124,0.880784,0.008340
+coronary_artery_disease,comorbidity,BiomedCLIP,Enlarged Cardiomediastinum,0.796689,0.790474,0.006215
+coronary_artery_disease,comorbidity,BiomedCLIP,Lung Opacity,0.757180,0.753281,0.003899
+coronary_artery_disease,comorbidity,BiomedCLIP,Pleural Effusion,0.890088,0.883871,0.006217
+coronary_artery_disease,comorbidity,BiomedCLIP,Pneumonia,0.770744,0.770482,0.000262
+coronary_artery_disease,comorbidity,BiomedCLIP,Pneumothorax,0.699315,0.697848,0.001467
+coronary_artery_disease,comorbidity,BiomedCLIP,Support Devices,0.762927,0.765653,-0.002727
+stroke,comorbidity,BiomedCLIP,Atelectasis,0.707465,0.711614,-0.004148
+stroke,comorbidity,BiomedCLIP,Cardiomegaly,0.846561,0.844176,0.002385
+stroke,comorbidity,BiomedCLIP,Consolidation,0.899835,0.900180,-0.000345
+stroke,comorbidity,BiomedCLIP,Edema,0.889124,0.886875,0.002249
+stroke,comorbidity,BiomedCLIP,Enlarged Cardiomediastinum,0.796689,0.795181,0.001508
+stroke,comorbidity,BiomedCLIP,Lung Opacity,0.757180,0.756827,0.000353
+stroke,comorbidity,BiomedCLIP,Pleural Effusion,0.890088,0.889883,0.000205
+stroke,comorbidity,BiomedCLIP,Pneumonia,0.770744,0.770596,0.000148
+stroke,comorbidity,BiomedCLIP,Pneumothorax,0.699315,0.699455,-0.000140
+stroke,comorbidity,BiomedCLIP,Support Devices,0.762927,0.758438,0.004489
+diabetes,comorbidity,BiomedCLIP,Atelectasis,0.707465,0.704664,0.002801
+diabetes,comorbidity,BiomedCLIP,Cardiomegaly,0.846561,0.830720,0.015842
+diabetes,comorbidity,BiomedCLIP,Consolidation,0.899835,0.901188,-0.001353
+diabetes,comorbidity,BiomedCLIP,Edema,0.889124,0.885385,0.003739
+diabetes,comorbidity,BiomedCLIP,Enlarged Cardiomediastinum,0.796689,0.792260,0.004429
+diabetes,comorbidity,BiomedCLIP,Lung Opacity,0.757180,0.757810,-0.000631
+diabetes,comorbidity,BiomedCLIP,Pleural Effusion,0.890088,0.889452,0.000635
+diabetes,comorbidity,BiomedCLIP,Pneumonia,0.770744,0.771865,-0.001121
+diabetes,comorbidity,BiomedCLIP,Pneumothorax,0.699315,0.693271,0.006044
+diabetes,comorbidity,BiomedCLIP,Support Devices,0.762927,0.763714,-0.000787
+hyperlipidemia,comorbidity,BiomedCLIP,Atelectasis,0.707465,0.704724,0.002741
+hyperlipidemia,comorbidity,BiomedCLIP,Cardiomegaly,0.846561,0.827578,0.018983
+hyperlipidemia,comorbidity,BiomedCLIP,Consolidation,0.899835,0.900725,-0.000890
+hyperlipidemia,comorbidity,BiomedCLIP,Edema,0.889124,0.885825,0.003299
+hyperlipidemia,comorbidity,BiomedCLIP,Enlarged Cardiomediastinum,0.796689,0.789706,0.006983
+hyperlipidemia,comorbidity,BiomedCLIP,Lung Opacity,0.757180,0.753707,0.003472
+hyperlipidemia,comorbidity,BiomedCLIP,Pleural Effusion,0.890088,0.886921,0.003167
+hyperlipidemia,comorbidity,BiomedCLIP,Pneumonia,0.770744,0.770914,-0.000170
+hyperlipidemia,comorbidity,BiomedCLIP,Pneumothorax,0.699315,0.697380,0.001936
+hyperlipidemia,comorbidity,BiomedCLIP,Support Devices,0.762927,0.762970,-0.000044
+obesity,comorbidity,BiomedCLIP,Atelectasis,0.707465,0.710440,-0.002975
+obesity,comorbidity,BiomedCLIP,Cardiomegaly,0.846561,0.834419,0.012142
+obesity,comorbidity,BiomedCLIP,Consolidation,0.899835,0.899227,0.000608
+obesity,comorbidity,BiomedCLIP,Edema,0.889124,0.888498,0.000625
+obesity,comorbidity,BiomedCLIP,Enlarged Cardiomediastinum,0.796689,0.791996,0.004693
+obesity,comorbidity,BiomedCLIP,Lung Opacity,0.757180,0.757323,-0.000143
+obesity,comorbidity,BiomedCLIP,Pleural Effusion,0.890088,0.889985,0.000102
+obesity,comorbidity,BiomedCLIP,Pneumonia,0.770744,0.769545,0.001199
+obesity,comorbidity,BiomedCLIP,Pneumothorax,0.699315,0.691539,0.007776
+obesity,comorbidity,BiomedCLIP,Support Devices,0.762927,0.762000,0.000926
+hypothyroidism,comorbidity,BiomedCLIP,Atelectasis,0.707465,0.708817,-0.001352
+hypothyroidism,comorbidity,BiomedCLIP,Cardiomegaly,0.846561,0.843779,0.002782
+hypothyroidism,comorbidity,BiomedCLIP,Consolidation,0.899835,0.899593,0.000242
+hypothyroidism,comorbidity,BiomedCLIP,Edema,0.889124,0.885976,0.003148
+hypothyroidism,comorbidity,BiomedCLIP,Enlarged Cardiomediastinum,0.796689,0.795726,0.000963
+hypothyroidism,comorbidity,BiomedCLIP,Lung Opacity,0.757180,0.756479,0.000700
+hypothyroidism,comorbidity,BiomedCLIP,Pleural Effusion,0.890088,0.887861,0.002226
+hypothyroidism,comorbidity,BiomedCLIP,Pneumonia,0.770744,0.768941,0.001803
+hypothyroidism,comorbidity,BiomedCLIP,Pneumothorax,0.699315,0.699218,0.000098
+hypothyroidism,comorbidity,BiomedCLIP,Support Devices,0.762927,0.762178,0.000748
+ckd,comorbidity,BiomedCLIP,Atelectasis,0.707465,0.701595,0.005870
+ckd,comorbidity,BiomedCLIP,Cardiomegaly,0.846561,0.817239,0.029322
+ckd,comorbidity,BiomedCLIP,Consolidation,0.899835,0.899375,0.000460
+ckd,comorbidity,BiomedCLIP,Edema,0.889124,0.877769,0.011355
+ckd,comorbidity,BiomedCLIP,Enlarged Cardiomediastinum,0.796689,0.786905,0.009784
+ckd,comorbidity,BiomedCLIP,Lung Opacity,0.757180,0.755719,0.001460
+ckd,comorbidity,BiomedCLIP,Pleural Effusion,0.890088,0.882772,0.007316
+ckd,comorbidity,BiomedCLIP,Pneumonia,0.770744,0.769646,0.001099
+ckd,comorbidity,BiomedCLIP,Pneumothorax,0.699315,0.697465,0.001851
+ckd,comorbidity,BiomedCLIP,Support Devices,0.762927,0.761891,0.001035
+aki,comorbidity,BiomedCLIP,Atelectasis,0.707465,0.699062,0.008403
+aki,comorbidity,BiomedCLIP,Cardiomegaly,0.846561,0.827149,0.019413
+aki,comorbidity,BiomedCLIP,Consolidation,0.899835,0.890711,0.009124
+aki,comorbidity,BiomedCLIP,Edema,0.889124,0.873705,0.015419
+aki,comorbidity,BiomedCLIP,Enlarged Cardiomediastinum,0.796689,0.785091,0.011598
+aki,comorbidity,BiomedCLIP,Lung Opacity,0.757180,0.750162,0.007017
+aki,comorbidity,BiomedCLIP,Pleural Effusion,0.890088,0.877122,0.012966
+aki,comorbidity,BiomedCLIP,Pneumonia,0.770744,0.764793,0.005952
+aki,comorbidity,BiomedCLIP,Pneumothorax,0.699315,0.698570,0.000746
+aki,comorbidity,BiomedCLIP,Support Devices,0.762927,0.753871,0.009055
+copd,comorbidity,BiomedCLIP,Atelectasis,0.707465,0.705596,0.001869
+copd,comorbidity,BiomedCLIP,Cardiomegaly,0.846561,0.842835,0.003726
+copd,comorbidity,BiomedCLIP,Consolidation,0.899835,0.895495,0.004340
+copd,comorbidity,BiomedCLIP,Edema,0.889124,0.881974,0.007150
+copd,comorbidity,BiomedCLIP,Enlarged Cardiomediastinum,0.796689,0.790575,0.006114
+copd,comorbidity,BiomedCLIP,Lung Opacity,0.757180,0.745069,0.012111
+copd,comorbidity,BiomedCLIP,Pleural Effusion,0.890088,0.886864,0.003224
+copd,comorbidity,BiomedCLIP,Pneumonia,0.770744,0.768096,0.002648
+copd,comorbidity,BiomedCLIP,Pneumothorax,0.699315,0.699824,-0.000509
+copd,comorbidity,BiomedCLIP,Support Devices,0.762927,0.761641,0.001286
+asthma,comorbidity,BiomedCLIP,Atelectasis,0.707465,0.709978,-0.002513
+asthma,comorbidity,BiomedCLIP,Cardiomegaly,0.846561,0.846736,-0.000174
+asthma,comorbidity,BiomedCLIP,Consolidation,0.899835,0.899362,0.000473
+asthma,comorbidity,BiomedCLIP,Edema,0.889124,0.888875,0.000249
+asthma,comorbidity,BiomedCLIP,Enlarged Cardiomediastinum,0.796689,0.796674,0.000015
+asthma,comorbidity,BiomedCLIP,Lung Opacity,0.757180,0.756889,0.000291
+asthma,comorbidity,BiomedCLIP,Pleural Effusion,0.890088,0.889663,0.000425
+asthma,comorbidity,BiomedCLIP,Pneumonia,0.770744,0.770579,0.000165
+asthma,comorbidity,BiomedCLIP,Pneumothorax,0.699315,0.698562,0.000753
+asthma,comorbidity,BiomedCLIP,Support Devices,0.762927,0.761415,0.001512
+respiratory_failure,comorbidity,BiomedCLIP,Atelectasis,0.707465,0.710466,-0.003000
+respiratory_failure,comorbidity,BiomedCLIP,Cardiomegaly,0.846561,0.840519,0.006042
+respiratory_failure,comorbidity,BiomedCLIP,Consolidation,0.899835,0.895256,0.004579
+respiratory_failure,comorbidity,BiomedCLIP,Edema,0.889124,0.883600,0.005524
+respiratory_failure,comorbidity,BiomedCLIP,Enlarged Cardiomediastinum,0.796689,0.792619,0.004070
+respiratory_failure,comorbidity,BiomedCLIP,Lung Opacity,0.757180,0.752201,0.004978
+respiratory_failure,comorbidity,BiomedCLIP,Pleural Effusion,0.890088,0.886809,0.003278
+respiratory_failure,comorbidity,BiomedCLIP,Pneumonia,0.770744,0.770126,0.000618
+respiratory_failure,comorbidity,BiomedCLIP,Pneumothorax,0.699315,0.699200,0.000116
+respiratory_failure,comorbidity,BiomedCLIP,Support Devices,0.762927,0.761100,0.001827
+pulmonary_fibrosis,comorbidity,BiomedCLIP,Atelectasis,0.707465,0.710359,-0.002894
+pulmonary_fibrosis,comorbidity,BiomedCLIP,Cardiomegaly,0.846561,0.846486,0.000075
+pulmonary_fibrosis,comorbidity,BiomedCLIP,Consolidation,0.899835,0.899851,-0.000016
+pulmonary_fibrosis,comorbidity,BiomedCLIP,Edema,0.889124,0.887742,0.001382
+pulmonary_fibrosis,comorbidity,BiomedCLIP,Enlarged Cardiomediastinum,0.796689,0.796203,0.000485
+pulmonary_fibrosis,comorbidity,BiomedCLIP,Lung Opacity,0.757180,0.753416,0.003764
+pulmonary_fibrosis,comorbidity,BiomedCLIP,Pleural Effusion,0.890088,0.890821,-0.000734
+pulmonary_fibrosis,comorbidity,BiomedCLIP,Pneumonia,0.770744,0.768653,0.002091
+pulmonary_fibrosis,comorbidity,BiomedCLIP,Pneumothorax,0.699315,0.699667,-0.000352
+pulmonary_fibrosis,comorbidity,BiomedCLIP,Support Devices,0.762927,0.763308,-0.000381
+liver_disease,comorbidity,BiomedCLIP,Atelectasis,0.707465,0.710536,-0.003070
+liver_disease,comorbidity,BiomedCLIP,Cardiomegaly,0.846561,0.846714,-0.000152
+liver_disease,comorbidity,BiomedCLIP,Consolidation,0.899835,0.899776,0.000059
+liver_disease,comorbidity,BiomedCLIP,Edema,0.889124,0.887387,0.001737
+liver_disease,comorbidity,BiomedCLIP,Enlarged Cardiomediastinum,0.796689,0.797369,-0.000680
+liver_disease,comorbidity,BiomedCLIP,Lung Opacity,0.757180,0.757368,-0.000188
+liver_disease,comorbidity,BiomedCLIP,Pleural Effusion,0.890088,0.889269,0.000818
+liver_disease,comorbidity,BiomedCLIP,Pneumonia,0.770744,0.770121,0.000623
+liver_disease,comorbidity,BiomedCLIP,Pneumothorax,0.699315,0.701359,-0.002044
+liver_disease,comorbidity,BiomedCLIP,Support Devices,0.762927,0.760492,0.002435
+anemia,comorbidity,BiomedCLIP,Atelectasis,0.707465,0.696591,0.010875
+anemia,comorbidity,BiomedCLIP,Cardiomegaly,0.846561,0.834420,0.012141
+anemia,comorbidity,BiomedCLIP,Consolidation,0.899835,0.891434,0.008401
+anemia,comorbidity,BiomedCLIP,Edema,0.889124,0.882124,0.007000
+anemia,comorbidity,BiomedCLIP,Enlarged Cardiomediastinum,0.796689,0.781291,0.015398
+anemia,comorbidity,BiomedCLIP,Lung Opacity,0.757180,0.751286,0.005894
+anemia,comorbidity,BiomedCLIP,Pleural Effusion,0.890088,0.877177,0.012911
+anemia,comorbidity,BiomedCLIP,Pneumonia,0.770744,0.762715,0.008029
+anemia,comorbidity,BiomedCLIP,Pneumothorax,0.699315,0.700267,-0.000951
+anemia,comorbidity,BiomedCLIP,Support Devices,0.762927,0.759131,0.003796
+smoking_history,comorbidity,BiomedCLIP,Atelectasis,0.707465,0.711180,-0.003715
+smoking_history,comorbidity,BiomedCLIP,Cardiomegaly,0.846561,0.844675,0.001886
+smoking_history,comorbidity,BiomedCLIP,Consolidation,0.899835,0.899962,-0.000127
+smoking_history,comorbidity,BiomedCLIP,Edema,0.889124,0.888786,0.000338
+smoking_history,comorbidity,BiomedCLIP,Enlarged Cardiomediastinum,0.796689,0.796929,-0.000240
+smoking_history,comorbidity,BiomedCLIP,Lung Opacity,0.757180,0.756124,0.001055
+smoking_history,comorbidity,BiomedCLIP,Pleural Effusion,0.890088,0.889672,0.000416
+smoking_history,comorbidity,BiomedCLIP,Pneumonia,0.770744,0.769897,0.000848
+smoking_history,comorbidity,BiomedCLIP,Pneumothorax,0.699315,0.699222,0.000093
+smoking_history,comorbidity,BiomedCLIP,Support Devices,0.762927,0.762849,0.000078
+cancer_history,comorbidity,BiomedCLIP,Atelectasis,0.707465,0.705533,0.001932
+cancer_history,comorbidity,BiomedCLIP,Cardiomegaly,0.846561,0.846937,-0.000375
+cancer_history,comorbidity,BiomedCLIP,Consolidation,0.899835,0.897763,0.002072
+cancer_history,comorbidity,BiomedCLIP,Edema,0.889124,0.888547,0.000577
+cancer_history,comorbidity,BiomedCLIP,Enlarged Cardiomediastinum,0.796689,0.793168,0.003521
+cancer_history,comorbidity,BiomedCLIP,Lung Opacity,0.757180,0.751548,0.005632
+cancer_history,comorbidity,BiomedCLIP,Pleural Effusion,0.890088,0.886002,0.004085
+cancer_history,comorbidity,BiomedCLIP,Pneumonia,0.770744,0.770018,0.000726
+cancer_history,comorbidity,BiomedCLIP,Pneumothorax,0.699315,0.698455,0.000860
+cancer_history,comorbidity,BiomedCLIP,Support Devices,0.762927,0.760949,0.001977
+depression,comorbidity,BiomedCLIP,Atelectasis,0.707465,0.711076,-0.003610
+depression,comorbidity,BiomedCLIP,Cardiomegaly,0.846561,0.846571,-0.000009
+depression,comorbidity,BiomedCLIP,Consolidation,0.899835,0.899957,-0.000122
+depression,comorbidity,BiomedCLIP,Edema,0.889124,0.888881,0.000243
+depression,comorbidity,BiomedCLIP,Enlarged Cardiomediastinum,0.796689,0.796584,0.000104
+depression,comorbidity,BiomedCLIP,Lung Opacity,0.757180,0.756927,0.000252
+depression,comorbidity,BiomedCLIP,Pleural Effusion,0.890088,0.890246,-0.000158
+depression,comorbidity,BiomedCLIP,Pneumonia,0.770744,0.770564,0.000181
+depression,comorbidity,BiomedCLIP,Pneumothorax,0.699315,0.698660,0.000656
+depression,comorbidity,BiomedCLIP,Support Devices,0.762927,0.763214,-0.000287
+sex,demographic,XRV-DenseNet-nih,Atelectasis,0.669331,0.666603,0.002728
+sex,demographic,XRV-DenseNet-nih,Cardiomegaly,0.808379,0.808254,0.000124
+sex,demographic,XRV-DenseNet-nih,Consolidation,0.771548,0.767175,0.004373
+sex,demographic,XRV-DenseNet-nih,Edema,0.829618,0.829518,0.000099
+sex,demographic,XRV-DenseNet-nih,Enlarged Cardiomediastinum,0.766096,0.767047,-0.000950
+sex,demographic,XRV-DenseNet-nih,Lung Opacity,0.674079,0.673747,0.000332
+sex,demographic,XRV-DenseNet-nih,Pleural Effusion,0.796819,0.797367,-0.000548
+sex,demographic,XRV-DenseNet-nih,Pneumonia,0.692807,0.692197,0.000610
+sex,demographic,XRV-DenseNet-nih,Pneumothorax,0.635648,0.640061,-0.004413
+sex,demographic,XRV-DenseNet-nih,Support Devices,0.675283,0.674100,0.001183
+age,demographic,XRV-DenseNet-nih,Atelectasis,0.669331,0.650694,0.018637
+age,demographic,XRV-DenseNet-nih,Cardiomegaly,0.808379,0.783916,0.024463
+age,demographic,XRV-DenseNet-nih,Consolidation,0.771548,0.765872,0.005677
+age,demographic,XRV-DenseNet-nih,Edema,0.829618,0.819684,0.009934
+age,demographic,XRV-DenseNet-nih,Enlarged Cardiomediastinum,0.766096,0.749185,0.016912
+age,demographic,XRV-DenseNet-nih,Lung Opacity,0.674079,0.654523,0.019557
+age,demographic,XRV-DenseNet-nih,Pleural Effusion,0.796819,0.772140,0.024679
+age,demographic,XRV-DenseNet-nih,Pneumonia,0.692807,0.688284,0.004523
+age,demographic,XRV-DenseNet-nih,Pneumothorax,0.635648,0.636273,-0.000625
+age,demographic,XRV-DenseNet-nih,Support Devices,0.675283,0.671576,0.003707
+bmi,demographic,XRV-DenseNet-nih,Atelectasis,0.669331,0.671480,-0.002149
+bmi,demographic,XRV-DenseNet-nih,Cardiomegaly,0.808379,0.797282,0.011097
+bmi,demographic,XRV-DenseNet-nih,Consolidation,0.771548,0.762358,0.009191
+bmi,demographic,XRV-DenseNet-nih,Edema,0.829618,0.829937,-0.000319
+bmi,demographic,XRV-DenseNet-nih,Enlarged Cardiomediastinum,0.766096,0.764208,0.001889
+bmi,demographic,XRV-DenseNet-nih,Lung Opacity,0.674079,0.673446,0.000634
+bmi,demographic,XRV-DenseNet-nih,Pleural Effusion,0.796819,0.796761,0.000058
+bmi,demographic,XRV-DenseNet-nih,Pneumonia,0.692807,0.688099,0.004707
+bmi,demographic,XRV-DenseNet-nih,Pneumothorax,0.635648,0.606320,0.029328
+bmi,demographic,XRV-DenseNet-nih,Support Devices,0.675283,0.676735,-0.001453
+hypertension,comorbidity,XRV-DenseNet-nih,Atelectasis,0.659998,0.661058,-0.001060
+hypertension,comorbidity,XRV-DenseNet-nih,Cardiomegaly,0.804893,0.798952,0.005941
+hypertension,comorbidity,XRV-DenseNet-nih,Consolidation,0.791057,0.791064,-0.000007
+hypertension,comorbidity,XRV-DenseNet-nih,Edema,0.830900,0.831149,-0.000249
+hypertension,comorbidity,XRV-DenseNet-nih,Enlarged Cardiomediastinum,0.767205,0.764726,0.002478
+hypertension,comorbidity,XRV-DenseNet-nih,Lung Opacity,0.667383,0.666449,0.000935
+hypertension,comorbidity,XRV-DenseNet-nih,Pleural Effusion,0.794450,0.791410,0.003040
+hypertension,comorbidity,XRV-DenseNet-nih,Pneumonia,0.703264,0.703148,0.000116
+hypertension,comorbidity,XRV-DenseNet-nih,Pneumothorax,0.630243,0.628278,0.001965
+hypertension,comorbidity,XRV-DenseNet-nih,Support Devices,0.679896,0.677981,0.001915
+heart_failure,comorbidity,XRV-DenseNet-nih,Atelectasis,0.659998,0.645241,0.014758
+heart_failure,comorbidity,XRV-DenseNet-nih,Cardiomegaly,0.804893,0.744977,0.059916
+heart_failure,comorbidity,XRV-DenseNet-nih,Consolidation,0.791057,0.787889,0.003167
+heart_failure,comorbidity,XRV-DenseNet-nih,Edema,0.830900,0.799869,0.031031
+heart_failure,comorbidity,XRV-DenseNet-nih,Enlarged Cardiomediastinum,0.767205,0.744845,0.022360
+heart_failure,comorbidity,XRV-DenseNet-nih,Lung Opacity,0.667383,0.655765,0.011618
+heart_failure,comorbidity,XRV-DenseNet-nih,Pleural Effusion,0.794450,0.775884,0.018567
+heart_failure,comorbidity,XRV-DenseNet-nih,Pneumonia,0.703264,0.696796,0.006468
+heart_failure,comorbidity,XRV-DenseNet-nih,Pneumothorax,0.630243,0.619878,0.010366
+heart_failure,comorbidity,XRV-DenseNet-nih,Support Devices,0.679896,0.674056,0.005839
+atrial_fibrillation,comorbidity,XRV-DenseNet-nih,Atelectasis,0.659998,0.646465,0.013533
+atrial_fibrillation,comorbidity,XRV-DenseNet-nih,Cardiomegaly,0.804893,0.762447,0.042447
+atrial_fibrillation,comorbidity,XRV-DenseNet-nih,Consolidation,0.791057,0.779519,0.011537
+atrial_fibrillation,comorbidity,XRV-DenseNet-nih,Edema,0.830900,0.813701,0.017199
+atrial_fibrillation,comorbidity,XRV-DenseNet-nih,Enlarged Cardiomediastinum,0.767205,0.748626,0.018579
+atrial_fibrillation,comorbidity,XRV-DenseNet-nih,Lung Opacity,0.667383,0.653751,0.013632
+atrial_fibrillation,comorbidity,XRV-DenseNet-nih,Pleural Effusion,0.794450,0.769372,0.025078
+atrial_fibrillation,comorbidity,XRV-DenseNet-nih,Pneumonia,0.703264,0.699422,0.003842
+atrial_fibrillation,comorbidity,XRV-DenseNet-nih,Pneumothorax,0.630243,0.628159,0.002084
+atrial_fibrillation,comorbidity,XRV-DenseNet-nih,Support Devices,0.679896,0.672526,0.007369
+coronary_artery_disease,comorbidity,XRV-DenseNet-nih,Atelectasis,0.659998,0.653105,0.006893
+coronary_artery_disease,comorbidity,XRV-DenseNet-nih,Cardiomegaly,0.804893,0.783056,0.021838
+coronary_artery_disease,comorbidity,XRV-DenseNet-nih,Consolidation,0.791057,0.792156,-0.001099
+coronary_artery_disease,comorbidity,XRV-DenseNet-nih,Edema,0.830900,0.822437,0.008463
+coronary_artery_disease,comorbidity,XRV-DenseNet-nih,Enlarged Cardiomediastinum,0.767205,0.762813,0.004392
+coronary_artery_disease,comorbidity,XRV-DenseNet-nih,Lung Opacity,0.667383,0.662006,0.005377
+coronary_artery_disease,comorbidity,XRV-DenseNet-nih,Pleural Effusion,0.794450,0.788182,0.006268
+coronary_artery_disease,comorbidity,XRV-DenseNet-nih,Pneumonia,0.703264,0.702765,0.000499
+coronary_artery_disease,comorbidity,XRV-DenseNet-nih,Pneumothorax,0.630243,0.623149,0.007095
+coronary_artery_disease,comorbidity,XRV-DenseNet-nih,Support Devices,0.679896,0.682310,-0.002415
+stroke,comorbidity,XRV-DenseNet-nih,Atelectasis,0.659998,0.658442,0.001556
+stroke,comorbidity,XRV-DenseNet-nih,Cardiomegaly,0.804893,0.802971,0.001922
+stroke,comorbidity,XRV-DenseNet-nih,Consolidation,0.791057,0.791667,-0.000610
+stroke,comorbidity,XRV-DenseNet-nih,Edema,0.830900,0.828595,0.002305
+stroke,comorbidity,XRV-DenseNet-nih,Enlarged Cardiomediastinum,0.767205,0.765903,0.001302
+stroke,comorbidity,XRV-DenseNet-nih,Lung Opacity,0.667383,0.667565,-0.000182
+stroke,comorbidity,XRV-DenseNet-nih,Pleural Effusion,0.794450,0.794372,0.000078
+stroke,comorbidity,XRV-DenseNet-nih,Pneumonia,0.703264,0.703815,-0.000552
+stroke,comorbidity,XRV-DenseNet-nih,Pneumothorax,0.630243,0.628278,0.001965
+stroke,comorbidity,XRV-DenseNet-nih,Support Devices,0.679896,0.673740,0.006156
+diabetes,comorbidity,XRV-DenseNet-nih,Atelectasis,0.659998,0.656592,0.003406
+diabetes,comorbidity,XRV-DenseNet-nih,Cardiomegaly,0.804893,0.789488,0.015405
+diabetes,comorbidity,XRV-DenseNet-nih,Consolidation,0.791057,0.793921,-0.002864
+diabetes,comorbidity,XRV-DenseNet-nih,Edema,0.830900,0.827235,0.003665
+diabetes,comorbidity,XRV-DenseNet-nih,Enlarged Cardiomediastinum,0.767205,0.765765,0.001440
+diabetes,comorbidity,XRV-DenseNet-nih,Lung Opacity,0.667383,0.668998,-0.001615
+diabetes,comorbidity,XRV-DenseNet-nih,Pleural Effusion,0.794450,0.794794,-0.000344
+diabetes,comorbidity,XRV-DenseNet-nih,Pneumonia,0.703264,0.705230,-0.001966
+diabetes,comorbidity,XRV-DenseNet-nih,Pneumothorax,0.630243,0.617638,0.012605
+diabetes,comorbidity,XRV-DenseNet-nih,Support Devices,0.679896,0.677506,0.002390
+hyperlipidemia,comorbidity,XRV-DenseNet-nih,Atelectasis,0.659998,0.655014,0.004984
+hyperlipidemia,comorbidity,XRV-DenseNet-nih,Cardiomegaly,0.804893,0.788854,0.016039
+hyperlipidemia,comorbidity,XRV-DenseNet-nih,Consolidation,0.791057,0.793570,-0.002513
+hyperlipidemia,comorbidity,XRV-DenseNet-nih,Edema,0.830900,0.827361,0.003539
+hyperlipidemia,comorbidity,XRV-DenseNet-nih,Enlarged Cardiomediastinum,0.767205,0.762502,0.004703
+hyperlipidemia,comorbidity,XRV-DenseNet-nih,Lung Opacity,0.667383,0.664173,0.003210
+hyperlipidemia,comorbidity,XRV-DenseNet-nih,Pleural Effusion,0.794450,0.791639,0.002811
+hyperlipidemia,comorbidity,XRV-DenseNet-nih,Pneumonia,0.703264,0.704074,-0.000811
+hyperlipidemia,comorbidity,XRV-DenseNet-nih,Pneumothorax,0.630243,0.624464,0.005780
+hyperlipidemia,comorbidity,XRV-DenseNet-nih,Support Devices,0.679896,0.678609,0.001287
+obesity,comorbidity,XRV-DenseNet-nih,Atelectasis,0.659998,0.658980,0.001018
+obesity,comorbidity,XRV-DenseNet-nih,Cardiomegaly,0.804893,0.791810,0.013084
+obesity,comorbidity,XRV-DenseNet-nih,Consolidation,0.791057,0.790165,0.000892
+obesity,comorbidity,XRV-DenseNet-nih,Edema,0.830900,0.829945,0.000955
+obesity,comorbidity,XRV-DenseNet-nih,Enlarged Cardiomediastinum,0.767205,0.762304,0.004901
+obesity,comorbidity,XRV-DenseNet-nih,Lung Opacity,0.667383,0.667265,0.000119
+obesity,comorbidity,XRV-DenseNet-nih,Pleural Effusion,0.794450,0.795386,-0.000936
+obesity,comorbidity,XRV-DenseNet-nih,Pneumonia,0.703264,0.702312,0.000951
+obesity,comorbidity,XRV-DenseNet-nih,Pneumothorax,0.630243,0.614048,0.016195
+obesity,comorbidity,XRV-DenseNet-nih,Support Devices,0.679896,0.678974,0.000922
+hypothyroidism,comorbidity,XRV-DenseNet-nih,Atelectasis,0.659998,0.662692,-0.002694
+hypothyroidism,comorbidity,XRV-DenseNet-nih,Cardiomegaly,0.804893,0.802240,0.002654
+hypothyroidism,comorbidity,XRV-DenseNet-nih,Consolidation,0.791057,0.791585,-0.000528
+hypothyroidism,comorbidity,XRV-DenseNet-nih,Edema,0.830900,0.828048,0.002852
+hypothyroidism,comorbidity,XRV-DenseNet-nih,Enlarged Cardiomediastinum,0.767205,0.767048,0.000157
+hypothyroidism,comorbidity,XRV-DenseNet-nih,Lung Opacity,0.667383,0.664153,0.003230
+hypothyroidism,comorbidity,XRV-DenseNet-nih,Pleural Effusion,0.794450,0.792121,0.002329
+hypothyroidism,comorbidity,XRV-DenseNet-nih,Pneumonia,0.703264,0.701835,0.001429
+hypothyroidism,comorbidity,XRV-DenseNet-nih,Pneumothorax,0.630243,0.629551,0.000693
+hypothyroidism,comorbidity,XRV-DenseNet-nih,Support Devices,0.679896,0.678847,0.001049
+ckd,comorbidity,XRV-DenseNet-nih,Atelectasis,0.659998,0.650647,0.009351
+ckd,comorbidity,XRV-DenseNet-nih,Cardiomegaly,0.804893,0.778326,0.026567
+ckd,comorbidity,XRV-DenseNet-nih,Consolidation,0.791057,0.793251,-0.002194
+ckd,comorbidity,XRV-DenseNet-nih,Edema,0.830900,0.818932,0.011968
+ckd,comorbidity,XRV-DenseNet-nih,Enlarged Cardiomediastinum,0.767205,0.759268,0.007937
+ckd,comorbidity,XRV-DenseNet-nih,Lung Opacity,0.667383,0.668190,-0.000806
+ckd,comorbidity,XRV-DenseNet-nih,Pleural Effusion,0.794450,0.786494,0.007956
+ckd,comorbidity,XRV-DenseNet-nih,Pneumonia,0.703264,0.702381,0.000883
+ckd,comorbidity,XRV-DenseNet-nih,Pneumothorax,0.630243,0.622391,0.007852
+ckd,comorbidity,XRV-DenseNet-nih,Support Devices,0.679896,0.677399,0.002496
+aki,comorbidity,XRV-DenseNet-nih,Atelectasis,0.659998,0.651059,0.008939
+aki,comorbidity,XRV-DenseNet-nih,Cardiomegaly,0.804893,0.785214,0.019680
+aki,comorbidity,XRV-DenseNet-nih,Consolidation,0.791057,0.779134,0.011923
+aki,comorbidity,XRV-DenseNet-nih,Edema,0.830900,0.815235,0.015665
+aki,comorbidity,XRV-DenseNet-nih,Enlarged Cardiomediastinum,0.767205,0.758105,0.009100
+aki,comorbidity,XRV-DenseNet-nih,Lung Opacity,0.667383,0.661822,0.005561
+aki,comorbidity,XRV-DenseNet-nih,Pleural Effusion,0.794450,0.778809,0.015641
+aki,comorbidity,XRV-DenseNet-nih,Pneumonia,0.703264,0.697090,0.006173
+aki,comorbidity,XRV-DenseNet-nih,Pneumothorax,0.630243,0.623093,0.007151
+aki,comorbidity,XRV-DenseNet-nih,Support Devices,0.679896,0.665373,0.014523
+copd,comorbidity,XRV-DenseNet-nih,Atelectasis,0.659998,0.658231,0.001767
+copd,comorbidity,XRV-DenseNet-nih,Cardiomegaly,0.804893,0.802284,0.002610
+copd,comorbidity,XRV-DenseNet-nih,Consolidation,0.791057,0.787995,0.003061
+copd,comorbidity,XRV-DenseNet-nih,Edema,0.830900,0.828059,0.002841
+copd,comorbidity,XRV-DenseNet-nih,Enlarged Cardiomediastinum,0.767205,0.763978,0.003227
+copd,comorbidity,XRV-DenseNet-nih,Lung Opacity,0.667383,0.663874,0.003509
+copd,comorbidity,XRV-DenseNet-nih,Pleural Effusion,0.794450,0.792778,0.001672
+copd,comorbidity,XRV-DenseNet-nih,Pneumonia,0.703264,0.701716,0.001548
+copd,comorbidity,XRV-DenseNet-nih,Pneumothorax,0.630243,0.630775,-0.000532
+copd,comorbidity,XRV-DenseNet-nih,Support Devices,0.679896,0.676176,0.003720
+asthma,comorbidity,XRV-DenseNet-nih,Atelectasis,0.659998,0.659373,0.000625
+asthma,comorbidity,XRV-DenseNet-nih,Cardiomegaly,0.804893,0.804588,0.000305
+asthma,comorbidity,XRV-DenseNet-nih,Consolidation,0.791057,0.789388,0.001669
+asthma,comorbidity,XRV-DenseNet-nih,Edema,0.830900,0.830737,0.000163
+asthma,comorbidity,XRV-DenseNet-nih,Enlarged Cardiomediastinum,0.767205,0.767097,0.000108
+asthma,comorbidity,XRV-DenseNet-nih,Lung Opacity,0.667383,0.668361,-0.000978
+asthma,comorbidity,XRV-DenseNet-nih,Pleural Effusion,0.794450,0.794028,0.000422
+asthma,comorbidity,XRV-DenseNet-nih,Pneumonia,0.703264,0.703177,0.000087
+asthma,comorbidity,XRV-DenseNet-nih,Pneumothorax,0.630243,0.629389,0.000855
+asthma,comorbidity,XRV-DenseNet-nih,Support Devices,0.679896,0.680325,-0.000430
+respiratory_failure,comorbidity,XRV-DenseNet-nih,Atelectasis,0.659998,0.660393,-0.000395
+respiratory_failure,comorbidity,XRV-DenseNet-nih,Cardiomegaly,0.804893,0.797849,0.007045
+respiratory_failure,comorbidity,XRV-DenseNet-nih,Consolidation,0.791057,0.784321,0.006736
+respiratory_failure,comorbidity,XRV-DenseNet-nih,Edema,0.830900,0.826129,0.004771
+respiratory_failure,comorbidity,XRV-DenseNet-nih,Enlarged Cardiomediastinum,0.767205,0.762370,0.004835
+respiratory_failure,comorbidity,XRV-DenseNet-nih,Lung Opacity,0.667383,0.662768,0.004615
+respiratory_failure,comorbidity,XRV-DenseNet-nih,Pleural Effusion,0.794450,0.791135,0.003315
+respiratory_failure,comorbidity,XRV-DenseNet-nih,Pneumonia,0.703264,0.701612,0.001652
+respiratory_failure,comorbidity,XRV-DenseNet-nih,Pneumothorax,0.630243,0.629167,0.001077
+respiratory_failure,comorbidity,XRV-DenseNet-nih,Support Devices,0.679896,0.674995,0.004901
+pulmonary_fibrosis,comorbidity,XRV-DenseNet-nih,Atelectasis,0.659998,0.659876,0.000122
+pulmonary_fibrosis,comorbidity,XRV-DenseNet-nih,Cardiomegaly,0.804893,0.804229,0.000664
+pulmonary_fibrosis,comorbidity,XRV-DenseNet-nih,Consolidation,0.791057,0.790834,0.000223
+pulmonary_fibrosis,comorbidity,XRV-DenseNet-nih,Edema,0.830900,0.829462,0.001438
+pulmonary_fibrosis,comorbidity,XRV-DenseNet-nih,Enlarged Cardiomediastinum,0.767205,0.766542,0.000663
+pulmonary_fibrosis,comorbidity,XRV-DenseNet-nih,Lung Opacity,0.667383,0.665286,0.002098
+pulmonary_fibrosis,comorbidity,XRV-DenseNet-nih,Pleural Effusion,0.794450,0.795511,-0.001061
+pulmonary_fibrosis,comorbidity,XRV-DenseNet-nih,Pneumonia,0.703264,0.701703,0.001561
+pulmonary_fibrosis,comorbidity,XRV-DenseNet-nih,Pneumothorax,0.630243,0.629744,0.000499
+pulmonary_fibrosis,comorbidity,XRV-DenseNet-nih,Support Devices,0.679896,0.679956,-0.000061
+liver_disease,comorbidity,XRV-DenseNet-nih,Atelectasis,0.659998,0.659652,0.000346
+liver_disease,comorbidity,XRV-DenseNet-nih,Cardiomegaly,0.804893,0.805417,-0.000523
+liver_disease,comorbidity,XRV-DenseNet-nih,Consolidation,0.791057,0.791650,-0.000594
+liver_disease,comorbidity,XRV-DenseNet-nih,Edema,0.830900,0.829243,0.001657
+liver_disease,comorbidity,XRV-DenseNet-nih,Enlarged Cardiomediastinum,0.767205,0.768662,-0.001457
+liver_disease,comorbidity,XRV-DenseNet-nih,Lung Opacity,0.667383,0.668746,-0.001363
+liver_disease,comorbidity,XRV-DenseNet-nih,Pleural Effusion,0.794450,0.794213,0.000238
+liver_disease,comorbidity,XRV-DenseNet-nih,Pneumonia,0.703264,0.702215,0.001049
+liver_disease,comorbidity,XRV-DenseNet-nih,Pneumothorax,0.630243,0.631768,-0.001525
+liver_disease,comorbidity,XRV-DenseNet-nih,Support Devices,0.679896,0.675133,0.004763
+anemia,comorbidity,XRV-DenseNet-nih,Atelectasis,0.659998,0.647166,0.012832
+anemia,comorbidity,XRV-DenseNet-nih,Cardiomegaly,0.804893,0.793781,0.011112
+anemia,comorbidity,XRV-DenseNet-nih,Consolidation,0.791057,0.782703,0.008354
+anemia,comorbidity,XRV-DenseNet-nih,Edema,0.830900,0.823519,0.007381
+anemia,comorbidity,XRV-DenseNet-nih,Enlarged Cardiomediastinum,0.767205,0.754692,0.012513
+anemia,comorbidity,XRV-DenseNet-nih,Lung Opacity,0.667383,0.661489,0.005895
+anemia,comorbidity,XRV-DenseNet-nih,Pleural Effusion,0.794450,0.778754,0.015696
+anemia,comorbidity,XRV-DenseNet-nih,Pneumonia,0.703264,0.695710,0.007554
+anemia,comorbidity,XRV-DenseNet-nih,Pneumothorax,0.630243,0.627216,0.003028
+anemia,comorbidity,XRV-DenseNet-nih,Support Devices,0.679896,0.675483,0.004413
+smoking_history,comorbidity,XRV-DenseNet-nih,Atelectasis,0.659998,0.659543,0.000455
+smoking_history,comorbidity,XRV-DenseNet-nih,Cardiomegaly,0.804893,0.803761,0.001132
+smoking_history,comorbidity,XRV-DenseNet-nih,Consolidation,0.791057,0.791659,-0.000603
+smoking_history,comorbidity,XRV-DenseNet-nih,Edema,0.830900,0.830919,-0.000019
+smoking_history,comorbidity,XRV-DenseNet-nih,Enlarged Cardiomediastinum,0.767205,0.767853,-0.000648
+smoking_history,comorbidity,XRV-DenseNet-nih,Lung Opacity,0.667383,0.668038,-0.000655
+smoking_history,comorbidity,XRV-DenseNet-nih,Pleural Effusion,0.794450,0.794715,-0.000264
+smoking_history,comorbidity,XRV-DenseNet-nih,Pneumonia,0.703264,0.703172,0.000092
+smoking_history,comorbidity,XRV-DenseNet-nih,Pneumothorax,0.630243,0.629937,0.000307
+smoking_history,comorbidity,XRV-DenseNet-nih,Support Devices,0.679896,0.680159,-0.000264
+cancer_history,comorbidity,XRV-DenseNet-nih,Atelectasis,0.659998,0.658744,0.001254
+cancer_history,comorbidity,XRV-DenseNet-nih,Cardiomegaly,0.804893,0.805466,-0.000573
+cancer_history,comorbidity,XRV-DenseNet-nih,Consolidation,0.791057,0.789424,0.001633
+cancer_history,comorbidity,XRV-DenseNet-nih,Edema,0.830900,0.830759,0.000141
+cancer_history,comorbidity,XRV-DenseNet-nih,Enlarged Cardiomediastinum,0.767205,0.764930,0.002275
+cancer_history,comorbidity,XRV-DenseNet-nih,Lung Opacity,0.667383,0.665365,0.002018
+cancer_history,comorbidity,XRV-DenseNet-nih,Pleural Effusion,0.794450,0.790937,0.003513
+cancer_history,comorbidity,XRV-DenseNet-nih,Pneumonia,0.703264,0.703029,0.000235
+cancer_history,comorbidity,XRV-DenseNet-nih,Pneumothorax,0.630243,0.630257,-0.000013
+cancer_history,comorbidity,XRV-DenseNet-nih,Support Devices,0.679896,0.679429,0.000467
+depression,comorbidity,XRV-DenseNet-nih,Atelectasis,0.659998,0.661283,-0.001285
+depression,comorbidity,XRV-DenseNet-nih,Cardiomegaly,0.804893,0.804699,0.000195
+depression,comorbidity,XRV-DenseNet-nih,Consolidation,0.791057,0.791547,-0.000490
+depression,comorbidity,XRV-DenseNet-nih,Edema,0.830900,0.830928,-0.000028
+depression,comorbidity,XRV-DenseNet-nih,Enlarged Cardiomediastinum,0.767205,0.767212,-0.000007
+depression,comorbidity,XRV-DenseNet-nih,Lung Opacity,0.667383,0.666606,0.000777
+depression,comorbidity,XRV-DenseNet-nih,Pleural Effusion,0.794450,0.795035,-0.000585
+depression,comorbidity,XRV-DenseNet-nih,Pneumonia,0.703264,0.703293,-0.000029
+depression,comorbidity,XRV-DenseNet-nih,Pneumothorax,0.630243,0.628410,0.001834
+depression,comorbidity,XRV-DenseNet-nih,Support Devices,0.679896,0.679697,0.000198
+sex,demographic,CLIP-ViT-B16,Atelectasis,0.682187,0.684735,-0.002548
+sex,demographic,CLIP-ViT-B16,Cardiomegaly,0.777432,0.777552,-0.000120
+sex,demographic,CLIP-ViT-B16,Consolidation,0.830496,0.828847,0.001649
+sex,demographic,CLIP-ViT-B16,Edema,0.851171,0.851118,0.000053
+sex,demographic,CLIP-ViT-B16,Enlarged Cardiomediastinum,0.748612,0.749723,-0.001110
+sex,demographic,CLIP-ViT-B16,Lung Opacity,0.705709,0.705703,0.000006
+sex,demographic,CLIP-ViT-B16,Pleural Effusion,0.835109,0.835025,0.000084
+sex,demographic,CLIP-ViT-B16,Pneumonia,0.706053,0.705577,0.000476
+sex,demographic,CLIP-ViT-B16,Pneumothorax,0.680485,0.681155,-0.000670
+sex,demographic,CLIP-ViT-B16,Support Devices,0.741688,0.741040,0.000647
+age,demographic,CLIP-ViT-B16,Atelectasis,0.682187,0.664439,0.017748
+age,demographic,CLIP-ViT-B16,Cardiomegaly,0.777432,0.747711,0.029721
+age,demographic,CLIP-ViT-B16,Consolidation,0.830496,0.828062,0.002434
+age,demographic,CLIP-ViT-B16,Edema,0.851171,0.838943,0.012228
+age,demographic,CLIP-ViT-B16,Enlarged Cardiomediastinum,0.748612,0.729495,0.019117
+age,demographic,CLIP-ViT-B16,Lung Opacity,0.705709,0.687161,0.018548
+age,demographic,CLIP-ViT-B16,Pleural Effusion,0.835109,0.813139,0.021970
+age,demographic,CLIP-ViT-B16,Pneumonia,0.706053,0.703821,0.002232
+age,demographic,CLIP-ViT-B16,Pneumothorax,0.680485,0.686203,-0.005718
+age,demographic,CLIP-ViT-B16,Support Devices,0.741688,0.738236,0.003452
+bmi,demographic,CLIP-ViT-B16,Atelectasis,0.682187,0.684368,-0.002181
+bmi,demographic,CLIP-ViT-B16,Cardiomegaly,0.777432,0.765748,0.011683
+bmi,demographic,CLIP-ViT-B16,Consolidation,0.830496,0.823420,0.007076
+bmi,demographic,CLIP-ViT-B16,Edema,0.851171,0.851555,-0.000384
+bmi,demographic,CLIP-ViT-B16,Enlarged Cardiomediastinum,0.748612,0.747674,0.000938
+bmi,demographic,CLIP-ViT-B16,Lung Opacity,0.705709,0.702998,0.002711
+bmi,demographic,CLIP-ViT-B16,Pleural Effusion,0.835109,0.834181,0.000928
+bmi,demographic,CLIP-ViT-B16,Pneumonia,0.706053,0.703161,0.002891
+bmi,demographic,CLIP-ViT-B16,Pneumothorax,0.680485,0.663187,0.017298
+bmi,demographic,CLIP-ViT-B16,Support Devices,0.741688,0.741784,-0.000096
+hypertension,comorbidity,CLIP-ViT-B16,Atelectasis,0.695069,0.696157,-0.001088
+hypertension,comorbidity,CLIP-ViT-B16,Cardiomegaly,0.782114,0.776971,0.005143
+hypertension,comorbidity,CLIP-ViT-B16,Consolidation,0.845705,0.845451,0.000254
+hypertension,comorbidity,CLIP-ViT-B16,Edema,0.849966,0.849839,0.000127
+hypertension,comorbidity,CLIP-ViT-B16,Enlarged Cardiomediastinum,0.762605,0.758260,0.004345
+hypertension,comorbidity,CLIP-ViT-B16,Lung Opacity,0.702691,0.700658,0.002033
+hypertension,comorbidity,CLIP-ViT-B16,Pleural Effusion,0.833583,0.831510,0.002073
+hypertension,comorbidity,CLIP-ViT-B16,Pneumonia,0.717162,0.717152,0.000010
+hypertension,comorbidity,CLIP-ViT-B16,Pneumothorax,0.672665,0.671179,0.001486
+hypertension,comorbidity,CLIP-ViT-B16,Support Devices,0.745818,0.744586,0.001232
+heart_failure,comorbidity,CLIP-ViT-B16,Atelectasis,0.695069,0.681292,0.013777
+heart_failure,comorbidity,CLIP-ViT-B16,Cardiomegaly,0.782114,0.718650,0.063464
+heart_failure,comorbidity,CLIP-ViT-B16,Consolidation,0.845705,0.839322,0.006383
+heart_failure,comorbidity,CLIP-ViT-B16,Edema,0.849966,0.817202,0.032764
+heart_failure,comorbidity,CLIP-ViT-B16,Enlarged Cardiomediastinum,0.762605,0.737729,0.024876
+heart_failure,comorbidity,CLIP-ViT-B16,Lung Opacity,0.702691,0.692090,0.010601
+heart_failure,comorbidity,CLIP-ViT-B16,Pleural Effusion,0.833583,0.817456,0.016128
+heart_failure,comorbidity,CLIP-ViT-B16,Pneumonia,0.717162,0.712084,0.005078
+heart_failure,comorbidity,CLIP-ViT-B16,Pneumothorax,0.672665,0.668650,0.004016
+heart_failure,comorbidity,CLIP-ViT-B16,Support Devices,0.745818,0.742975,0.002843
+atrial_fibrillation,comorbidity,CLIP-ViT-B16,Atelectasis,0.695069,0.682229,0.012840
+atrial_fibrillation,comorbidity,CLIP-ViT-B16,Cardiomegaly,0.782114,0.734300,0.047814
+atrial_fibrillation,comorbidity,CLIP-ViT-B16,Consolidation,0.845705,0.836544,0.009161
+atrial_fibrillation,comorbidity,CLIP-ViT-B16,Edema,0.849966,0.831538,0.018428
+atrial_fibrillation,comorbidity,CLIP-ViT-B16,Enlarged Cardiomediastinum,0.762605,0.742373,0.020232
+atrial_fibrillation,comorbidity,CLIP-ViT-B16,Lung Opacity,0.702691,0.694639,0.008052
+atrial_fibrillation,comorbidity,CLIP-ViT-B16,Pleural Effusion,0.833583,0.813012,0.020571
+atrial_fibrillation,comorbidity,CLIP-ViT-B16,Pneumonia,0.717162,0.714029,0.003133
+atrial_fibrillation,comorbidity,CLIP-ViT-B16,Pneumothorax,0.672665,0.672305,0.000361
+atrial_fibrillation,comorbidity,CLIP-ViT-B16,Support Devices,0.745818,0.738625,0.007193
+coronary_artery_disease,comorbidity,CLIP-ViT-B16,Atelectasis,0.695069,0.689031,0.006038
+coronary_artery_disease,comorbidity,CLIP-ViT-B16,Cardiomegaly,0.782114,0.756679,0.025435
+coronary_artery_disease,comorbidity,CLIP-ViT-B16,Consolidation,0.845705,0.845712,-0.000006
+coronary_artery_disease,comorbidity,CLIP-ViT-B16,Edema,0.849966,0.840715,0.009251
+coronary_artery_disease,comorbidity,CLIP-ViT-B16,Enlarged Cardiomediastinum,0.762605,0.757445,0.005161
+coronary_artery_disease,comorbidity,CLIP-ViT-B16,Lung Opacity,0.702691,0.697351,0.005340
+coronary_artery_disease,comorbidity,CLIP-ViT-B16,Pleural Effusion,0.833583,0.827699,0.005884
+coronary_artery_disease,comorbidity,CLIP-ViT-B16,Pneumonia,0.717162,0.716917,0.000246
+coronary_artery_disease,comorbidity,CLIP-ViT-B16,Pneumothorax,0.672665,0.670111,0.002554
+coronary_artery_disease,comorbidity,CLIP-ViT-B16,Support Devices,0.745818,0.746945,-0.001127
+stroke,comorbidity,CLIP-ViT-B16,Atelectasis,0.695069,0.695953,-0.000884
+stroke,comorbidity,CLIP-ViT-B16,Cardiomegaly,0.782114,0.779854,0.002260
+stroke,comorbidity,CLIP-ViT-B16,Consolidation,0.845705,0.846451,-0.000746
+stroke,comorbidity,CLIP-ViT-B16,Edema,0.849966,0.848206,0.001760
+stroke,comorbidity,CLIP-ViT-B16,Enlarged Cardiomediastinum,0.762605,0.759885,0.002720
+stroke,comorbidity,CLIP-ViT-B16,Lung Opacity,0.702691,0.702486,0.000205
+stroke,comorbidity,CLIP-ViT-B16,Pleural Effusion,0.833583,0.833300,0.000283
+stroke,comorbidity,CLIP-ViT-B16,Pneumonia,0.717162,0.717209,-0.000047
+stroke,comorbidity,CLIP-ViT-B16,Pneumothorax,0.672665,0.672313,0.000353
+stroke,comorbidity,CLIP-ViT-B16,Support Devices,0.745818,0.742651,0.003168
+diabetes,comorbidity,CLIP-ViT-B16,Atelectasis,0.695069,0.693170,0.001899
+diabetes,comorbidity,CLIP-ViT-B16,Cardiomegaly,0.782114,0.766714,0.015399
+diabetes,comorbidity,CLIP-ViT-B16,Consolidation,0.845705,0.847406,-0.001701
+diabetes,comorbidity,CLIP-ViT-B16,Edema,0.849966,0.846319,0.003647
+diabetes,comorbidity,CLIP-ViT-B16,Enlarged Cardiomediastinum,0.762605,0.758269,0.004336
+diabetes,comorbidity,CLIP-ViT-B16,Lung Opacity,0.702691,0.703622,-0.000931
+diabetes,comorbidity,CLIP-ViT-B16,Pleural Effusion,0.833583,0.832894,0.000689
+diabetes,comorbidity,CLIP-ViT-B16,Pneumonia,0.717162,0.717975,-0.000813
+diabetes,comorbidity,CLIP-ViT-B16,Pneumothorax,0.672665,0.665204,0.007461
+diabetes,comorbidity,CLIP-ViT-B16,Support Devices,0.745818,0.745809,0.000009
+hyperlipidemia,comorbidity,CLIP-ViT-B16,Atelectasis,0.695069,0.689660,0.005409
+hyperlipidemia,comorbidity,CLIP-ViT-B16,Cardiomegaly,0.782114,0.763278,0.018835
+hyperlipidemia,comorbidity,CLIP-ViT-B16,Consolidation,0.845705,0.847001,-0.001296
+hyperlipidemia,comorbidity,CLIP-ViT-B16,Edema,0.849966,0.845887,0.004079
+hyperlipidemia,comorbidity,CLIP-ViT-B16,Enlarged Cardiomediastinum,0.762605,0.756181,0.006424
+hyperlipidemia,comorbidity,CLIP-ViT-B16,Lung Opacity,0.702691,0.699788,0.002903
+hyperlipidemia,comorbidity,CLIP-ViT-B16,Pleural Effusion,0.833583,0.831097,0.002487
+hyperlipidemia,comorbidity,CLIP-ViT-B16,Pneumonia,0.717162,0.717604,-0.000442
+hyperlipidemia,comorbidity,CLIP-ViT-B16,Pneumothorax,0.672665,0.669511,0.003154
+hyperlipidemia,comorbidity,CLIP-ViT-B16,Support Devices,0.745818,0.745075,0.000743
+obesity,comorbidity,CLIP-ViT-B16,Atelectasis,0.695069,0.695676,-0.000607
+obesity,comorbidity,CLIP-ViT-B16,Cardiomegaly,0.782114,0.769267,0.012847
+obesity,comorbidity,CLIP-ViT-B16,Consolidation,0.845705,0.845454,0.000251
+obesity,comorbidity,CLIP-ViT-B16,Edema,0.849966,0.849369,0.000597
+obesity,comorbidity,CLIP-ViT-B16,Enlarged Cardiomediastinum,0.762605,0.757184,0.005422
+obesity,comorbidity,CLIP-ViT-B16,Lung Opacity,0.702691,0.703290,-0.000599
+obesity,comorbidity,CLIP-ViT-B16,Pleural Effusion,0.833583,0.834276,-0.000693
+obesity,comorbidity,CLIP-ViT-B16,Pneumonia,0.717162,0.716759,0.000403
+obesity,comorbidity,CLIP-ViT-B16,Pneumothorax,0.672665,0.662160,0.010505
+obesity,comorbidity,CLIP-ViT-B16,Support Devices,0.745818,0.746149,-0.000331
+hypothyroidism,comorbidity,CLIP-ViT-B16,Atelectasis,0.695069,0.695377,-0.000308
+hypothyroidism,comorbidity,CLIP-ViT-B16,Cardiomegaly,0.782114,0.779858,0.002256
+hypothyroidism,comorbidity,CLIP-ViT-B16,Consolidation,0.845705,0.845559,0.000146
+hypothyroidism,comorbidity,CLIP-ViT-B16,Edema,0.849966,0.846350,0.003616
+hypothyroidism,comorbidity,CLIP-ViT-B16,Enlarged Cardiomediastinum,0.762605,0.762988,-0.000383
+hypothyroidism,comorbidity,CLIP-ViT-B16,Lung Opacity,0.702691,0.703385,-0.000694
+hypothyroidism,comorbidity,CLIP-ViT-B16,Pleural Effusion,0.833583,0.831563,0.002020
+hypothyroidism,comorbidity,CLIP-ViT-B16,Pneumonia,0.717162,0.716107,0.001056
+hypothyroidism,comorbidity,CLIP-ViT-B16,Pneumothorax,0.672665,0.672279,0.000387
+hypothyroidism,comorbidity,CLIP-ViT-B16,Support Devices,0.745818,0.744893,0.000925
+ckd,comorbidity,CLIP-ViT-B16,Atelectasis,0.695069,0.688426,0.006643
+ckd,comorbidity,CLIP-ViT-B16,Cardiomegaly,0.782114,0.752493,0.029621
+ckd,comorbidity,CLIP-ViT-B16,Consolidation,0.845705,0.845884,-0.000179
+ckd,comorbidity,CLIP-ViT-B16,Edema,0.849966,0.836949,0.013017
+ckd,comorbidity,CLIP-ViT-B16,Enlarged Cardiomediastinum,0.762605,0.754362,0.008243
+ckd,comorbidity,CLIP-ViT-B16,Lung Opacity,0.702691,0.700974,0.001716
+ckd,comorbidity,CLIP-ViT-B16,Pleural Effusion,0.833583,0.826572,0.007011
+ckd,comorbidity,CLIP-ViT-B16,Pneumonia,0.717162,0.715945,0.001217
+ckd,comorbidity,CLIP-ViT-B16,Pneumothorax,0.672665,0.668790,0.003875
+ckd,comorbidity,CLIP-ViT-B16,Support Devices,0.745818,0.745737,0.000081
+aki,comorbidity,CLIP-ViT-B16,Atelectasis,0.695069,0.687423,0.007646
+aki,comorbidity,CLIP-ViT-B16,Cardiomegaly,0.782114,0.759730,0.022384
+aki,comorbidity,CLIP-ViT-B16,Consolidation,0.845705,0.835595,0.010110
+aki,comorbidity,CLIP-ViT-B16,Edema,0.849966,0.830668,0.019298
+aki,comorbidity,CLIP-ViT-B16,Enlarged Cardiomediastinum,0.762605,0.749860,0.012745
+aki,comorbidity,CLIP-ViT-B16,Lung Opacity,0.702691,0.695709,0.006982
+aki,comorbidity,CLIP-ViT-B16,Pleural Effusion,0.833583,0.818003,0.015580
+aki,comorbidity,CLIP-ViT-B16,Pneumonia,0.717162,0.709235,0.007927
+aki,comorbidity,CLIP-ViT-B16,Pneumothorax,0.672665,0.669517,0.003148
+aki,comorbidity,CLIP-ViT-B16,Support Devices,0.745818,0.736389,0.009429
+copd,comorbidity,CLIP-ViT-B16,Atelectasis,0.695069,0.691412,0.003657
+copd,comorbidity,CLIP-ViT-B16,Cardiomegaly,0.782114,0.778532,0.003581
+copd,comorbidity,CLIP-ViT-B16,Consolidation,0.845705,0.840793,0.004912
+copd,comorbidity,CLIP-ViT-B16,Edema,0.849966,0.842356,0.007609
+copd,comorbidity,CLIP-ViT-B16,Enlarged Cardiomediastinum,0.762605,0.756209,0.006397
+copd,comorbidity,CLIP-ViT-B16,Lung Opacity,0.702691,0.691162,0.011529
+copd,comorbidity,CLIP-ViT-B16,Pleural Effusion,0.833583,0.830717,0.002866
+copd,comorbidity,CLIP-ViT-B16,Pneumonia,0.717162,0.714865,0.002297
+copd,comorbidity,CLIP-ViT-B16,Pneumothorax,0.672665,0.673535,-0.000869
+copd,comorbidity,CLIP-ViT-B16,Support Devices,0.745818,0.746124,-0.000306
+asthma,comorbidity,CLIP-ViT-B16,Atelectasis,0.695069,0.694828,0.000241
+asthma,comorbidity,CLIP-ViT-B16,Cardiomegaly,0.782114,0.782282,-0.000169
+asthma,comorbidity,CLIP-ViT-B16,Consolidation,0.845705,0.844511,0.001194
+asthma,comorbidity,CLIP-ViT-B16,Edema,0.849966,0.849990,-0.000024
+asthma,comorbidity,CLIP-ViT-B16,Enlarged Cardiomediastinum,0.762605,0.762464,0.000141
+asthma,comorbidity,CLIP-ViT-B16,Lung Opacity,0.702691,0.703388,-0.000697
+asthma,comorbidity,CLIP-ViT-B16,Pleural Effusion,0.833583,0.833232,0.000351
+asthma,comorbidity,CLIP-ViT-B16,Pneumonia,0.717162,0.717143,0.000020
+asthma,comorbidity,CLIP-ViT-B16,Pneumothorax,0.672665,0.672423,0.000243
+asthma,comorbidity,CLIP-ViT-B16,Support Devices,0.745818,0.746571,-0.000753
+respiratory_failure,comorbidity,CLIP-ViT-B16,Atelectasis,0.695069,0.696331,-0.001262
+respiratory_failure,comorbidity,CLIP-ViT-B16,Cardiomegaly,0.782114,0.775909,0.006204
+respiratory_failure,comorbidity,CLIP-ViT-B16,Consolidation,0.845705,0.840690,0.005015
+respiratory_failure,comorbidity,CLIP-ViT-B16,Edema,0.849966,0.843931,0.006034
+respiratory_failure,comorbidity,CLIP-ViT-B16,Enlarged Cardiomediastinum,0.762605,0.757294,0.005311
+respiratory_failure,comorbidity,CLIP-ViT-B16,Lung Opacity,0.702691,0.697518,0.005173
+respiratory_failure,comorbidity,CLIP-ViT-B16,Pleural Effusion,0.833583,0.830875,0.002708
+respiratory_failure,comorbidity,CLIP-ViT-B16,Pneumonia,0.717162,0.715412,0.001750
+respiratory_failure,comorbidity,CLIP-ViT-B16,Pneumothorax,0.672665,0.672272,0.000394
+respiratory_failure,comorbidity,CLIP-ViT-B16,Support Devices,0.745818,0.742405,0.003413
+pulmonary_fibrosis,comorbidity,CLIP-ViT-B16,Atelectasis,0.695069,0.695966,-0.000897
+pulmonary_fibrosis,comorbidity,CLIP-ViT-B16,Cardiomegaly,0.782114,0.781926,0.000188
+pulmonary_fibrosis,comorbidity,CLIP-ViT-B16,Consolidation,0.845705,0.845002,0.000703
+pulmonary_fibrosis,comorbidity,CLIP-ViT-B16,Edema,0.849966,0.847801,0.002165
+pulmonary_fibrosis,comorbidity,CLIP-ViT-B16,Enlarged Cardiomediastinum,0.762605,0.762221,0.000384
+pulmonary_fibrosis,comorbidity,CLIP-ViT-B16,Lung Opacity,0.702691,0.699159,0.003532
+pulmonary_fibrosis,comorbidity,CLIP-ViT-B16,Pleural Effusion,0.833583,0.834248,-0.000665
+pulmonary_fibrosis,comorbidity,CLIP-ViT-B16,Pneumonia,0.717162,0.714856,0.002306
+pulmonary_fibrosis,comorbidity,CLIP-ViT-B16,Pneumothorax,0.672665,0.672580,0.000086
+pulmonary_fibrosis,comorbidity,CLIP-ViT-B16,Support Devices,0.745818,0.745824,-0.000006
+liver_disease,comorbidity,CLIP-ViT-B16,Atelectasis,0.695069,0.694900,0.000169
+liver_disease,comorbidity,CLIP-ViT-B16,Cardiomegaly,0.782114,0.782307,-0.000193
+liver_disease,comorbidity,CLIP-ViT-B16,Consolidation,0.845705,0.845472,0.000234
+liver_disease,comorbidity,CLIP-ViT-B16,Edema,0.849966,0.848603,0.001363
+liver_disease,comorbidity,CLIP-ViT-B16,Enlarged Cardiomediastinum,0.762605,0.762870,-0.000264
+liver_disease,comorbidity,CLIP-ViT-B16,Lung Opacity,0.702691,0.702834,-0.000143
+liver_disease,comorbidity,CLIP-ViT-B16,Pleural Effusion,0.833583,0.832809,0.000774
+liver_disease,comorbidity,CLIP-ViT-B16,Pneumonia,0.717162,0.716633,0.000529
+liver_disease,comorbidity,CLIP-ViT-B16,Pneumothorax,0.672665,0.674331,-0.001665
+liver_disease,comorbidity,CLIP-ViT-B16,Support Devices,0.745818,0.743536,0.002282
+anemia,comorbidity,CLIP-ViT-B16,Atelectasis,0.695069,0.682901,0.012168
+anemia,comorbidity,CLIP-ViT-B16,Cardiomegaly,0.782114,0.769925,0.012188
+anemia,comorbidity,CLIP-ViT-B16,Consolidation,0.845705,0.836578,0.009127
+anemia,comorbidity,CLIP-ViT-B16,Edema,0.849966,0.840167,0.009799
+anemia,comorbidity,CLIP-ViT-B16,Enlarged Cardiomediastinum,0.762605,0.748074,0.014532
+anemia,comorbidity,CLIP-ViT-B16,Lung Opacity,0.702691,0.697270,0.005421
+anemia,comorbidity,CLIP-ViT-B16,Pleural Effusion,0.833583,0.819926,0.013658
+anemia,comorbidity,CLIP-ViT-B16,Pneumonia,0.717162,0.710582,0.006581
+anemia,comorbidity,CLIP-ViT-B16,Pneumothorax,0.672665,0.671552,0.001113
+anemia,comorbidity,CLIP-ViT-B16,Support Devices,0.745818,0.742021,0.003797
+smoking_history,comorbidity,CLIP-ViT-B16,Atelectasis,0.695069,0.695422,-0.000353
+smoking_history,comorbidity,CLIP-ViT-B16,Cardiomegaly,0.782114,0.780991,0.001123
+smoking_history,comorbidity,CLIP-ViT-B16,Consolidation,0.845705,0.846048,-0.000343
+smoking_history,comorbidity,CLIP-ViT-B16,Edema,0.849966,0.849947,0.000019
+smoking_history,comorbidity,CLIP-ViT-B16,Enlarged Cardiomediastinum,0.762605,0.763448,-0.000843
+smoking_history,comorbidity,CLIP-ViT-B16,Lung Opacity,0.702691,0.703210,-0.000520
+smoking_history,comorbidity,CLIP-ViT-B16,Pleural Effusion,0.833583,0.833446,0.000137
+smoking_history,comorbidity,CLIP-ViT-B16,Pneumonia,0.717162,0.717116,0.000047
+smoking_history,comorbidity,CLIP-ViT-B16,Pneumothorax,0.672665,0.672362,0.000304
+smoking_history,comorbidity,CLIP-ViT-B16,Support Devices,0.745818,0.745693,0.000125
+cancer_history,comorbidity,CLIP-ViT-B16,Atelectasis,0.695069,0.694366,0.000703
+cancer_history,comorbidity,CLIP-ViT-B16,Cardiomegaly,0.782114,0.783311,-0.001198
+cancer_history,comorbidity,CLIP-ViT-B16,Consolidation,0.845705,0.843627,0.002078
+cancer_history,comorbidity,CLIP-ViT-B16,Edema,0.849966,0.849747,0.000219
+cancer_history,comorbidity,CLIP-ViT-B16,Enlarged Cardiomediastinum,0.762605,0.760316,0.002289
+cancer_history,comorbidity,CLIP-ViT-B16,Lung Opacity,0.702691,0.698760,0.003930
+cancer_history,comorbidity,CLIP-ViT-B16,Pleural Effusion,0.833583,0.830145,0.003438
+cancer_history,comorbidity,CLIP-ViT-B16,Pneumonia,0.717162,0.716904,0.000258
+cancer_history,comorbidity,CLIP-ViT-B16,Pneumothorax,0.672665,0.672015,0.000650
+cancer_history,comorbidity,CLIP-ViT-B16,Support Devices,0.745818,0.746190,-0.000372
+depression,comorbidity,CLIP-ViT-B16,Atelectasis,0.695069,0.695819,-0.000750
+depression,comorbidity,CLIP-ViT-B16,Cardiomegaly,0.782114,0.782454,-0.000340
+depression,comorbidity,CLIP-ViT-B16,Consolidation,0.845705,0.845631,0.000075
+depression,comorbidity,CLIP-ViT-B16,Edema,0.849966,0.849482,0.000484
+depression,comorbidity,CLIP-ViT-B16,Enlarged Cardiomediastinum,0.762605,0.762632,-0.000027
+depression,comorbidity,CLIP-ViT-B16,Lung Opacity,0.702691,0.702713,-0.000022
+depression,comorbidity,CLIP-ViT-B16,Pleural Effusion,0.833583,0.833752,-0.000169
+depression,comorbidity,CLIP-ViT-B16,Pneumonia,0.717162,0.717116,0.000046
+depression,comorbidity,CLIP-ViT-B16,Pneumothorax,0.672665,0.671551,0.001114
+depression,comorbidity,CLIP-ViT-B16,Support Devices,0.745818,0.746103,-0.000285
+sex,demographic,ConvNeXtV2-Base,Atelectasis,0.648145,0.646511,0.001634
+sex,demographic,ConvNeXtV2-Base,Cardiomegaly,0.816950,0.817173,-0.000223
+sex,demographic,ConvNeXtV2-Base,Consolidation,0.846056,0.843734,0.002322
+sex,demographic,ConvNeXtV2-Base,Edema,0.874384,0.874286,0.000098
+sex,demographic,ConvNeXtV2-Base,Enlarged Cardiomediastinum,0.713427,0.715470,-0.002044
+sex,demographic,ConvNeXtV2-Base,Lung Opacity,0.684308,0.685582,-0.001274
+sex,demographic,ConvNeXtV2-Base,Pleural Effusion,0.868135,0.868332,-0.000197
+sex,demographic,ConvNeXtV2-Base,Pneumonia,0.730863,0.730778,0.000084
+sex,demographic,ConvNeXtV2-Base,Pneumothorax,0.700197,0.699268,0.000929
+sex,demographic,ConvNeXtV2-Base,Support Devices,0.731161,0.730079,0.001082
+age,demographic,ConvNeXtV2-Base,Atelectasis,0.648145,0.633371,0.014774
+age,demographic,ConvNeXtV2-Base,Cardiomegaly,0.816950,0.784341,0.032609
+age,demographic,ConvNeXtV2-Base,Consolidation,0.846056,0.843512,0.002544
+age,demographic,ConvNeXtV2-Base,Edema,0.874384,0.864417,0.009967
+age,demographic,ConvNeXtV2-Base,Enlarged Cardiomediastinum,0.713427,0.691487,0.021939
+age,demographic,ConvNeXtV2-Base,Lung Opacity,0.684308,0.669340,0.014967
+age,demographic,ConvNeXtV2-Base,Pleural Effusion,0.868135,0.850262,0.017873
+age,demographic,ConvNeXtV2-Base,Pneumonia,0.730863,0.727360,0.003503
+age,demographic,ConvNeXtV2-Base,Pneumothorax,0.700197,0.703991,-0.003794
+age,demographic,ConvNeXtV2-Base,Support Devices,0.731161,0.727767,0.003394
+bmi,demographic,ConvNeXtV2-Base,Atelectasis,0.648145,0.647877,0.000268
+bmi,demographic,ConvNeXtV2-Base,Cardiomegaly,0.816950,0.805814,0.011136
+bmi,demographic,ConvNeXtV2-Base,Consolidation,0.846056,0.841322,0.004734
+bmi,demographic,ConvNeXtV2-Base,Edema,0.874384,0.874428,-0.000044
+bmi,demographic,ConvNeXtV2-Base,Enlarged Cardiomediastinum,0.713427,0.714030,-0.000603
+bmi,demographic,ConvNeXtV2-Base,Lung Opacity,0.684308,0.682719,0.001588
+bmi,demographic,ConvNeXtV2-Base,Pleural Effusion,0.868135,0.866119,0.002016
+bmi,demographic,ConvNeXtV2-Base,Pneumonia,0.730863,0.727121,0.003742
+bmi,demographic,ConvNeXtV2-Base,Pneumothorax,0.700197,0.687950,0.012247
+bmi,demographic,ConvNeXtV2-Base,Support Devices,0.731161,0.731067,0.000094
+hypertension,comorbidity,ConvNeXtV2-Base,Atelectasis,0.649827,0.650665,-0.000838
+hypertension,comorbidity,ConvNeXtV2-Base,Cardiomegaly,0.816692,0.811360,0.005332
+hypertension,comorbidity,ConvNeXtV2-Base,Consolidation,0.866323,0.866392,-0.000070
+hypertension,comorbidity,ConvNeXtV2-Base,Edema,0.877315,0.877515,-0.000200
+hypertension,comorbidity,ConvNeXtV2-Base,Enlarged Cardiomediastinum,0.741445,0.737568,0.003876
+hypertension,comorbidity,ConvNeXtV2-Base,Lung Opacity,0.691929,0.690844,0.001085
+hypertension,comorbidity,ConvNeXtV2-Base,Pleural Effusion,0.868205,0.866799,0.001406
+hypertension,comorbidity,ConvNeXtV2-Base,Pneumonia,0.738390,0.738312,0.000077
+hypertension,comorbidity,ConvNeXtV2-Base,Pneumothorax,0.695334,0.694425,0.000910
+hypertension,comorbidity,ConvNeXtV2-Base,Support Devices,0.747330,0.745318,0.002012
+heart_failure,comorbidity,ConvNeXtV2-Base,Atelectasis,0.649827,0.643826,0.006001
+heart_failure,comorbidity,ConvNeXtV2-Base,Cardiomegaly,0.816692,0.749233,0.067458
+heart_failure,comorbidity,ConvNeXtV2-Base,Consolidation,0.866323,0.860261,0.006062
+heart_failure,comorbidity,ConvNeXtV2-Base,Edema,0.877315,0.845553,0.031762
+heart_failure,comorbidity,ConvNeXtV2-Base,Enlarged Cardiomediastinum,0.741445,0.719716,0.021728
+heart_failure,comorbidity,ConvNeXtV2-Base,Lung Opacity,0.691929,0.682669,0.009261
+heart_failure,comorbidity,ConvNeXtV2-Base,Pleural Effusion,0.868205,0.854173,0.014032
+heart_failure,comorbidity,ConvNeXtV2-Base,Pneumonia,0.738390,0.733801,0.004588
+heart_failure,comorbidity,ConvNeXtV2-Base,Pneumothorax,0.695334,0.693090,0.002244
+heart_failure,comorbidity,ConvNeXtV2-Base,Support Devices,0.747330,0.744157,0.003173
+atrial_fibrillation,comorbidity,ConvNeXtV2-Base,Atelectasis,0.649827,0.640028,0.009799
+atrial_fibrillation,comorbidity,ConvNeXtV2-Base,Cardiomegaly,0.816692,0.764639,0.052053
+atrial_fibrillation,comorbidity,ConvNeXtV2-Base,Consolidation,0.866323,0.857431,0.008892
+atrial_fibrillation,comorbidity,ConvNeXtV2-Base,Edema,0.877315,0.859655,0.017660
+atrial_fibrillation,comorbidity,ConvNeXtV2-Base,Enlarged Cardiomediastinum,0.741445,0.723527,0.017917
+atrial_fibrillation,comorbidity,ConvNeXtV2-Base,Lung Opacity,0.691929,0.684504,0.007425
+atrial_fibrillation,comorbidity,ConvNeXtV2-Base,Pleural Effusion,0.868205,0.850950,0.017255
+atrial_fibrillation,comorbidity,ConvNeXtV2-Base,Pneumonia,0.738390,0.736410,0.001980
+atrial_fibrillation,comorbidity,ConvNeXtV2-Base,Pneumothorax,0.695334,0.695292,0.000042
+atrial_fibrillation,comorbidity,ConvNeXtV2-Base,Support Devices,0.747330,0.740372,0.006959
+coronary_artery_disease,comorbidity,ConvNeXtV2-Base,Atelectasis,0.649827,0.647439,0.002388
+coronary_artery_disease,comorbidity,ConvNeXtV2-Base,Cardiomegaly,0.816692,0.789976,0.026716
+coronary_artery_disease,comorbidity,ConvNeXtV2-Base,Consolidation,0.866323,0.865829,0.000494
+coronary_artery_disease,comorbidity,ConvNeXtV2-Base,Edema,0.877315,0.869097,0.008219
+coronary_artery_disease,comorbidity,ConvNeXtV2-Base,Enlarged Cardiomediastinum,0.741445,0.736382,0.005062
+coronary_artery_disease,comorbidity,ConvNeXtV2-Base,Lung Opacity,0.691929,0.688131,0.003798
+coronary_artery_disease,comorbidity,ConvNeXtV2-Base,Pleural Effusion,0.868205,0.863736,0.004469
+coronary_artery_disease,comorbidity,ConvNeXtV2-Base,Pneumonia,0.738390,0.737842,0.000547
+coronary_artery_disease,comorbidity,ConvNeXtV2-Base,Pneumothorax,0.695334,0.693915,0.001420
+coronary_artery_disease,comorbidity,ConvNeXtV2-Base,Support Devices,0.747330,0.747279,0.000051
+stroke,comorbidity,ConvNeXtV2-Base,Atelectasis,0.649827,0.650120,-0.000293
+stroke,comorbidity,ConvNeXtV2-Base,Cardiomegaly,0.816692,0.813823,0.002868
+stroke,comorbidity,ConvNeXtV2-Base,Consolidation,0.866323,0.866839,-0.000516
+stroke,comorbidity,ConvNeXtV2-Base,Edema,0.877315,0.875641,0.001674
+stroke,comorbidity,ConvNeXtV2-Base,Enlarged Cardiomediastinum,0.741445,0.739778,0.001666
+stroke,comorbidity,ConvNeXtV2-Base,Lung Opacity,0.691929,0.691676,0.000253
+stroke,comorbidity,ConvNeXtV2-Base,Pleural Effusion,0.868205,0.867634,0.000571
+stroke,comorbidity,ConvNeXtV2-Base,Pneumonia,0.738390,0.738528,-0.000138
+stroke,comorbidity,ConvNeXtV2-Base,Pneumothorax,0.695334,0.695092,0.000243
+stroke,comorbidity,ConvNeXtV2-Base,Support Devices,0.747330,0.743289,0.004041
+diabetes,comorbidity,ConvNeXtV2-Base,Atelectasis,0.649827,0.648794,0.001033
+diabetes,comorbidity,ConvNeXtV2-Base,Cardiomegaly,0.816692,0.800656,0.016036
+diabetes,comorbidity,ConvNeXtV2-Base,Consolidation,0.866323,0.867392,-0.001069
+diabetes,comorbidity,ConvNeXtV2-Base,Edema,0.877315,0.873878,0.003437
+diabetes,comorbidity,ConvNeXtV2-Base,Enlarged Cardiomediastinum,0.741445,0.740592,0.000852
+diabetes,comorbidity,ConvNeXtV2-Base,Lung Opacity,0.691929,0.693304,-0.001375
+diabetes,comorbidity,ConvNeXtV2-Base,Pleural Effusion,0.868205,0.867637,0.000568
+diabetes,comorbidity,ConvNeXtV2-Base,Pneumonia,0.738390,0.738978,-0.000588
+diabetes,comorbidity,ConvNeXtV2-Base,Pneumothorax,0.695334,0.689082,0.006253
+diabetes,comorbidity,ConvNeXtV2-Base,Support Devices,0.747330,0.746852,0.000478
+hyperlipidemia,comorbidity,ConvNeXtV2-Base,Atelectasis,0.649827,0.649764,0.000063
+hyperlipidemia,comorbidity,ConvNeXtV2-Base,Cardiomegaly,0.816692,0.798036,0.018656
+hyperlipidemia,comorbidity,ConvNeXtV2-Base,Consolidation,0.866323,0.867543,-0.001220
+hyperlipidemia,comorbidity,ConvNeXtV2-Base,Edema,0.877315,0.873742,0.003573
+hyperlipidemia,comorbidity,ConvNeXtV2-Base,Enlarged Cardiomediastinum,0.741445,0.737464,0.003981
+hyperlipidemia,comorbidity,ConvNeXtV2-Base,Lung Opacity,0.691929,0.690226,0.001703
+hyperlipidemia,comorbidity,ConvNeXtV2-Base,Pleural Effusion,0.868205,0.866550,0.001655
+hyperlipidemia,comorbidity,ConvNeXtV2-Base,Pneumonia,0.738390,0.738918,-0.000528
+hyperlipidemia,comorbidity,ConvNeXtV2-Base,Pneumothorax,0.695334,0.693127,0.002207
+hyperlipidemia,comorbidity,ConvNeXtV2-Base,Support Devices,0.747330,0.745901,0.001429
+obesity,comorbidity,ConvNeXtV2-Base,Atelectasis,0.649827,0.649719,0.000109
+obesity,comorbidity,ConvNeXtV2-Base,Cardiomegaly,0.816692,0.804353,0.012339
+obesity,comorbidity,ConvNeXtV2-Base,Consolidation,0.866323,0.866172,0.000151
+obesity,comorbidity,ConvNeXtV2-Base,Edema,0.877315,0.876536,0.000779
+obesity,comorbidity,ConvNeXtV2-Base,Enlarged Cardiomediastinum,0.741445,0.737255,0.004190
+obesity,comorbidity,ConvNeXtV2-Base,Lung Opacity,0.691929,0.692646,-0.000716
+obesity,comorbidity,ConvNeXtV2-Base,Pleural Effusion,0.868205,0.868433,-0.000228
+obesity,comorbidity,ConvNeXtV2-Base,Pneumonia,0.738390,0.737720,0.000670
+obesity,comorbidity,ConvNeXtV2-Base,Pneumothorax,0.695334,0.688432,0.006903
+obesity,comorbidity,ConvNeXtV2-Base,Support Devices,0.747330,0.747926,-0.000595
+hypothyroidism,comorbidity,ConvNeXtV2-Base,Atelectasis,0.649827,0.650143,-0.000316
+hypothyroidism,comorbidity,ConvNeXtV2-Base,Cardiomegaly,0.816692,0.814571,0.002120
+hypothyroidism,comorbidity,ConvNeXtV2-Base,Consolidation,0.866323,0.865611,0.000711
+hypothyroidism,comorbidity,ConvNeXtV2-Base,Edema,0.877315,0.874083,0.003232
+hypothyroidism,comorbidity,ConvNeXtV2-Base,Enlarged Cardiomediastinum,0.741445,0.740615,0.000830
+hypothyroidism,comorbidity,ConvNeXtV2-Base,Lung Opacity,0.691929,0.692912,-0.000982
+hypothyroidism,comorbidity,ConvNeXtV2-Base,Pleural Effusion,0.868205,0.866953,0.001252
+hypothyroidism,comorbidity,ConvNeXtV2-Base,Pneumonia,0.738390,0.737434,0.000956
+hypothyroidism,comorbidity,ConvNeXtV2-Base,Pneumothorax,0.695334,0.694835,0.000499
+hypothyroidism,comorbidity,ConvNeXtV2-Base,Support Devices,0.747330,0.746485,0.000845
+ckd,comorbidity,ConvNeXtV2-Base,Atelectasis,0.649827,0.648231,0.001596
+ckd,comorbidity,ConvNeXtV2-Base,Cardiomegaly,0.816692,0.784869,0.031823
+ckd,comorbidity,ConvNeXtV2-Base,Consolidation,0.866323,0.866006,0.000316
+ckd,comorbidity,ConvNeXtV2-Base,Edema,0.877315,0.865981,0.011334
+ckd,comorbidity,ConvNeXtV2-Base,Enlarged Cardiomediastinum,0.741445,0.734533,0.006912
+ckd,comorbidity,ConvNeXtV2-Base,Lung Opacity,0.691929,0.689782,0.002147
+ckd,comorbidity,ConvNeXtV2-Base,Pleural Effusion,0.868205,0.862428,0.005777
+ckd,comorbidity,ConvNeXtV2-Base,Pneumonia,0.738390,0.737546,0.000844
+ckd,comorbidity,ConvNeXtV2-Base,Pneumothorax,0.695334,0.692725,0.002610
+ckd,comorbidity,ConvNeXtV2-Base,Support Devices,0.747330,0.747537,-0.000207
+aki,comorbidity,ConvNeXtV2-Base,Atelectasis,0.649827,0.644523,0.005304
+aki,comorbidity,ConvNeXtV2-Base,Cardiomegaly,0.816692,0.794685,0.022007
+aki,comorbidity,ConvNeXtV2-Base,Consolidation,0.866323,0.856630,0.009693
+aki,comorbidity,ConvNeXtV2-Base,Edema,0.877315,0.859964,0.017351
+aki,comorbidity,ConvNeXtV2-Base,Enlarged Cardiomediastinum,0.741445,0.728615,0.012829
+aki,comorbidity,ConvNeXtV2-Base,Lung Opacity,0.691929,0.686978,0.004952
+aki,comorbidity,ConvNeXtV2-Base,Pleural Effusion,0.868205,0.855781,0.012424
+aki,comorbidity,ConvNeXtV2-Base,Pneumonia,0.738390,0.732866,0.005523
+aki,comorbidity,ConvNeXtV2-Base,Pneumothorax,0.695334,0.693854,0.001480
+aki,comorbidity,ConvNeXtV2-Base,Support Devices,0.747330,0.738841,0.008489
+copd,comorbidity,ConvNeXtV2-Base,Atelectasis,0.649827,0.647699,0.002128
+copd,comorbidity,ConvNeXtV2-Base,Cardiomegaly,0.816692,0.812508,0.004184
+copd,comorbidity,ConvNeXtV2-Base,Consolidation,0.866323,0.860531,0.005792
+copd,comorbidity,ConvNeXtV2-Base,Edema,0.877315,0.870200,0.007115
+copd,comorbidity,ConvNeXtV2-Base,Enlarged Cardiomediastinum,0.741445,0.734637,0.006807
+copd,comorbidity,ConvNeXtV2-Base,Lung Opacity,0.691929,0.680950,0.010979
+copd,comorbidity,ConvNeXtV2-Base,Pleural Effusion,0.868205,0.865547,0.002658
+copd,comorbidity,ConvNeXtV2-Base,Pneumonia,0.738390,0.735912,0.002478
+copd,comorbidity,ConvNeXtV2-Base,Pneumothorax,0.695334,0.695700,-0.000366
+copd,comorbidity,ConvNeXtV2-Base,Support Devices,0.747330,0.746548,0.000782
+asthma,comorbidity,ConvNeXtV2-Base,Atelectasis,0.649827,0.650465,-0.000637
+asthma,comorbidity,ConvNeXtV2-Base,Cardiomegaly,0.816692,0.816496,0.000196
+asthma,comorbidity,ConvNeXtV2-Base,Consolidation,0.866323,0.866008,0.000314
+asthma,comorbidity,ConvNeXtV2-Base,Edema,0.877315,0.877428,-0.000113
+asthma,comorbidity,ConvNeXtV2-Base,Enlarged Cardiomediastinum,0.741445,0.741345,0.000099
+asthma,comorbidity,ConvNeXtV2-Base,Lung Opacity,0.691929,0.693060,-0.001130
+asthma,comorbidity,ConvNeXtV2-Base,Pleural Effusion,0.868205,0.867935,0.000270
+asthma,comorbidity,ConvNeXtV2-Base,Pneumonia,0.738390,0.738449,-0.000060
+asthma,comorbidity,ConvNeXtV2-Base,Pneumothorax,0.695334,0.694858,0.000477
+asthma,comorbidity,ConvNeXtV2-Base,Support Devices,0.747330,0.747342,-0.000012
+respiratory_failure,comorbidity,ConvNeXtV2-Base,Atelectasis,0.649827,0.650281,-0.000454
+respiratory_failure,comorbidity,ConvNeXtV2-Base,Cardiomegaly,0.816692,0.809665,0.007027
+respiratory_failure,comorbidity,ConvNeXtV2-Base,Consolidation,0.866323,0.860942,0.005381
+respiratory_failure,comorbidity,ConvNeXtV2-Base,Edema,0.877315,0.870619,0.006696
+respiratory_failure,comorbidity,ConvNeXtV2-Base,Enlarged Cardiomediastinum,0.741445,0.736006,0.005438
+respiratory_failure,comorbidity,ConvNeXtV2-Base,Lung Opacity,0.691929,0.687178,0.004752
+respiratory_failure,comorbidity,ConvNeXtV2-Base,Pleural Effusion,0.868205,0.865429,0.002776
+respiratory_failure,comorbidity,ConvNeXtV2-Base,Pneumonia,0.738390,0.736681,0.001708
+respiratory_failure,comorbidity,ConvNeXtV2-Base,Pneumothorax,0.695334,0.695310,0.000025
+respiratory_failure,comorbidity,ConvNeXtV2-Base,Support Devices,0.747330,0.744563,0.002767
+pulmonary_fibrosis,comorbidity,ConvNeXtV2-Base,Atelectasis,0.649827,0.650851,-0.001024
+pulmonary_fibrosis,comorbidity,ConvNeXtV2-Base,Cardiomegaly,0.816692,0.816529,0.000163
+pulmonary_fibrosis,comorbidity,ConvNeXtV2-Base,Consolidation,0.866323,0.865944,0.000379
+pulmonary_fibrosis,comorbidity,ConvNeXtV2-Base,Edema,0.877315,0.875721,0.001594
+pulmonary_fibrosis,comorbidity,ConvNeXtV2-Base,Enlarged Cardiomediastinum,0.741445,0.740175,0.001270
+pulmonary_fibrosis,comorbidity,ConvNeXtV2-Base,Lung Opacity,0.691929,0.688367,0.003563
+pulmonary_fibrosis,comorbidity,ConvNeXtV2-Base,Pleural Effusion,0.868205,0.868995,-0.000790
+pulmonary_fibrosis,comorbidity,ConvNeXtV2-Base,Pneumonia,0.738390,0.735925,0.002465
+pulmonary_fibrosis,comorbidity,ConvNeXtV2-Base,Pneumothorax,0.695334,0.695270,0.000064
+pulmonary_fibrosis,comorbidity,ConvNeXtV2-Base,Support Devices,0.747330,0.746370,0.000960
+liver_disease,comorbidity,ConvNeXtV2-Base,Atelectasis,0.649827,0.649877,-0.000049
+liver_disease,comorbidity,ConvNeXtV2-Base,Cardiomegaly,0.816692,0.816517,0.000175
+liver_disease,comorbidity,ConvNeXtV2-Base,Consolidation,0.866323,0.865870,0.000453
+liver_disease,comorbidity,ConvNeXtV2-Base,Edema,0.877315,0.875971,0.001344
+liver_disease,comorbidity,ConvNeXtV2-Base,Enlarged Cardiomediastinum,0.741445,0.741938,-0.000494
+liver_disease,comorbidity,ConvNeXtV2-Base,Lung Opacity,0.691929,0.691676,0.000254
+liver_disease,comorbidity,ConvNeXtV2-Base,Pleural Effusion,0.868205,0.867539,0.000666
+liver_disease,comorbidity,ConvNeXtV2-Base,Pneumonia,0.738390,0.737814,0.000576
+liver_disease,comorbidity,ConvNeXtV2-Base,Pneumothorax,0.695334,0.697347,-0.002012
+liver_disease,comorbidity,ConvNeXtV2-Base,Support Devices,0.747330,0.744633,0.002697
+anemia,comorbidity,ConvNeXtV2-Base,Atelectasis,0.649827,0.637349,0.012478
+anemia,comorbidity,ConvNeXtV2-Base,Cardiomegaly,0.816692,0.802926,0.013766
+anemia,comorbidity,ConvNeXtV2-Base,Consolidation,0.866323,0.856301,0.010021
+anemia,comorbidity,ConvNeXtV2-Base,Edema,0.877315,0.869213,0.008103
+anemia,comorbidity,ConvNeXtV2-Base,Enlarged Cardiomediastinum,0.741445,0.724757,0.016687
+anemia,comorbidity,ConvNeXtV2-Base,Lung Opacity,0.691929,0.684126,0.007803
+anemia,comorbidity,ConvNeXtV2-Base,Pleural Effusion,0.868205,0.856653,0.011552
+anemia,comorbidity,ConvNeXtV2-Base,Pneumonia,0.738390,0.730655,0.007735
+anemia,comorbidity,ConvNeXtV2-Base,Pneumothorax,0.695334,0.695584,-0.000249
+anemia,comorbidity,ConvNeXtV2-Base,Support Devices,0.747330,0.743108,0.004223
+smoking_history,comorbidity,ConvNeXtV2-Base,Atelectasis,0.649827,0.650896,-0.001069
+smoking_history,comorbidity,ConvNeXtV2-Base,Cardiomegaly,0.816692,0.815323,0.001369
+smoking_history,comorbidity,ConvNeXtV2-Base,Consolidation,0.866323,0.866432,-0.000109
+smoking_history,comorbidity,ConvNeXtV2-Base,Edema,0.877315,0.877390,-0.000074
+smoking_history,comorbidity,ConvNeXtV2-Base,Enlarged Cardiomediastinum,0.741445,0.742484,-0.001040
+smoking_history,comorbidity,ConvNeXtV2-Base,Lung Opacity,0.691929,0.692046,-0.000117
+smoking_history,comorbidity,ConvNeXtV2-Base,Pleural Effusion,0.868205,0.868025,0.000179
+smoking_history,comorbidity,ConvNeXtV2-Base,Pneumonia,0.738390,0.738426,-0.000037
+smoking_history,comorbidity,ConvNeXtV2-Base,Pneumothorax,0.695334,0.695169,0.000165
+smoking_history,comorbidity,ConvNeXtV2-Base,Support Devices,0.747330,0.747308,0.000022
+cancer_history,comorbidity,ConvNeXtV2-Base,Atelectasis,0.649827,0.649872,-0.000045
+cancer_history,comorbidity,ConvNeXtV2-Base,Cardiomegaly,0.816692,0.817449,-0.000757
+cancer_history,comorbidity,ConvNeXtV2-Base,Consolidation,0.866323,0.863948,0.002375
+cancer_history,comorbidity,ConvNeXtV2-Base,Edema,0.877315,0.877025,0.000291
+cancer_history,comorbidity,ConvNeXtV2-Base,Enlarged Cardiomediastinum,0.741445,0.738819,0.002626
+cancer_history,comorbidity,ConvNeXtV2-Base,Lung Opacity,0.691929,0.688327,0.003602
+cancer_history,comorbidity,ConvNeXtV2-Base,Pleural Effusion,0.868205,0.865163,0.003042
+cancer_history,comorbidity,ConvNeXtV2-Base,Pneumonia,0.738390,0.738222,0.000167
+cancer_history,comorbidity,ConvNeXtV2-Base,Pneumothorax,0.695334,0.693630,0.001704
+cancer_history,comorbidity,ConvNeXtV2-Base,Support Devices,0.747330,0.747097,0.000233
+depression,comorbidity,ConvNeXtV2-Base,Atelectasis,0.649827,0.650710,-0.000882
+depression,comorbidity,ConvNeXtV2-Base,Cardiomegaly,0.816692,0.816781,-0.000089
+depression,comorbidity,ConvNeXtV2-Base,Consolidation,0.866323,0.866191,0.000132
+depression,comorbidity,ConvNeXtV2-Base,Edema,0.877315,0.876961,0.000355
+depression,comorbidity,ConvNeXtV2-Base,Enlarged Cardiomediastinum,0.741445,0.741158,0.000287
+depression,comorbidity,ConvNeXtV2-Base,Lung Opacity,0.691929,0.692310,-0.000381
+depression,comorbidity,ConvNeXtV2-Base,Pleural Effusion,0.868205,0.868225,-0.000020
+depression,comorbidity,ConvNeXtV2-Base,Pneumonia,0.738390,0.738378,0.000012
+depression,comorbidity,ConvNeXtV2-Base,Pneumothorax,0.695334,0.693990,0.001344
+depression,comorbidity,ConvNeXtV2-Base,Support Devices,0.747330,0.746914,0.000416

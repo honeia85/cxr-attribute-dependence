@@ -1,0 +1,361 @@
+model,strategy,n_attrs_removed,disease,dimension,overall_auroc,auroc_gap,auroc_Female,auroc_Male,auroc_<50,auroc_50-70,auroc_70+
+ResNet50-ImageNet,baseline,0,Atelectasis,Gender,0.645214,0.033481,0.627888,0.661369,,,
+ResNet50-ImageNet,baseline,0,Atelectasis,Age,0.645214,0.092425,,,0.681398,0.659409,0.588973
+ResNet50-ImageNet,baseline,0,Cardiomegaly,Gender,0.785237,0.004155,0.787622,0.783466,,,
+ResNet50-ImageNet,baseline,0,Cardiomegaly,Age,0.785237,0.065851,,,0.809086,0.777534,0.743235
+ResNet50-ImageNet,baseline,0,Consolidation,Gender,0.826050,0.001848,0.826081,0.824233,,,
+ResNet50-ImageNet,baseline,0,Consolidation,Age,0.826050,0.026781,,,0.806492,0.833273,0.821946
+ResNet50-ImageNet,baseline,0,Edema,Gender,0.867714,0.004868,0.870231,0.865364,,,
+ResNet50-ImageNet,baseline,0,Edema,Age,0.867714,0.037215,,,0.874919,0.880162,0.842948
+ResNet50-ImageNet,baseline,0,Enlarged Cardiomediastinum,Gender,0.703780,0.046489,0.729747,0.683258,,,
+ResNet50-ImageNet,baseline,0,Enlarged Cardiomediastinum,Age,0.703780,0.074388,,,0.660620,0.725938,0.651550
+ResNet50-ImageNet,baseline,0,Lung Opacity,Gender,0.647063,0.006484,0.650709,0.644226,,,
+ResNet50-ImageNet,baseline,0,Lung Opacity,Age,0.647063,0.039302,,,0.639332,0.657246,0.617944
+ResNet50-ImageNet,baseline,0,Pleural Effusion,Gender,0.849999,0.025039,0.863855,0.838815,,,
+ResNet50-ImageNet,baseline,0,Pleural Effusion,Age,0.849999,0.032175,,,0.854596,0.850291,0.822421
+ResNet50-ImageNet,baseline,0,Pneumonia,Gender,0.723065,0.012886,0.716227,0.729113,,,
+ResNet50-ImageNet,baseline,0,Pneumonia,Age,0.723065,0.021533,,,0.721993,0.731376,0.709843
+ResNet50-ImageNet,baseline,0,Pneumothorax,Gender,0.676774,0.049284,0.705903,0.656619,,,
+ResNet50-ImageNet,baseline,0,Pneumothorax,Age,0.676774,0.023778,,,0.695735,0.671956,0.673127
+ResNet50-ImageNet,baseline,0,Support Devices,Gender,0.699298,0.017043,0.689392,0.706435,,,
+ResNet50-ImageNet,baseline,0,Support Devices,Age,0.699298,0.071400,,,0.739489,0.694443,0.668088
+ResNet50-ImageNet,top3,3,Atelectasis,Gender,0.630275,0.046079,0.606187,0.652266,,,
+ResNet50-ImageNet,top3,3,Atelectasis,Age,0.630275,0.105275,,,0.681398,0.647593,0.576123
+ResNet50-ImageNet,top3,3,Cardiomegaly,Gender,0.696590,0.000934,0.696402,0.697336,,,
+ResNet50-ImageNet,top3,3,Cardiomegaly,Age,0.696590,0.063886,,,0.746864,0.703014,0.682978
+ResNet50-ImageNet,top3,3,Consolidation,Gender,0.814666,0.002664,0.815560,0.812896,,,
+ResNet50-ImageNet,top3,3,Consolidation,Age,0.814666,0.033581,,,0.796268,0.829849,0.815760
+ResNet50-ImageNet,top3,3,Edema,Gender,0.831774,0.005258,0.828716,0.833973,,,
+ResNet50-ImageNet,top3,3,Edema,Age,0.831774,0.036949,,,0.835434,0.853525,0.816576
+ResNet50-ImageNet,top3,3,Enlarged Cardiomediastinum,Gender,0.659818,0.055550,0.691744,0.636194,,,
+ResNet50-ImageNet,top3,3,Enlarged Cardiomediastinum,Age,0.659818,0.092994,,,0.640172,0.702196,0.609203
+ResNet50-ImageNet,top3,3,Lung Opacity,Gender,0.626694,0.001851,0.625558,0.627409,,,
+ResNet50-ImageNet,top3,3,Lung Opacity,Age,0.626694,0.039127,,,0.622938,0.649877,0.610750
+ResNet50-ImageNet,top3,3,Pleural Effusion,Gender,0.817134,0.009099,0.822471,0.813372,,,
+ResNet50-ImageNet,top3,3,Pleural Effusion,Age,0.817134,0.032641,,,0.823795,0.837474,0.804833
+ResNet50-ImageNet,top3,3,Pneumonia,Gender,0.717736,0.008704,0.713081,0.721785,,,
+ResNet50-ImageNet,top3,3,Pneumonia,Age,0.717736,0.018226,,,0.721344,0.725227,0.707000
+ResNet50-ImageNet,top3,3,Pneumothorax,Gender,0.681321,0.050325,0.711017,0.660692,,,
+ResNet50-ImageNet,top3,3,Pneumothorax,Age,0.681321,0.021516,,,0.694879,0.673363,0.675082
+ResNet50-ImageNet,top3,3,Support Devices,Gender,0.688213,0.016309,0.678779,0.695088,,,
+ResNet50-ImageNet,top3,3,Support Devices,Age,0.688213,0.069885,,,0.732984,0.686135,0.663100
+ResNet50-ImageNet,all_confounders,9,Atelectasis,Gender,0.627356,0.039981,0.606413,0.646394,,,
+ResNet50-ImageNet,all_confounders,9,Atelectasis,Age,0.627356,0.113862,,,0.683646,0.644971,0.569785
+ResNet50-ImageNet,all_confounders,9,Cardiomegaly,Gender,0.694352,0.001405,0.694131,0.695536,,,
+ResNet50-ImageNet,all_confounders,9,Cardiomegaly,Age,0.694352,0.056944,,,0.739828,0.699041,0.682884
+ResNet50-ImageNet,all_confounders,9,Consolidation,Gender,0.799717,0.004950,0.801637,0.796687,,,
+ResNet50-ImageNet,all_confounders,9,Consolidation,Age,0.799717,0.047130,,,0.770789,0.817919,0.800635
+ResNet50-ImageNet,all_confounders,9,Edema,Gender,0.828409,0.008966,0.823351,0.832317,,,
+ResNet50-ImageNet,all_confounders,9,Edema,Age,0.828409,0.032192,,,0.829391,0.847060,0.814867
+ResNet50-ImageNet,all_confounders,9,Enlarged Cardiomediastinum,Gender,0.655559,0.057008,0.688481,0.631473,,,
+ResNet50-ImageNet,all_confounders,9,Enlarged Cardiomediastinum,Age,0.655559,0.093042,,,0.633368,0.698439,0.605397
+ResNet50-ImageNet,all_confounders,9,Lung Opacity,Gender,0.622926,0.009568,0.617259,0.626827,,,
+ResNet50-ImageNet,all_confounders,9,Lung Opacity,Age,0.622926,0.033155,,,0.609762,0.642917,0.613957
+ResNet50-ImageNet,all_confounders,9,Pleural Effusion,Gender,0.810054,0.013027,0.817529,0.804502,,,
+ResNet50-ImageNet,all_confounders,9,Pleural Effusion,Age,0.810054,0.035693,,,0.812538,0.830771,0.795078
+ResNet50-ImageNet,all_confounders,9,Pneumonia,Gender,0.709027,0.012135,0.702529,0.714663,,,
+ResNet50-ImageNet,all_confounders,9,Pneumonia,Age,0.709027,0.018858,,,0.716121,0.715386,0.697263
+ResNet50-ImageNet,all_confounders,9,Pneumothorax,Gender,0.678969,0.048704,0.707576,0.658872,,,
+ResNet50-ImageNet,all_confounders,9,Pneumothorax,Age,0.678969,0.023427,,,0.693766,0.670339,0.672750
+ResNet50-ImageNet,all_confounders,9,Support Devices,Gender,0.680105,0.013091,0.672531,0.685622,,,
+ResNet50-ImageNet,all_confounders,9,Support Devices,Age,0.680105,0.060969,,,0.718989,0.676897,0.658020
+DINOv2-base,baseline,0,Atelectasis,Gender,0.696113,0.039772,0.674385,0.714156,,,
+DINOv2-base,baseline,0,Atelectasis,Age,0.696113,0.138959,,,0.763292,0.707633,0.624333
+DINOv2-base,baseline,0,Cardiomegaly,Gender,0.813224,0.005920,0.816601,0.810682,,,
+DINOv2-base,baseline,0,Cardiomegaly,Age,0.813224,0.053331,,,0.826166,0.810401,0.772835
+DINOv2-base,baseline,0,Consolidation,Gender,0.882760,0.020868,0.892938,0.872070,,,
+DINOv2-base,baseline,0,Consolidation,Age,0.882760,0.013376,,,0.877057,0.876160,0.889536
+DINOv2-base,baseline,0,Edema,Gender,0.889433,0.003054,0.887770,0.890824,,,
+DINOv2-base,baseline,0,Edema,Age,0.889433,0.032743,,,0.900537,0.899533,0.867794
+DINOv2-base,baseline,0,Enlarged Cardiomediastinum,Gender,0.773702,0.029492,0.791924,0.762432,,,
+DINOv2-base,baseline,0,Enlarged Cardiomediastinum,Age,0.773702,0.077712,,,0.745668,0.795349,0.717637
+DINOv2-base,baseline,0,Lung Opacity,Gender,0.718800,0.017093,0.728341,0.711248,,,
+DINOv2-base,baseline,0,Lung Opacity,Age,0.718800,0.063357,,,0.718104,0.740056,0.676699
+DINOv2-base,baseline,0,Pleural Effusion,Gender,0.883672,0.021095,0.895579,0.874484,,,
+DINOv2-base,baseline,0,Pleural Effusion,Age,0.883672,0.013933,,,0.883372,0.879139,0.869439
+DINOv2-base,baseline,0,Pneumonia,Gender,0.745943,0.010103,0.740672,0.750774,,,
+DINOv2-base,baseline,0,Pneumonia,Age,0.745943,0.015397,,,0.749894,0.748955,0.734498
+DINOv2-base,baseline,0,Pneumothorax,Gender,0.702207,0.026737,0.718109,0.691371,,,
+DINOv2-base,baseline,0,Pneumothorax,Age,0.702207,0.029165,,,0.721210,0.692045,0.704039
+DINOv2-base,baseline,0,Support Devices,Gender,0.745245,0.041479,0.721744,0.763223,,,
+DINOv2-base,baseline,0,Support Devices,Age,0.745245,0.063988,,,0.790709,0.729904,0.726721
+DINOv2-base,top3,3,Atelectasis,Gender,0.674648,0.048514,0.647993,0.696508,,,
+DINOv2-base,top3,3,Atelectasis,Age,0.674648,0.141468,,,0.746228,0.697380,0.604760
+DINOv2-base,top3,3,Cardiomegaly,Gender,0.728687,0.007330,0.733306,0.725976,,,
+DINOv2-base,top3,3,Cardiomegaly,Age,0.728687,0.050278,,,0.767618,0.743079,0.717340
+DINOv2-base,top3,3,Consolidation,Gender,0.870982,0.022205,0.882301,0.860096,,,
+DINOv2-base,top3,3,Consolidation,Age,0.870982,0.016803,,,0.874611,0.867543,0.884345
+DINOv2-base,top3,3,Edema,Gender,0.857177,0.011999,0.850580,0.862579,,,
+DINOv2-base,top3,3,Edema,Age,0.857177,0.031583,,,0.866257,0.876314,0.844730
+DINOv2-base,top3,3,Enlarged Cardiomediastinum,Gender,0.733429,0.030096,0.752081,0.721985,,,
+DINOv2-base,top3,3,Enlarged Cardiomediastinum,Age,0.733429,0.086068,,,0.733575,0.770842,0.684774
+DINOv2-base,top3,3,Lung Opacity,Gender,0.693764,0.007126,0.697667,0.690541,,,
+DINOv2-base,top3,3,Lung Opacity,Age,0.693764,0.061113,,,0.702986,0.728434,0.667321
+DINOv2-base,top3,3,Pleural Effusion,Gender,0.856334,0.007541,0.860793,0.853252,,,
+DINOv2-base,top3,3,Pleural Effusion,Age,0.856334,0.014963,,,0.865613,0.869258,0.854295
+DINOv2-base,top3,3,Pneumonia,Gender,0.741228,0.006995,0.737681,0.744676,,,
+DINOv2-base,top3,3,Pneumonia,Age,0.741228,0.018000,,,0.749868,0.745220,0.731868
+DINOv2-base,top3,3,Pneumothorax,Gender,0.702405,0.027991,0.719115,0.691124,,,
+DINOv2-base,top3,3,Pneumothorax,Age,0.702405,0.031312,,,0.719675,0.688362,0.702319
+DINOv2-base,top3,3,Support Devices,Gender,0.735598,0.033528,0.716722,0.750250,,,
+DINOv2-base,top3,3,Support Devices,Age,0.735598,0.066644,,,0.785220,0.723611,0.718576
+DINOv2-base,all_confounders,9,Atelectasis,Gender,0.672722,0.042433,0.649434,0.691867,,,
+DINOv2-base,all_confounders,9,Atelectasis,Age,0.672722,0.143483,,,0.746837,0.693004,0.603354
+DINOv2-base,all_confounders,9,Cardiomegaly,Gender,0.725771,0.007310,0.730730,0.723420,,,
+DINOv2-base,all_confounders,9,Cardiomegaly,Age,0.725771,0.045128,,,0.760086,0.739230,0.714958
+DINOv2-base,all_confounders,9,Consolidation,Gender,0.858167,0.025503,0.871149,0.845647,,,
+DINOv2-base,all_confounders,9,Consolidation,Age,0.858167,0.017526,,,0.861317,0.853977,0.871503
+DINOv2-base,all_confounders,9,Edema,Gender,0.853932,0.012516,0.847050,0.859566,,,
+DINOv2-base,all_confounders,9,Edema,Age,0.853932,0.025839,,,0.859481,0.869558,0.843719
+DINOv2-base,all_confounders,9,Enlarged Cardiomediastinum,Gender,0.729225,0.030803,0.748458,0.717655,,,
+DINOv2-base,all_confounders,9,Enlarged Cardiomediastinum,Age,0.729225,0.079884,,,0.726977,0.765566,0.685682
+DINOv2-base,all_confounders,9,Lung Opacity,Gender,0.692737,0.000489,0.692396,0.692885,,,
+DINOv2-base,all_confounders,9,Lung Opacity,Age,0.692737,0.049742,,,0.690190,0.724759,0.675017
+DINOv2-base,all_confounders,9,Pleural Effusion,Gender,0.850965,0.010729,0.857150,0.846421,,,
+DINOv2-base,all_confounders,9,Pleural Effusion,Age,0.850965,0.017227,,,0.855380,0.863980,0.846753
+DINOv2-base,all_confounders,9,Pneumonia,Gender,0.732732,0.011793,0.726592,0.738385,,,
+DINOv2-base,all_confounders,9,Pneumonia,Age,0.732732,0.023471,,,0.743335,0.738215,0.719864
+DINOv2-base,all_confounders,9,Pneumothorax,Gender,0.700527,0.028039,0.717173,0.689133,,,
+DINOv2-base,all_confounders,9,Pneumothorax,Age,0.700527,0.037055,,,0.720427,0.683372,0.703004
+DINOv2-base,all_confounders,9,Support Devices,Gender,0.729441,0.032132,0.711279,0.743410,,,
+DINOv2-base,all_confounders,9,Support Devices,Age,0.729441,0.055048,,,0.770100,0.718831,0.715052
+BiomedCLIP,baseline,0,Atelectasis,Gender,0.707465,0.024816,0.722777,0.697961,,,
+BiomedCLIP,baseline,0,Atelectasis,Age,0.707465,0.089505,,,0.767957,0.695924,0.678452
+BiomedCLIP,baseline,0,Cardiomegaly,Gender,0.846561,0.009133,0.851723,0.842589,,,
+BiomedCLIP,baseline,0,Cardiomegaly,Age,0.846561,0.036943,,,0.855564,0.843745,0.818620
+BiomedCLIP,baseline,0,Consolidation,Gender,0.899835,0.016260,0.907625,0.891365,,,
+BiomedCLIP,baseline,0,Consolidation,Age,0.899835,0.029195,,,0.894470,0.911775,0.882580
+BiomedCLIP,baseline,0,Edema,Gender,0.889124,0.005987,0.892435,0.886448,,,
+BiomedCLIP,baseline,0,Edema,Age,0.889124,0.043475,,,0.908585,0.899082,0.865111
+BiomedCLIP,baseline,0,Enlarged Cardiomediastinum,Gender,0.796689,0.024297,0.810402,0.786106,,,
+BiomedCLIP,baseline,0,Enlarged Cardiomediastinum,Age,0.796689,0.093216,,,0.737140,0.830357,0.747335
+BiomedCLIP,baseline,0,Lung Opacity,Gender,0.757180,0.017896,0.767350,0.749454,,,
+BiomedCLIP,baseline,0,Lung Opacity,Age,0.757180,0.031633,,,0.757338,0.765084,0.733451
+BiomedCLIP,baseline,0,Pleural Effusion,Gender,0.890088,0.013903,0.898128,0.884225,,,
+BiomedCLIP,baseline,0,Pleural Effusion,Age,0.890088,0.034195,,,0.902485,0.887729,0.868290
+BiomedCLIP,baseline,0,Pneumonia,Gender,0.770744,0.011891,0.764588,0.776479,,,
+BiomedCLIP,baseline,0,Pneumonia,Age,0.770744,0.041323,,,0.783902,0.780760,0.742580
+BiomedCLIP,baseline,0,Pneumothorax,Gender,0.699315,0.008874,0.704091,0.695217,,,
+BiomedCLIP,baseline,0,Pneumothorax,Age,0.699315,0.047186,,,0.724328,0.704769,0.677143
+BiomedCLIP,baseline,0,Support Devices,Gender,0.762927,0.003360,0.764770,0.761410,,,
+BiomedCLIP,baseline,0,Support Devices,Age,0.762927,0.057402,,,0.794426,0.761826,0.737024
+BiomedCLIP,top3,3,Atelectasis,Gender,0.682143,0.002001,0.682959,0.684960,,,
+BiomedCLIP,top3,3,Atelectasis,Age,0.682143,0.097317,,,0.757870,0.681577,0.660553
+BiomedCLIP,top3,3,Cardiomegaly,Gender,0.762754,0.007952,0.768054,0.760103,,,
+BiomedCLIP,top3,3,Cardiomegaly,Age,0.762754,0.041381,,,0.807903,0.774056,0.766522
+BiomedCLIP,top3,3,Consolidation,Gender,0.886921,0.017053,0.895212,0.878159,,,
+BiomedCLIP,top3,3,Consolidation,Age,0.886921,0.027916,,,0.892393,0.904306,0.876391
+BiomedCLIP,top3,3,Edema,Gender,0.856464,0.008272,0.851881,0.860153,,,
+BiomedCLIP,top3,3,Edema,Age,0.856464,0.049327,,,0.889941,0.875220,0.840613
+BiomedCLIP,top3,3,Enlarged Cardiomediastinum,Gender,0.758667,0.035588,0.778379,0.742791,,,
+BiomedCLIP,top3,3,Enlarged Cardiomediastinum,Age,0.758667,0.100660,,,0.718501,0.813607,0.712947
+BiomedCLIP,top3,3,Lung Opacity,Gender,0.732818,0.000159,0.732589,0.732748,,,
+BiomedCLIP,top3,3,Lung Opacity,Age,0.732818,0.030786,,,0.742892,0.755317,0.724531
+BiomedCLIP,top3,3,Pleural Effusion,Gender,0.857272,0.000759,0.857721,0.858481,,,
+BiomedCLIP,top3,3,Pleural Effusion,Age,0.857272,0.036438,,,0.886680,0.875617,0.850243
+BiomedCLIP,top3,3,Pneumonia,Gender,0.763430,0.010127,0.758152,0.768279,,,
+BiomedCLIP,top3,3,Pneumonia,Age,0.763430,0.043454,,,0.782909,0.775232,0.739455
+BiomedCLIP,top3,3,Pneumothorax,Gender,0.701681,0.012162,0.708465,0.696303,,,
+BiomedCLIP,top3,3,Pneumothorax,Age,0.701681,0.044941,,,0.720697,0.703811,0.675756
+BiomedCLIP,top3,3,Support Devices,Gender,0.755640,0.010792,0.761818,0.751026,,,
+BiomedCLIP,top3,3,Support Devices,Age,0.755640,0.060018,,,0.792824,0.756941,0.732806
+BiomedCLIP,all_confounders,9,Atelectasis,Gender,0.680165,0.006013,0.685071,0.679058,,,
+BiomedCLIP,all_confounders,9,Atelectasis,Age,0.680165,0.105894,,,0.761989,0.678019,0.656094
+BiomedCLIP,all_confounders,9,Cardiomegaly,Gender,0.761250,0.007032,0.766418,0.759387,,,
+BiomedCLIP,all_confounders,9,Cardiomegaly,Age,0.761250,0.034083,,,0.801372,0.770234,0.767289
+BiomedCLIP,all_confounders,9,Consolidation,Gender,0.876331,0.021834,0.886927,0.865093,,,
+BiomedCLIP,all_confounders,9,Consolidation,Age,0.876331,0.036069,,,0.882146,0.896823,0.860754
+BiomedCLIP,all_confounders,9,Edema,Gender,0.854261,0.011374,0.847996,0.859370,,,
+BiomedCLIP,all_confounders,9,Edema,Age,0.854261,0.045570,,,0.885519,0.869184,0.839949
+BiomedCLIP,all_confounders,9,Enlarged Cardiomediastinum,Gender,0.753570,0.043180,0.777775,0.734595,,,
+BiomedCLIP,all_confounders,9,Enlarged Cardiomediastinum,Age,0.753570,0.102444,,,0.712558,0.810434,0.707990
+BiomedCLIP,all_confounders,9,Lung Opacity,Gender,0.732525,0.006881,0.728423,0.735304,,,
+BiomedCLIP,all_confounders,9,Lung Opacity,Age,0.732525,0.017901,,,0.733674,0.750824,0.732923
+BiomedCLIP,all_confounders,9,Pleural Effusion,Gender,0.851960,0.002051,0.853927,0.851875,,,
+BiomedCLIP,all_confounders,9,Pleural Effusion,Age,0.851960,0.038097,,,0.880054,0.869925,0.841957
+BiomedCLIP,all_confounders,9,Pneumonia,Gender,0.755206,0.013355,0.748134,0.761489,,,
+BiomedCLIP,all_confounders,9,Pneumonia,Age,0.755206,0.048619,,,0.776578,0.767593,0.727959
+BiomedCLIP,all_confounders,9,Pneumothorax,Gender,0.699358,0.007911,0.703600,0.695690,,,
+BiomedCLIP,all_confounders,9,Pneumothorax,Age,0.699358,0.047521,,,0.720948,0.700498,0.673427
+BiomedCLIP,all_confounders,9,Support Devices,Gender,0.748736,0.016272,0.758034,0.741763,,,
+BiomedCLIP,all_confounders,9,Support Devices,Age,0.748736,0.056619,,,0.782082,0.749879,0.725464
+XRV-DenseNet-nih,baseline,0,Atelectasis,Gender,0.659998,0.030418,0.644419,0.674837,,,
+XRV-DenseNet-nih,baseline,0,Atelectasis,Age,0.659998,0.174909,,,0.774871,0.646500,0.599962
+XRV-DenseNet-nih,baseline,0,Cardiomegaly,Gender,0.804893,0.006585,0.808744,0.802160,,,
+XRV-DenseNet-nih,baseline,0,Cardiomegaly,Age,0.804893,0.062384,,,0.826658,0.805892,0.764273
+XRV-DenseNet-nih,baseline,0,Consolidation,Gender,0.791057,0.031380,0.805756,0.774376,,,
+XRV-DenseNet-nih,baseline,0,Consolidation,Age,0.791057,0.031355,,,0.784982,0.802799,0.771445
+XRV-DenseNet-nih,baseline,0,Edema,Gender,0.830900,0.002856,0.832157,0.829301,,,
+XRV-DenseNet-nih,baseline,0,Edema,Age,0.830900,0.056754,,,0.865168,0.832372,0.808414
+XRV-DenseNet-nih,baseline,0,Enlarged Cardiomediastinum,Gender,0.767205,0.015488,0.776793,0.761306,,,
+XRV-DenseNet-nih,baseline,0,Enlarged Cardiomediastinum,Age,0.767205,0.067061,,,0.726753,0.793814,0.728146
+XRV-DenseNet-nih,baseline,0,Lung Opacity,Gender,0.667383,0.040851,0.690460,0.649608,,,
+XRV-DenseNet-nih,baseline,0,Lung Opacity,Age,0.667383,0.078573,,,0.696133,0.678175,0.617559
+XRV-DenseNet-nih,baseline,0,Pleural Effusion,Gender,0.794450,0.015130,0.802907,0.787777,,,
+XRV-DenseNet-nih,baseline,0,Pleural Effusion,Age,0.794450,0.064874,,,0.821771,0.785861,0.756897
+XRV-DenseNet-nih,baseline,0,Pneumonia,Gender,0.703264,0.012771,0.696389,0.709160,,,
+XRV-DenseNet-nih,baseline,0,Pneumonia,Age,0.703264,0.031569,,,0.687780,0.717871,0.686302
+XRV-DenseNet-nih,baseline,0,Pneumothorax,Gender,0.630243,0.038588,0.653778,0.615190,,,
+XRV-DenseNet-nih,baseline,0,Pneumothorax,Age,0.630243,0.034212,,,0.652098,0.622553,0.617886
+XRV-DenseNet-nih,baseline,0,Support Devices,Gender,0.679896,0.016596,0.670527,0.687123,,,
+XRV-DenseNet-nih,baseline,0,Support Devices,Age,0.679896,0.109548,,,0.739000,0.676758,0.629453
+XRV-DenseNet-nih,top3,3,Atelectasis,Gender,0.638053,0.042519,0.615934,0.658453,,,
+XRV-DenseNet-nih,top3,3,Atelectasis,Age,0.638053,0.180687,,,0.765162,0.628968,0.584475
+XRV-DenseNet-nih,top3,3,Cardiomegaly,Gender,0.731022,0.010004,0.725417,0.735421,,,
+XRV-DenseNet-nih,top3,3,Cardiomegaly,Age,0.731022,0.065809,,,0.784281,0.745164,0.718473
+XRV-DenseNet-nih,top3,3,Consolidation,Gender,0.778719,0.034430,0.794830,0.760400,,,
+XRV-DenseNet-nih,top3,3,Consolidation,Age,0.778719,0.028099,,,0.782663,0.797312,0.769213
+XRV-DenseNet-nih,top3,3,Edema,Gender,0.796401,0.009084,0.791140,0.800223,,,
+XRV-DenseNet-nih,top3,3,Edema,Age,0.796401,0.056220,,,0.838068,0.809298,0.781848
+XRV-DenseNet-nih,top3,3,Enlarged Cardiomediastinum,Gender,0.732292,0.020772,0.745206,0.724434,,,
+XRV-DenseNet-nih,top3,3,Enlarged Cardiomediastinum,Age,0.732292,0.072288,,,0.713506,0.772295,0.700007
+XRV-DenseNet-nih,top3,3,Lung Opacity,Gender,0.640426,0.020324,0.651543,0.631219,,,
+XRV-DenseNet-nih,top3,3,Lung Opacity,Age,0.640426,0.071197,,,0.679384,0.665056,0.608187
+XRV-DenseNet-nih,top3,3,Pleural Effusion,Gender,0.754432,0.007897,0.750155,0.758052,,,
+XRV-DenseNet-nih,top3,3,Pleural Effusion,Age,0.754432,0.068933,,,0.803518,0.773844,0.734585
+XRV-DenseNet-nih,top3,3,Pneumonia,Gender,0.694305,0.007944,0.689841,0.697786,,,
+XRV-DenseNet-nih,top3,3,Pneumonia,Age,0.694305,0.029906,,,0.687524,0.710696,0.680790
+XRV-DenseNet-nih,top3,3,Pneumothorax,Gender,0.622945,0.044548,0.649952,0.605404,,,
+XRV-DenseNet-nih,top3,3,Pneumothorax,Age,0.622945,0.027968,,,0.642400,0.614433,0.614457
+XRV-DenseNet-nih,top3,3,Support Devices,Gender,0.669359,0.014061,0.661612,0.675673,,,
+XRV-DenseNet-nih,top3,3,Support Devices,Age,0.669359,0.116778,,,0.736917,0.668784,0.620140
+XRV-DenseNet-nih,all_confounders,9,Atelectasis,Gender,0.635515,0.038584,0.615445,0.654030,,,
+XRV-DenseNet-nih,all_confounders,9,Atelectasis,Age,0.635515,0.181998,,,0.765246,0.624210,0.583248
+XRV-DenseNet-nih,all_confounders,9,Cardiomegaly,Gender,0.729223,0.010996,0.723146,0.734142,,,
+XRV-DenseNet-nih,all_confounders,9,Cardiomegaly,Age,0.729223,0.059704,,,0.777153,0.741896,0.717450
+XRV-DenseNet-nih,all_confounders,9,Consolidation,Gender,0.764988,0.038978,0.783375,0.744397,,,
+XRV-DenseNet-nih,all_confounders,9,Consolidation,Age,0.764988,0.032485,,,0.771250,0.784486,0.752001
+XRV-DenseNet-nih,all_confounders,9,Edema,Gender,0.794902,0.010727,0.788752,0.799479,,,
+XRV-DenseNet-nih,all_confounders,9,Edema,Age,0.794902,0.053494,,,0.835616,0.803541,0.782122
+XRV-DenseNet-nih,all_confounders,9,Enlarged Cardiomediastinum,Gender,0.730608,0.023368,0.744807,0.721440,,,
+XRV-DenseNet-nih,all_confounders,9,Enlarged Cardiomediastinum,Age,0.730608,0.072285,,,0.707046,0.771990,0.699704
+XRV-DenseNet-nih,all_confounders,9,Lung Opacity,Gender,0.642950,0.015382,0.651393,0.636011,,,
+XRV-DenseNet-nih,all_confounders,9,Lung Opacity,Age,0.642950,0.056832,,,0.674302,0.664892,0.617470
+XRV-DenseNet-nih,all_confounders,9,Pleural Effusion,Gender,0.747510,0.005031,0.744861,0.749891,,,
+XRV-DenseNet-nih,all_confounders,9,Pleural Effusion,Age,0.747510,0.072143,,,0.795120,0.767671,0.722976
+XRV-DenseNet-nih,all_confounders,9,Pneumonia,Gender,0.687763,0.013125,0.680489,0.693615,,,
+XRV-DenseNet-nih,all_confounders,9,Pneumonia,Age,0.687763,0.031118,,,0.682214,0.703999,0.672881
+XRV-DenseNet-nih,all_confounders,9,Pneumothorax,Gender,0.616228,0.047466,0.644838,0.597372,,,
+XRV-DenseNet-nih,all_confounders,9,Pneumothorax,Age,0.616228,0.022539,,,0.628429,0.605890,0.615874
+XRV-DenseNet-nih,all_confounders,9,Support Devices,Gender,0.659956,0.008391,0.655286,0.663677,,,
+XRV-DenseNet-nih,all_confounders,9,Support Devices,Age,0.659956,0.111482,,,0.721419,0.662314,0.609937
+CLIP-ViT-B16,baseline,0,Atelectasis,Gender,0.695069,0.054645,0.665872,0.720517,,,
+CLIP-ViT-B16,baseline,0,Atelectasis,Age,0.695069,0.132549,,,0.791682,0.659133,0.677982
+CLIP-ViT-B16,baseline,0,Cardiomegaly,Gender,0.782114,0.013939,0.789855,0.775916,,,
+CLIP-ViT-B16,baseline,0,Cardiomegaly,Age,0.782114,0.052554,,,0.798709,0.775625,0.746155
+CLIP-ViT-B16,baseline,0,Consolidation,Gender,0.845705,0.005032,0.847203,0.842170,,,
+CLIP-ViT-B16,baseline,0,Consolidation,Age,0.845705,0.012290,,,0.840626,0.851040,0.838750
+CLIP-ViT-B16,baseline,0,Edema,Gender,0.849966,0.015343,0.858005,0.842662,,,
+CLIP-ViT-B16,baseline,0,Edema,Age,0.849966,0.038452,,,0.866029,0.856631,0.827577
+CLIP-ViT-B16,baseline,0,Enlarged Cardiomediastinum,Gender,0.762605,0.023419,0.775613,0.752193,,,
+CLIP-ViT-B16,baseline,0,Enlarged Cardiomediastinum,Age,0.762605,0.071898,,,0.732937,0.783158,0.711260
+CLIP-ViT-B16,baseline,0,Lung Opacity,Gender,0.702691,0.033755,0.722085,0.688330,,,
+CLIP-ViT-B16,baseline,0,Lung Opacity,Age,0.702691,0.047071,,,0.697318,0.718456,0.671385
+CLIP-ViT-B16,baseline,0,Pleural Effusion,Gender,0.833583,0.016701,0.842727,0.826025,,,
+CLIP-ViT-B16,baseline,0,Pleural Effusion,Age,0.833583,0.036856,,,0.844905,0.827076,0.808048
+CLIP-ViT-B16,baseline,0,Pneumonia,Gender,0.717162,0.006461,0.713809,0.720270,,,
+CLIP-ViT-B16,baseline,0,Pneumonia,Age,0.717162,0.008534,,,0.709954,0.718488,0.711339
+CLIP-ViT-B16,baseline,0,Pneumothorax,Gender,0.672665,0.037597,0.695116,0.657519,,,
+CLIP-ViT-B16,baseline,0,Pneumothorax,Age,0.672665,0.034761,,,0.701010,0.666249,0.666393
+CLIP-ViT-B16,baseline,0,Support Devices,Gender,0.745818,0.007679,0.741519,0.749198,,,
+CLIP-ViT-B16,baseline,0,Support Devices,Age,0.745818,0.083582,,,0.805853,0.722272,0.724976
+CLIP-ViT-B16,top3,3,Atelectasis,Gender,0.674008,0.060704,0.641577,0.702281,,,
+CLIP-ViT-B16,top3,3,Atelectasis,Age,0.674008,0.141071,,,0.777918,0.636847,0.670435
+CLIP-ViT-B16,top3,3,Cardiomegaly,Gender,0.703833,0.009427,0.709481,0.700053,,,
+CLIP-ViT-B16,top3,3,Cardiomegaly,Age,0.703833,0.048571,,,0.751411,0.708081,0.702840
+CLIP-ViT-B16,top3,3,Consolidation,Gender,0.833594,0.010079,0.838231,0.828152,,,
+CLIP-ViT-B16,top3,3,Consolidation,Age,0.833594,0.011863,,,0.833553,0.844657,0.832794
+CLIP-ViT-B16,top3,3,Edema,Gender,0.812905,0.011795,0.819091,0.807296,,,
+CLIP-ViT-B16,top3,3,Edema,Age,0.812905,0.031812,,,0.827606,0.833182,0.801370
+CLIP-ViT-B16,top3,3,Enlarged Cardiomediastinum,Gender,0.724206,0.034047,0.743697,0.709649,,,
+CLIP-ViT-B16,top3,3,Enlarged Cardiomediastinum,Age,0.724206,0.082520,,,0.718725,0.761127,0.678606
+CLIP-ViT-B16,top3,3,Lung Opacity,Gender,0.680078,0.017695,0.690090,0.672395,,,
+CLIP-ViT-B16,top3,3,Lung Opacity,Age,0.680078,0.050672,,,0.685297,0.710917,0.660245
+CLIP-ViT-B16,top3,3,Pleural Effusion,Gender,0.799422,0.004028,0.801813,0.797785,,,
+CLIP-ViT-B16,top3,3,Pleural Effusion,Age,0.799422,0.031273,,,0.823527,0.814971,0.792254
+CLIP-ViT-B16,top3,3,Pneumonia,Gender,0.710765,0.003359,0.709024,0.712382,,,
+CLIP-ViT-B16,top3,3,Pneumonia,Age,0.710765,0.006941,,,0.709571,0.714444,0.707503
+CLIP-ViT-B16,top3,3,Pneumothorax,Gender,0.674451,0.040563,0.698642,0.658080,,,
+CLIP-ViT-B16,top3,3,Pneumothorax,Age,0.674451,0.027072,,,0.693452,0.666912,0.666380
+CLIP-ViT-B16,top3,3,Support Devices,Gender,0.737609,0.002200,0.739020,0.736820,,,
+CLIP-ViT-B16,top3,3,Support Devices,Age,0.737609,0.083985,,,0.800881,0.716896,0.720128
+CLIP-ViT-B16,all_confounders,9,Atelectasis,Gender,0.671999,0.054720,0.642412,0.697132,,,
+CLIP-ViT-B16,all_confounders,9,Atelectasis,Age,0.671999,0.147651,,,0.779872,0.632222,0.670059
+CLIP-ViT-B16,all_confounders,9,Cardiomegaly,Gender,0.701350,0.008914,0.707008,0.698093,,,
+CLIP-ViT-B16,all_confounders,9,Cardiomegaly,Age,0.701350,0.042707,,,0.744606,0.704066,0.701899
+CLIP-ViT-B16,all_confounders,9,Consolidation,Gender,0.819523,0.008197,0.822696,0.814499,,,
+CLIP-ViT-B16,all_confounders,9,Consolidation,Age,0.819523,0.016157,,,0.814154,0.830311,0.819145
+CLIP-ViT-B16,all_confounders,9,Edema,Gender,0.809565,0.011317,0.815510,0.804193,,,
+CLIP-ViT-B16,all_confounders,9,Edema,Age,0.809565,0.028191,,,0.820493,0.827044,0.798853
+CLIP-ViT-B16,all_confounders,9,Enlarged Cardiomediastinum,Gender,0.719618,0.038304,0.741658,0.703354,,,
+CLIP-ViT-B16,all_confounders,9,Enlarged Cardiomediastinum,Age,0.719618,0.077221,,,0.713333,0.755106,0.677885
+CLIP-ViT-B16,all_confounders,9,Lung Opacity,Gender,0.678425,0.007763,0.682856,0.675093,,,
+CLIP-ViT-B16,all_confounders,9,Lung Opacity,Age,0.678425,0.040111,,,0.675261,0.705784,0.665673
+CLIP-ViT-B16,all_confounders,9,Pleural Effusion,Gender,0.792747,0.007085,0.796797,0.789712,,,
+CLIP-ViT-B16,all_confounders,9,Pleural Effusion,Age,0.792747,0.029760,,,0.812802,0.807571,0.783042
+CLIP-ViT-B16,all_confounders,9,Pneumonia,Gender,0.702442,0.005395,0.699515,0.704911,,,
+CLIP-ViT-B16,all_confounders,9,Pneumonia,Age,0.702442,0.007983,,,0.701996,0.706147,0.698164
+CLIP-ViT-B16,all_confounders,9,Pneumothorax,Gender,0.670944,0.038903,0.694034,0.655131,,,
+CLIP-ViT-B16,all_confounders,9,Pneumothorax,Age,0.670944,0.029398,,,0.691706,0.662308,0.663651
+CLIP-ViT-B16,all_confounders,9,Support Devices,Gender,0.730500,0.006493,0.734261,0.727769,,,
+CLIP-ViT-B16,all_confounders,9,Support Devices,Age,0.730500,0.074493,,,0.786058,0.711564,0.713970
+ConvNeXtV2-Base,baseline,0,Atelectasis,Gender,0.649827,0.005427,0.647455,0.652883,,,
+ConvNeXtV2-Base,baseline,0,Atelectasis,Age,0.649827,0.141507,,,0.758311,0.622690,0.616805
+ConvNeXtV2-Base,baseline,0,Cardiomegaly,Gender,0.816692,0.001414,0.817735,0.816321,,,
+ConvNeXtV2-Base,baseline,0,Cardiomegaly,Age,0.816692,0.052754,,,0.829879,0.816245,0.777125
+ConvNeXtV2-Base,baseline,0,Consolidation,Gender,0.866323,0.033808,0.883116,0.849308,,,
+ConvNeXtV2-Base,baseline,0,Consolidation,Age,0.866323,0.011124,,,0.862829,0.869759,0.858635
+ConvNeXtV2-Base,baseline,0,Edema,Gender,0.877315,0.002015,0.876202,0.878217,,,
+ConvNeXtV2-Base,baseline,0,Edema,Age,0.877315,0.026575,,,0.886966,0.882263,0.860391
+ConvNeXtV2-Base,baseline,0,Enlarged Cardiomediastinum,Gender,0.741445,0.011354,0.736590,0.747944,,,
+ConvNeXtV2-Base,baseline,0,Enlarged Cardiomediastinum,Age,0.741445,0.067436,,,0.721568,0.754910,0.687474
+ConvNeXtV2-Base,baseline,0,Lung Opacity,Gender,0.691929,0.015823,0.700976,0.685153,,,
+ConvNeXtV2-Base,baseline,0,Lung Opacity,Age,0.691929,0.057696,,,0.713059,0.691346,0.655363
+ConvNeXtV2-Base,baseline,0,Pleural Effusion,Gender,0.868205,0.018107,0.878118,0.860011,,,
+ConvNeXtV2-Base,baseline,0,Pleural Effusion,Age,0.868205,0.028413,,,0.877869,0.859356,0.849456
+ConvNeXtV2-Base,baseline,0,Pneumonia,Gender,0.738390,0.006647,0.734834,0.741481,,,
+ConvNeXtV2-Base,baseline,0,Pneumonia,Age,0.738390,0.009458,,,0.734996,0.741001,0.731543
+ConvNeXtV2-Base,baseline,0,Pneumothorax,Gender,0.695334,0.030041,0.712499,0.682458,,,
+ConvNeXtV2-Base,baseline,0,Pneumothorax,Age,0.695334,0.034061,,,0.712637,0.678576,0.703181
+ConvNeXtV2-Base,baseline,0,Support Devices,Gender,0.747330,0.025178,0.733661,0.758839,,,
+ConvNeXtV2-Base,baseline,0,Support Devices,Age,0.747330,0.082470,,,0.788431,0.749926,0.705961
+ConvNeXtV2-Base,top3,3,Atelectasis,Gender,0.637402,0.029117,0.622483,0.651600,,,
+ConvNeXtV2-Base,top3,3,Atelectasis,Age,0.637402,0.139586,,,0.750284,0.610697,0.615963
+ConvNeXtV2-Base,top3,3,Cardiomegaly,Gender,0.730151,0.008820,0.725909,0.734729,,,
+ConvNeXtV2-Base,top3,3,Cardiomegaly,Age,0.730151,0.062736,,,0.782729,0.741403,0.719993
+ConvNeXtV2-Base,top3,3,Consolidation,Gender,0.854678,0.030928,0.870295,0.839367,,,
+ConvNeXtV2-Base,top3,3,Consolidation,Age,0.854678,0.009217,,,0.859748,0.863362,0.854145
+ConvNeXtV2-Base,top3,3,Edema,Gender,0.842460,0.011790,0.836057,0.847847,,,
+ConvNeXtV2-Base,top3,3,Edema,Age,0.842460,0.022724,,,0.848839,0.857501,0.834777
+ConvNeXtV2-Base,top3,3,Enlarged Cardiomediastinum,Gender,0.708095,0.017099,0.699826,0.716926,,,
+ConvNeXtV2-Base,top3,3,Enlarged Cardiomediastinum,Age,0.708095,0.075993,,,0.709492,0.737132,0.661139
+ConvNeXtV2-Base,top3,3,Lung Opacity,Gender,0.672357,0.006505,0.676038,0.669533,,,
+ConvNeXtV2-Base,top3,3,Lung Opacity,Age,0.672357,0.055004,,,0.703945,0.686732,0.648941
+ConvNeXtV2-Base,top3,3,Pleural Effusion,Gender,0.839398,0.006967,0.843359,0.836392,,,
+ConvNeXtV2-Base,top3,3,Pleural Effusion,Age,0.839398,0.022980,,,0.858529,0.849807,0.835548
+ConvNeXtV2-Base,top3,3,Pneumonia,Gender,0.732921,0.003914,0.730773,0.734686,,,
+ConvNeXtV2-Base,top3,3,Pneumonia,Age,0.732921,0.008951,,,0.732886,0.737663,0.728712
+ConvNeXtV2-Base,top3,3,Pneumothorax,Gender,0.696289,0.034651,0.716297,0.681647,,,
+ConvNeXtV2-Base,top3,3,Pneumothorax,Age,0.696289,0.035846,,,0.711996,0.676150,0.701690
+ConvNeXtV2-Base,top3,3,Support Devices,Gender,0.739962,0.021949,0.728352,0.750301,,,
+ConvNeXtV2-Base,top3,3,Support Devices,Age,0.739962,0.084690,,,0.784654,0.746707,0.699964
+ConvNeXtV2-Base,all_confounders,9,Atelectasis,Gender,0.630611,0.020286,0.620402,0.640688,,,
+ConvNeXtV2-Base,all_confounders,9,Atelectasis,Age,0.630611,0.146588,,,0.746690,0.600102,0.613018
+ConvNeXtV2-Base,all_confounders,9,Cardiomegaly,Gender,0.727484,0.008560,0.723600,0.732159,,,
+ConvNeXtV2-Base,all_confounders,9,Cardiomegaly,Age,0.727484,0.058074,,,0.776382,0.737307,0.718307
+ConvNeXtV2-Base,all_confounders,9,Consolidation,Gender,0.841080,0.033981,0.858097,0.824116,,,
+ConvNeXtV2-Base,all_confounders,9,Consolidation,Age,0.841080,0.010238,,,0.847642,0.849232,0.838994
+ConvNeXtV2-Base,all_confounders,9,Edema,Gender,0.839331,0.013805,0.831850,0.845655,,,
+ConvNeXtV2-Base,all_confounders,9,Edema,Age,0.839331,0.017713,,,0.841284,0.851295,0.833582
+ConvNeXtV2-Base,all_confounders,9,Enlarged Cardiomediastinum,Gender,0.702820,0.016110,0.695308,0.711418,,,
+ConvNeXtV2-Base,all_confounders,9,Enlarged Cardiomediastinum,Age,0.702820,0.072173,,,0.702033,0.730729,0.658556
+ConvNeXtV2-Base,all_confounders,9,Lung Opacity,Gender,0.669300,0.003691,0.667199,0.670890,,,
+ConvNeXtV2-Base,all_confounders,9,Lung Opacity,Age,0.669300,0.040197,,,0.692663,0.681205,0.652467
+ConvNeXtV2-Base,all_confounders,9,Pleural Effusion,Gender,0.833124,0.010957,0.839313,0.828355,,,
+ConvNeXtV2-Base,all_confounders,9,Pleural Effusion,Age,0.833124,0.020998,,,0.848792,0.842504,0.827794
+ConvNeXtV2-Base,all_confounders,9,Pneumonia,Gender,0.724717,0.006495,0.721051,0.727546,,,
+ConvNeXtV2-Base,all_confounders,9,Pneumonia,Age,0.724717,0.008852,,,0.724009,0.729275,0.720423
+ConvNeXtV2-Base,all_confounders,9,Pneumothorax,Gender,0.693804,0.032074,0.712273,0.680198,,,
+ConvNeXtV2-Base,all_confounders,9,Pneumothorax,Age,0.693804,0.038622,,,0.709780,0.671158,0.702204
+ConvNeXtV2-Base,all_confounders,9,Support Devices,Gender,0.733447,0.021395,0.721998,0.743393,,,
+ConvNeXtV2-Base,all_confounders,9,Support Devices,Age,0.733447,0.077690,,,0.770765,0.742780,0.693074

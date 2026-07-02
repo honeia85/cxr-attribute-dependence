@@ -1,0 +1,10 @@
+check,value
+OLS beta (M1),0.0302
+Huber M-estimator beta,0.0241
+Bootstrap 95% CI (percentile),"[0.0266, 0.0334]"
+Residual skewness,1.644
+Residual kurtosis,6.722
+Shapiro-Wilk p,4.78e-32
+Breusch-Pagan p,1.19e-56
+Cook's D > 4/n (count),96/1380
+Mixed-effects ICC,0.000

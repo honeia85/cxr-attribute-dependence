@@ -1,0 +1,2 @@
+model,label_source,enc_sex_auroc,enc_race_black_white_auroc,enc_age_r2,enc_bmi_r2
+CheXzero,impression_fixed.json,0.9244958036632025,0.7980441579044943,0.5500725936782302,0.46421382197252326

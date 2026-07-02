@@ -1,0 +1,17 @@
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4
+scipy>=1.11
+statsmodels>=0.14
+torch>=2.1
+torchvision>=0.16
+transformers>=4.36
+matplotlib>=3.8
+seaborn>=0.13
+tqdm>=4.66
+Pillow>=10.0
+pydicom>=2.4
+huggingface-hub>=0.20
+open-clip-torch>=2.24
+timm>=1.0
+torchxrayvision>=1.2

@@ -1,0 +1,9 @@
+model,formula,r_squared,f_pvalue,n,delta_r2_vs_m1
+M1,auroc_drop ~ abs_log_or,0.505508994152367,0.0,2070,0.0
+M2,auroc_drop ~ abs_log_or + log_erank,0.5056527926336996,6.0556386e-317,2070,0.00014379848133250217
+M5,auroc_drop ~ abs_log_or + C(disease),0.6237387937643751,0.0,2070,0.11822979961200808
+M6a,auroc_drop ~ abs_log_or + C(disease) + log_erank,0.6238825922457079,0.0,2070,0.1183735980933408
+M6b,auroc_drop ~ abs_log_or + C(disease) + C(model),0.6255159184214343,0.0,2070,0.12000692426906723
+M7a,auroc_drop ~ abs_log_or * log_erank + C(disease),0.6239707358998474,0.0,2070,0.11846174174748036
+M7b,auroc_drop ~ abs_log_or * C(model) + C(disease),0.6312075699579398,0.0,2070,0.12569857580557275
+M8,auroc_drop ~ abs_log_or + C(disease) + C(attribute),0.7728829651480345,0.0,2070,0.2673739709956674

@@ -1,0 +1,11 @@
+model,label_source,finding,train_n,test_n,test_prevalence,auroc
+CheXzero,impression_fixed.json,Atelectasis,26099,4555,0.9861690450054885,0.8317538057075011
+CheXzero,impression_fixed.json,Cardiomegaly,31936,5757,0.6941115164147994,0.9386587041328665
+CheXzero,impression_fixed.json,Consolidation,28886,5283,0.36229415105053947,0.956172868799147
+CheXzero,impression_fixed.json,Edema,56686,9986,0.7581614259963949,0.8979090148116122
+CheXzero,impression_fixed.json,Enlarged Cardiomediastinum,19042,3381,0.2990239574090506,0.8619188921859545
+CheXzero,impression_fixed.json,Lung Opacity,81695,14449,0.961935082012596,0.8653478013460746
+CheXzero,impression_fixed.json,Pleural Effusion,89576,15802,0.7526262498417922,0.9573939297613148
+CheXzero,impression_fixed.json,Pneumonia,4967,910,0.6527472527472528,0.8599177428291351
+CheXzero,impression_fixed.json,Pneumothorax,55970,9925,0.2575314861460957,0.8021681149152723
+CheXzero,impression_fixed.json,Support Devices,94105,16815,0.9683615819209039,0.7570560005614971

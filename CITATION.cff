@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated article."
+title: >-
+  Analysis code for "Encoding Versus Linear Use of Patient Characteristics
+  in Chest X-Ray Foundation Models on MIMIC-CXR"
+license: MIT
+authors:
+  - family-names: Kim
+    given-names: Yeonsu
+  - family-names: Kim
+    given-names: Yangwon
+    orcid: "https://orcid.org/0009-0004-1123-9858"
+  - family-names: Nam
+    given-names: Yoojin
+    orcid: "https://orcid.org/0000-0001-8565-1360"
+  - family-names: Kim
+    given-names: Namjoon
+  - family-names: Hong
+    given-names: Pa
+    orcid: "https://orcid.org/0000-0001-5495-5230"
+preferred-citation:
+  type: article
+  title: >-
+    Encoding Versus Linear Use of Patient Characteristics in Chest X-Ray
+    Foundation Models on MIMIC-CXR
+  authors:
+    - family-names: Kim
+      given-names: Yeonsu
+    - family-names: Kim
+      given-names: Yangwon
+      orcid: "https://orcid.org/0009-0004-1123-9858"
+    - family-names: Nam
+      given-names: Yoojin
+      orcid: "https://orcid.org/0000-0001-8565-1360"
+    - family-names: Kim
+      given-names: Namjoon
+    - family-names: Hong
+      given-names: Pa
+      orcid: "https://orcid.org/0000-0001-5495-5230"
+  journal: Diagnostics
+  publisher:
+    name: MDPI
+  year: 2026
+  volume: 16
+  issue: 13
+  article-number: 2030
+  doi: "10.3390/diagnostics16132030"

@@ -1,0 +1,481 @@
+policy,attribute,finding,abs_log_or
+U-Ignore,gender_binary,Atelectasis,0.06932217822444406
+U-Ignore,gender_binary,Cardiomegaly,0.09425601870751164
+U-Ignore,gender_binary,Consolidation,0.3436382581177514
+U-Ignore,gender_binary,Edema,0.010059009370484574
+U-Ignore,gender_binary,Enlarged Cardiomediastinum,0.08588748476633848
+U-Ignore,gender_binary,Lung Opacity,0.04040854624488755
+U-Ignore,gender_binary,Pleural Effusion,0.041591565569465125
+U-Ignore,gender_binary,Pneumonia,0.21945207437102868
+U-Ignore,gender_binary,Pneumothorax,0.14315529378652103
+U-Ignore,gender_binary,Support Devices,0.041260979430661926
+U-Ignore,hypertension,Atelectasis,0.051999461035290406
+U-Ignore,hypertension,Cardiomegaly,0.2420768725711158
+U-Ignore,hypertension,Consolidation,0.10643853182502358
+U-Ignore,hypertension,Edema,0.019683903149950787
+U-Ignore,hypertension,Enlarged Cardiomediastinum,0.37950173008797217
+U-Ignore,hypertension,Lung Opacity,0.08941215859220775
+U-Ignore,hypertension,Pleural Effusion,0.09133974513075559
+U-Ignore,hypertension,Pneumonia,0.012989786093725473
+U-Ignore,hypertension,Pneumothorax,0.25026182997440255
+U-Ignore,hypertension,Support Devices,0.11292887548097398
+U-Ignore,heart_failure,Atelectasis,0.35638492295006907
+U-Ignore,heart_failure,Cardiomegaly,1.5444831603690856
+U-Ignore,heart_failure,Consolidation,0.24653346390459127
+U-Ignore,heart_failure,Edema,1.0344647939653837
+U-Ignore,heart_failure,Enlarged Cardiomediastinum,0.9790049732972358
+U-Ignore,heart_failure,Lung Opacity,0.3518478883668444
+U-Ignore,heart_failure,Pleural Effusion,0.7065702668392052
+U-Ignore,heart_failure,Pneumonia,0.2932091878939768
+U-Ignore,heart_failure,Pneumothorax,0.466633635566138
+U-Ignore,heart_failure,Support Devices,0.24160503160542476
+U-Ignore,atrial_fibrillation,Atelectasis,0.5023941183795544
+U-Ignore,atrial_fibrillation,Cardiomegaly,1.2729599320000968
+U-Ignore,atrial_fibrillation,Consolidation,0.40639057879148965
+U-Ignore,atrial_fibrillation,Edema,0.7113511048978776
+U-Ignore,atrial_fibrillation,Enlarged Cardiomediastinum,0.9863749798358556
+U-Ignore,atrial_fibrillation,Lung Opacity,0.3464859740537654
+U-Ignore,atrial_fibrillation,Pleural Effusion,0.8219329106016329
+U-Ignore,atrial_fibrillation,Pneumonia,0.2441908667109722
+U-Ignore,atrial_fibrillation,Pneumothorax,0.1490665392784247
+U-Ignore,atrial_fibrillation,Support Devices,0.2709859701382915
+U-Ignore,coronary_artery_disease,Atelectasis,0.18873007196301728
+U-Ignore,coronary_artery_disease,Cardiomegaly,0.9319690486334598
+U-Ignore,coronary_artery_disease,Consolidation,0.006159043828560448
+U-Ignore,coronary_artery_disease,Edema,0.5171191924204436
+U-Ignore,coronary_artery_disease,Enlarged Cardiomediastinum,0.6168675585156506
+U-Ignore,coronary_artery_disease,Lung Opacity,0.21504984225102555
+U-Ignore,coronary_artery_disease,Pleural Effusion,0.4199624578648768
+U-Ignore,coronary_artery_disease,Pneumonia,0.09566271445069506
+U-Ignore,coronary_artery_disease,Pneumothorax,0.37187617661143824
+U-Ignore,coronary_artery_disease,Support Devices,0.02572797284642624
+U-Ignore,stroke,Atelectasis,0.0025075279629827607
+U-Ignore,stroke,Cardiomegaly,0.408403265862931
+U-Ignore,stroke,Consolidation,0.1334285590655315
+U-Ignore,stroke,Edema,0.35132090510486774
+U-Ignore,stroke,Enlarged Cardiomediastinum,0.41889605021347043
+U-Ignore,stroke,Lung Opacity,0.0572998841085541
+U-Ignore,stroke,Pleural Effusion,0.10939949754813906
+U-Ignore,stroke,Pneumonia,0.1429856271002314
+U-Ignore,stroke,Pneumothorax,0.49632417248899385
+U-Ignore,stroke,Support Devices,0.5434144062060223
+U-Ignore,diabetes,Atelectasis,0.08411120729371323
+U-Ignore,diabetes,Cardiomegaly,0.6534519199370814
+U-Ignore,diabetes,Consolidation,0.18325994044028887
+U-Ignore,diabetes,Edema,0.4065819266644706
+U-Ignore,diabetes,Enlarged Cardiomediastinum,0.38223481741790416
+U-Ignore,diabetes,Lung Opacity,0.10919373584001855
+U-Ignore,diabetes,Pleural Effusion,0.09824220276320407
+U-Ignore,diabetes,Pneumonia,0.0043410168452691624
+U-Ignore,diabetes,Pneumothorax,0.5253571758061867
+U-Ignore,diabetes,Support Devices,0.14470873615889537
+U-Ignore,hyperlipidemia,Atelectasis,0.08081621559216927
+U-Ignore,hyperlipidemia,Cardiomegaly,0.703672784308232
+U-Ignore,hyperlipidemia,Consolidation,0.2315575990699983
+U-Ignore,hyperlipidemia,Edema,0.2637369584571659
+U-Ignore,hyperlipidemia,Enlarged Cardiomediastinum,0.4816930330643848
+U-Ignore,hyperlipidemia,Lung Opacity,0.13669216036816614
+U-Ignore,hyperlipidemia,Pleural Effusion,0.1891906240903493
+U-Ignore,hyperlipidemia,Pneumonia,0.009339895128257487
+U-Ignore,hyperlipidemia,Pneumothorax,0.28582606038728786
+U-Ignore,hyperlipidemia,Support Devices,0.04978914829588224
+U-Ignore,obesity,Atelectasis,0.04254123217191511
+U-Ignore,obesity,Cardiomegaly,0.7239331445703779
+U-Ignore,obesity,Consolidation,0.33814780307905457
+U-Ignore,obesity,Edema,0.18012074610898426
+U-Ignore,obesity,Enlarged Cardiomediastinum,0.6071181922179593
+U-Ignore,obesity,Lung Opacity,0.04966106011214901
+U-Ignore,obesity,Pleural Effusion,0.13582636256069885
+U-Ignore,obesity,Pneumonia,0.22172472466561255
+U-Ignore,obesity,Pneumothorax,0.7000503651365191
+U-Ignore,obesity,Support Devices,0.11785720586892655
+U-Ignore,hypothyroidism,Atelectasis,0.1470725600157999
+U-Ignore,hypothyroidism,Cardiomegaly,0.37888639140453534
+U-Ignore,hypothyroidism,Consolidation,0.06843569158025205
+U-Ignore,hypothyroidism,Edema,0.2500533419386111
+U-Ignore,hypothyroidism,Enlarged Cardiomediastinum,0.26685138402206543
+U-Ignore,hypothyroidism,Lung Opacity,0.13781410560683985
+U-Ignore,hypothyroidism,Pleural Effusion,0.2783006171401696
+U-Ignore,hypothyroidism,Pneumonia,0.07199890028417374
+U-Ignore,hypothyroidism,Pneumothorax,0.23593394315739258
+U-Ignore,hypothyroidism,Support Devices,0.1892409820656771
+U-Ignore,ckd,Atelectasis,0.3069711090318378
+U-Ignore,ckd,Cardiomegaly,1.0301926958135958
+U-Ignore,ckd,Consolidation,0.0672095491839313
+U-Ignore,ckd,Edema,0.6416265158086294
+U-Ignore,ckd,Enlarged Cardiomediastinum,0.7071689434571243
+U-Ignore,ckd,Lung Opacity,0.22732903945355568
+U-Ignore,ckd,Pleural Effusion,0.46826468511805414
+U-Ignore,ckd,Pneumonia,0.1685004861001862
+U-Ignore,ckd,Pneumothorax,0.40742015745523263
+U-Ignore,ckd,Support Devices,0.14634927881134233
+U-Ignore,aki,Atelectasis,0.25229928525641127
+U-Ignore,aki,Cardiomegaly,0.7608665592933401
+U-Ignore,aki,Consolidation,0.494539898125215
+U-Ignore,aki,Edema,0.7942342433283185
+U-Ignore,aki,Enlarged Cardiomediastinum,0.6543629642626895
+U-Ignore,aki,Lung Opacity,0.3380673055777057
+U-Ignore,aki,Pleural Effusion,0.6113120956425078
+U-Ignore,aki,Pneumonia,0.3803660975541586
+U-Ignore,aki,Pneumothorax,0.3794000894391928
+U-Ignore,aki,Support Devices,0.5298926982774699
+U-Ignore,copd,Atelectasis,0.03079055083819488
+U-Ignore,copd,Cardiomegaly,0.3239640460729778
+U-Ignore,copd,Consolidation,0.2594428173799097
+U-Ignore,copd,Edema,0.4422046180137658
+U-Ignore,copd,Enlarged Cardiomediastinum,0.44011547432336545
+U-Ignore,copd,Lung Opacity,0.47817112198215767
+U-Ignore,copd,Pleural Effusion,0.29073065060502434
+U-Ignore,copd,Pneumonia,0.32669750348544535
+U-Ignore,copd,Pneumothorax,0.23989840911882557
+U-Ignore,copd,Support Devices,0.12920113482609397
+U-Ignore,asthma,Atelectasis,0.11224496803063441
+U-Ignore,asthma,Cardiomegaly,0.11680024801245828
+U-Ignore,asthma,Consolidation,0.18432162054879792
+U-Ignore,asthma,Edema,0.010835423975649176
+U-Ignore,asthma,Enlarged Cardiomediastinum,0.050269517442569946
+U-Ignore,asthma,Lung Opacity,0.042090052111766474
+U-Ignore,asthma,Pleural Effusion,0.15684332967100048
+U-Ignore,asthma,Pneumonia,0.06281739215099623
+U-Ignore,asthma,Pneumothorax,0.037463080954796515
+U-Ignore,asthma,Support Devices,0.13526767227515102
+U-Ignore,respiratory_failure,Atelectasis,0.07327172153806805
+U-Ignore,respiratory_failure,Cardiomegaly,0.529620028888794
+U-Ignore,respiratory_failure,Consolidation,0.47452317591214116
+U-Ignore,respiratory_failure,Edema,0.42721332167172277
+U-Ignore,respiratory_failure,Enlarged Cardiomediastinum,0.49676674920400316
+U-Ignore,respiratory_failure,Lung Opacity,0.38153886496047773
+U-Ignore,respiratory_failure,Pleural Effusion,0.29466193975599325
+U-Ignore,respiratory_failure,Pneumonia,0.2584935877079821
+U-Ignore,respiratory_failure,Pneumothorax,0.148379420936112
+U-Ignore,respiratory_failure,Support Devices,0.34396847529958685
+U-Ignore,pulmonary_fibrosis,Atelectasis,0.3234336486719405
+U-Ignore,pulmonary_fibrosis,Cardiomegaly,0.2874208708480246
+U-Ignore,pulmonary_fibrosis,Consolidation,0.11491293989874891
+U-Ignore,pulmonary_fibrosis,Edema,0.5257339107162975
+U-Ignore,pulmonary_fibrosis,Enlarged Cardiomediastinum,0.00753897938571733
+U-Ignore,pulmonary_fibrosis,Lung Opacity,0.6253129375563616
+U-Ignore,pulmonary_fibrosis,Pleural Effusion,0.4663835128689669
+U-Ignore,pulmonary_fibrosis,Pneumonia,0.4853067356093555
+U-Ignore,pulmonary_fibrosis,Pneumothorax,0.09328843500675466
+U-Ignore,pulmonary_fibrosis,Support Devices,0.2523869779987943
+U-Ignore,liver_disease,Atelectasis,0.07544560000514176
+U-Ignore,liver_disease,Cardiomegaly,0.010309423864717695
+U-Ignore,liver_disease,Consolidation,0.07531663497332115
+U-Ignore,liver_disease,Edema,0.23669526025885906
+U-Ignore,liver_disease,Enlarged Cardiomediastinum,0.02977921417025549
+U-Ignore,liver_disease,Lung Opacity,0.03532692999576914
+U-Ignore,liver_disease,Pleural Effusion,0.21432676122072572
+U-Ignore,liver_disease,Pneumonia,0.07790141847832717
+U-Ignore,liver_disease,Pneumothorax,0.14580544849606256
+U-Ignore,liver_disease,Support Devices,0.36785321694159007
+U-Ignore,anemia,Atelectasis,0.3096375022281342
+U-Ignore,anemia,Cardiomegaly,0.5551243840643432
+U-Ignore,anemia,Consolidation,0.5043675200415862
+U-Ignore,anemia,Edema,0.5375080708545611
+U-Ignore,anemia,Enlarged Cardiomediastinum,0.5824608535141879
+U-Ignore,anemia,Lung Opacity,0.3464344494609929
+U-Ignore,anemia,Pleural Effusion,0.5951472618993114
+U-Ignore,anemia,Pneumonia,0.3296844771708772
+U-Ignore,anemia,Pneumothorax,0.29062854010070555
+U-Ignore,anemia,Support Devices,0.2702606636979802
+U-Ignore,smoking_history,Atelectasis,0.05696236306470082
+U-Ignore,smoking_history,Cardiomegaly,0.254097531405957
+U-Ignore,smoking_history,Consolidation,0.0854948725959288
+U-Ignore,smoking_history,Edema,0.01187012324343191
+U-Ignore,smoking_history,Enlarged Cardiomediastinum,0.224840343787486
+U-Ignore,smoking_history,Lung Opacity,0.0003264644474723289
+U-Ignore,smoking_history,Pleural Effusion,0.31524667031088327
+U-Ignore,smoking_history,Pneumonia,0.0208136617152287
+U-Ignore,smoking_history,Pneumothorax,0.05596860981403162
+U-Ignore,smoking_history,Support Devices,0.12913064830648707
+U-Ignore,cancer_history,Atelectasis,0.04988136275797082
+U-Ignore,cancer_history,Cardiomegaly,0.1727464589278484
+U-Ignore,cancer_history,Consolidation,0.2153170442300745
+U-Ignore,cancer_history,Edema,0.09115721263366591
+U-Ignore,cancer_history,Enlarged Cardiomediastinum,0.37786164907140646
+U-Ignore,cancer_history,Lung Opacity,0.20369502061776876
+U-Ignore,cancer_history,Pleural Effusion,0.2779289592920127
+U-Ignore,cancer_history,Pneumonia,0.04473171978039044
+U-Ignore,cancer_history,Pneumothorax,0.34170768853000894
+U-Ignore,cancer_history,Support Devices,0.07386545139899665
+U-Ignore,depression,Atelectasis,0.015631461937582195
+U-Ignore,depression,Cardiomegaly,0.06638881661372355
+U-Ignore,depression,Consolidation,0.08595828572686214
+U-Ignore,depression,Edema,0.10906911021301942
+U-Ignore,depression,Enlarged Cardiomediastinum,0.06387527438590959
+U-Ignore,depression,Lung Opacity,0.12270673087650032
+U-Ignore,depression,Pleural Effusion,0.09076891418035049
+U-Ignore,depression,Pneumonia,0.026459560215865142
+U-Ignore,depression,Pneumothorax,0.2955956740669941
+U-Ignore,depression,Support Devices,0.09419947260628479
+U-Ignore,age,Atelectasis,0.3316720334278356
+U-Ignore,age,Cardiomegaly,0.7685407169803002
+U-Ignore,age,Consolidation,0.15769740764212062
+U-Ignore,age,Edema,0.453125535804085
+U-Ignore,age,Enlarged Cardiomediastinum,0.7435161645196396
+U-Ignore,age,Lung Opacity,0.3485524325590157
+U-Ignore,age,Pleural Effusion,0.7314979013204049
+U-Ignore,age,Pneumonia,0.20325576233889006
+U-Ignore,age,Pneumothorax,0.16266107486533574
+U-Ignore,age,Support Devices,0.16966492073224834
+U-Ignore,bmi,Atelectasis,0.11125981918508154
+U-Ignore,bmi,Cardiomegaly,0.35788345995255266
+U-Ignore,bmi,Consolidation,0.4983782427874371
+U-Ignore,bmi,Edema,0.20661719045897678
+U-Ignore,bmi,Enlarged Cardiomediastinum,0.2045612470058405
+U-Ignore,bmi,Lung Opacity,0.22154676305077903
+U-Ignore,bmi,Pleural Effusion,0.4201357957522484
+U-Ignore,bmi,Pneumonia,0.4338170177665733
+U-Ignore,bmi,Pneumothorax,0.5462989766547901
+U-Ignore,bmi,Support Devices,0.16708315644644206
+U-Ignore,race_black_vs_white,Atelectasis,0.2476310446563541
+U-Ignore,race_black_vs_white,Cardiomegaly,0.3395038659696216
+U-Ignore,race_black_vs_white,Consolidation,0.5253413397852239
+U-Ignore,race_black_vs_white,Edema,0.0966433165455236
+U-Ignore,race_black_vs_white,Enlarged Cardiomediastinum,0.09796425333119137
+U-Ignore,race_black_vs_white,Lung Opacity,0.12969889788953082
+U-Ignore,race_black_vs_white,Pleural Effusion,0.5180206127484154
+U-Ignore,race_black_vs_white,Pneumonia,0.11202801079273542
+U-Ignore,race_black_vs_white,Pneumothorax,0.3707047716078289
+U-Ignore,race_black_vs_white,Support Devices,0.018752478509925022
+U-Zero,gender_binary,Atelectasis,0.1862934448377037
+U-Zero,gender_binary,Cardiomegaly,0.006478507316490132
+U-Zero,gender_binary,Consolidation,0.17266843625842376
+U-Zero,gender_binary,Edema,0.011478130617575058
+U-Zero,gender_binary,Enlarged Cardiomediastinum,0.20537219787730215
+U-Zero,gender_binary,Lung Opacity,0.13317142542445753
+U-Zero,gender_binary,Pleural Effusion,0.08422442663410822
+U-Zero,gender_binary,Pneumonia,0.11598965478481418
+U-Zero,gender_binary,Pneumothorax,0.3009296374052636
+U-Zero,gender_binary,Support Devices,0.3025759690580687
+U-Zero,hypertension,Atelectasis,0.23277546414593597
+U-Zero,hypertension,Cardiomegaly,0.22350699138629973
+U-Zero,hypertension,Consolidation,0.03229724541858253
+U-Zero,hypertension,Edema,0.1652182593638139
+U-Zero,hypertension,Enlarged Cardiomediastinum,0.1790362065272323
+U-Zero,hypertension,Lung Opacity,0.12874180746334607
+U-Zero,hypertension,Pleural Effusion,0.159265010493597
+U-Zero,hypertension,Pneumonia,0.036979240916461695
+U-Zero,hypertension,Pneumothorax,0.16687639873690485
+U-Zero,hypertension,Support Devices,0.13159701617678374
+U-Zero,heart_failure,Atelectasis,0.26641165528162414
+U-Zero,heart_failure,Cardiomegaly,1.1427240401068246
+U-Zero,heart_failure,Consolidation,0.2632666448769316
+U-Zero,heart_failure,Edema,1.35816302377257
+U-Zero,heart_failure,Enlarged Cardiomediastinum,0.07403598755480639
+U-Zero,heart_failure,Lung Opacity,0.31752931317786515
+U-Zero,heart_failure,Pleural Effusion,0.7880327230695466
+U-Zero,heart_failure,Pneumonia,0.18280669023333274
+U-Zero,heart_failure,Pneumothorax,0.303581405511627
+U-Zero,heart_failure,Support Devices,0.28318570070434457
+U-Zero,atrial_fibrillation,Atelectasis,0.3684949165827968
+U-Zero,atrial_fibrillation,Cardiomegaly,0.9449394791530088
+U-Zero,atrial_fibrillation,Consolidation,0.2816218272746412
+U-Zero,atrial_fibrillation,Edema,0.9690532683257834
+U-Zero,atrial_fibrillation,Enlarged Cardiomediastinum,0.210107258982537
+U-Zero,atrial_fibrillation,Lung Opacity,0.2702440147678072
+U-Zero,atrial_fibrillation,Pleural Effusion,0.848902993484234
+U-Zero,atrial_fibrillation,Pneumonia,0.08790489243111782
+U-Zero,atrial_fibrillation,Pneumothorax,0.08088597895904517
+U-Zero,atrial_fibrillation,Support Devices,0.4400102227223388
+U-Zero,coronary_artery_disease,Atelectasis,0.22070287088427862
+U-Zero,coronary_artery_disease,Cardiomegaly,0.6477137183071187
+U-Zero,coronary_artery_disease,Consolidation,0.03109263061194904
+U-Zero,coronary_artery_disease,Edema,0.7836107076823172
+U-Zero,coronary_artery_disease,Enlarged Cardiomediastinum,0.11807462542053326
+U-Zero,coronary_artery_disease,Lung Opacity,0.13104170722892738
+U-Zero,coronary_artery_disease,Pleural Effusion,0.4680250317113846
+U-Zero,coronary_artery_disease,Pneumonia,0.020781395278613217
+U-Zero,coronary_artery_disease,Pneumothorax,0.2299978709478758
+U-Zero,coronary_artery_disease,Support Devices,0.13506144638552903
+U-Zero,stroke,Atelectasis,0.21705398299032644
+U-Zero,stroke,Cardiomegaly,0.4621793676710196
+U-Zero,stroke,Consolidation,0.18443300237822022
+U-Zero,stroke,Edema,0.5264756852765181
+U-Zero,stroke,Enlarged Cardiomediastinum,0.18018529430167537
+U-Zero,stroke,Lung Opacity,0.22406964841703264
+U-Zero,stroke,Pleural Effusion,0.2376653644520852
+U-Zero,stroke,Pneumonia,0.12970270946440707
+U-Zero,stroke,Pneumothorax,0.3700618500059724
+U-Zero,stroke,Support Devices,0.557269454087752
+U-Zero,diabetes,Atelectasis,0.1520809567090974
+U-Zero,diabetes,Cardiomegaly,0.49016904599880506
+U-Zero,diabetes,Consolidation,0.053972159395586916
+U-Zero,diabetes,Edema,0.6138386045887012
+U-Zero,diabetes,Enlarged Cardiomediastinum,0.07375432537656904
+U-Zero,diabetes,Lung Opacity,0.050257101966148035
+U-Zero,diabetes,Pleural Effusion,0.18547070818768996
+U-Zero,diabetes,Pneumonia,0.03404501561326152
+U-Zero,diabetes,Pneumothorax,0.4777747749838346
+U-Zero,diabetes,Support Devices,0.12712790478983332
+U-Zero,hyperlipidemia,Atelectasis,0.18752412825978562
+U-Zero,hyperlipidemia,Cardiomegaly,0.5136784709918527
+U-Zero,hyperlipidemia,Consolidation,0.12687866025129735
+U-Zero,hyperlipidemia,Edema,0.5129459962625068
+U-Zero,hyperlipidemia,Enlarged Cardiomediastinum,0.10159285254710257
+U-Zero,hyperlipidemia,Lung Opacity,0.09429926356466217
+U-Zero,hyperlipidemia,Pleural Effusion,0.2722460868139582
+U-Zero,hyperlipidemia,Pneumonia,0.04956828362665261
+U-Zero,hyperlipidemia,Pneumothorax,0.23049991698548544
+U-Zero,hyperlipidemia,Support Devices,0.0048427088972654965
+U-Zero,obesity,Atelectasis,0.1744514514911936
+U-Zero,obesity,Cardiomegaly,0.48676879973896636
+U-Zero,obesity,Consolidation,0.18840019551675471
+U-Zero,obesity,Edema,0.38177174492244503
+U-Zero,obesity,Enlarged Cardiomediastinum,0.25649108934656284
+U-Zero,obesity,Lung Opacity,0.1018380338274841
+U-Zero,obesity,Pleural Effusion,0.06028438662022675
+U-Zero,obesity,Pneumonia,0.12821595313463177
+U-Zero,obesity,Pneumothorax,0.6647833538622269
+U-Zero,obesity,Support Devices,0.06403799695400827
+U-Zero,hypothyroidism,Atelectasis,0.13231997724247788
+U-Zero,hypothyroidism,Cardiomegaly,0.2828924483562615
+U-Zero,hypothyroidism,Consolidation,0.08831381499630789
+U-Zero,hypothyroidism,Edema,0.3641976002324142
+U-Zero,hypothyroidism,Enlarged Cardiomediastinum,0.03352259875411914
+U-Zero,hypothyroidism,Lung Opacity,0.18379587035599076
+U-Zero,hypothyroidism,Pleural Effusion,0.3294872109380211
+U-Zero,hypothyroidism,Pneumonia,0.09303026263267844
+U-Zero,hypothyroidism,Pneumothorax,0.16639637161716728
+U-Zero,hypothyroidism,Support Devices,0.12332355052176479
+U-Zero,ckd,Atelectasis,0.18567890606323223
+U-Zero,ckd,Cardiomegaly,0.7711158153837046
+U-Zero,ckd,Consolidation,0.13707835513742506
+U-Zero,ckd,Edema,0.8893693181614333
+U-Zero,ckd,Enlarged Cardiomediastinum,0.07544482635730196
+U-Zero,ckd,Lung Opacity,0.2161794860838987
+U-Zero,ckd,Pleural Effusion,0.5375843463387391
+U-Zero,ckd,Pneumonia,0.16723975550341746
+U-Zero,ckd,Pneumothorax,0.3231995471328839
+U-Zero,ckd,Support Devices,0.18963788934575143
+U-Zero,aki,Atelectasis,0.3548347178955706
+U-Zero,aki,Cardiomegaly,0.7033745979201316
+U-Zero,aki,Consolidation,0.46467990329712744
+U-Zero,aki,Edema,0.9577268219571082
+U-Zero,aki,Enlarged Cardiomediastinum,0.16523761109457788
+U-Zero,aki,Lung Opacity,0.39600613554096925
+U-Zero,aki,Pleural Effusion,0.671576689759896
+U-Zero,aki,Pneumonia,0.3122921483649164
+U-Zero,aki,Pneumothorax,0.18367775763773247
+U-Zero,aki,Support Devices,0.5936688212333442
+U-Zero,copd,Atelectasis,0.1442244399808133
+U-Zero,copd,Cardiomegaly,0.30414806522962484
+U-Zero,copd,Consolidation,0.3244965112270357
+U-Zero,copd,Edema,0.484806413764215
+U-Zero,copd,Enlarged Cardiomediastinum,0.09528241836346109
+U-Zero,copd,Lung Opacity,0.4191523859651366
+U-Zero,copd,Pleural Effusion,0.28127133776052554
+U-Zero,copd,Pneumonia,0.27234956455708786
+U-Zero,copd,Pneumothorax,0.3347737279014677
+U-Zero,copd,Support Devices,0.136886435937636
+U-Zero,asthma,Atelectasis,0.10331736846445212
+U-Zero,asthma,Cardiomegaly,0.0397864515191437
+U-Zero,asthma,Consolidation,0.05891762230660674
+U-Zero,asthma,Edema,0.0117066445580839
+U-Zero,asthma,Enlarged Cardiomediastinum,0.10155873309023955
+U-Zero,asthma,Lung Opacity,0.005762263986197864
+U-Zero,asthma,Pleural Effusion,0.1759925131516186
+U-Zero,asthma,Pneumonia,0.046087077318028205
+U-Zero,asthma,Pneumothorax,0.1540681972295007
+U-Zero,asthma,Support Devices,0.2003576431833896
+U-Zero,respiratory_failure,Atelectasis,0.25414729239391204
+U-Zero,respiratory_failure,Cardiomegaly,0.4714358751298365
+U-Zero,respiratory_failure,Consolidation,0.519198107903305
+U-Zero,respiratory_failure,Edema,0.5747865457373275
+U-Zero,respiratory_failure,Enlarged Cardiomediastinum,0.049624645891276915
+U-Zero,respiratory_failure,Lung Opacity,0.29594875346004185
+U-Zero,respiratory_failure,Pleural Effusion,0.34918345292095226
+U-Zero,respiratory_failure,Pneumonia,0.18853752027611004
+U-Zero,respiratory_failure,Pneumothorax,0.0011202280184241223
+U-Zero,respiratory_failure,Support Devices,0.40730542556341054
+U-Zero,pulmonary_fibrosis,Atelectasis,0.5944767705069514
+U-Zero,pulmonary_fibrosis,Cardiomegaly,0.25042717692156957
+U-Zero,pulmonary_fibrosis,Consolidation,0.30074016726135566
+U-Zero,pulmonary_fibrosis,Edema,0.43234988393697177
+U-Zero,pulmonary_fibrosis,Enlarged Cardiomediastinum,0.2963158203323117
+U-Zero,pulmonary_fibrosis,Lung Opacity,0.806706299330653
+U-Zero,pulmonary_fibrosis,Pleural Effusion,0.33049521431734724
+U-Zero,pulmonary_fibrosis,Pneumonia,0.4596486169489671
+U-Zero,pulmonary_fibrosis,Pneumothorax,0.01591140356629898
+U-Zero,pulmonary_fibrosis,Support Devices,0.07291515628159229
+U-Zero,liver_disease,Atelectasis,0.2401206201615009
+U-Zero,liver_disease,Cardiomegaly,0.12369538958796238
+U-Zero,liver_disease,Consolidation,0.10253729976297295
+U-Zero,liver_disease,Edema,0.288158061165205
+U-Zero,liver_disease,Enlarged Cardiomediastinum,0.042637166348919016
+U-Zero,liver_disease,Lung Opacity,0.10512818764265058
+U-Zero,liver_disease,Pleural Effusion,0.33709970752277363
+U-Zero,liver_disease,Pneumonia,0.09907327895739051
+U-Zero,liver_disease,Pneumothorax,0.07518844415541182
+U-Zero,liver_disease,Support Devices,0.3911806450320508
+U-Zero,anemia,Atelectasis,0.37738439130962437
+U-Zero,anemia,Cardiomegaly,0.529624502907406
+U-Zero,anemia,Consolidation,0.48234188432009156
+U-Zero,anemia,Edema,0.7159627349408548
+U-Zero,anemia,Enlarged Cardiomediastinum,0.24003323946349106
+U-Zero,anemia,Lung Opacity,0.3810552541202966
+U-Zero,anemia,Pleural Effusion,0.7062086974560601
+U-Zero,anemia,Pneumonia,0.2669709789986198
+U-Zero,anemia,Pneumothorax,0.05543579439744249
+U-Zero,anemia,Support Devices,0.538361980512104
+U-Zero,smoking_history,Atelectasis,0.19517043849942617
+U-Zero,smoking_history,Cardiomegaly,0.22638935844259944
+U-Zero,smoking_history,Consolidation,0.0642653803348116
+U-Zero,smoking_history,Edema,0.06284294968281876
+U-Zero,smoking_history,Enlarged Cardiomediastinum,0.21141112901038273
+U-Zero,smoking_history,Lung Opacity,0.04917332728724353
+U-Zero,smoking_history,Pleural Effusion,0.3439165432025184
+U-Zero,smoking_history,Pneumonia,0.038705163934802944
+U-Zero,smoking_history,Pneumothorax,0.02751569484072845
+U-Zero,smoking_history,Support Devices,0.12846454446112332
+U-Zero,cancer_history,Atelectasis,0.1885396434068789
+U-Zero,cancer_history,Cardiomegaly,0.037823572421951814
+U-Zero,cancer_history,Consolidation,0.2223593742714375
+U-Zero,cancer_history,Edema,0.057122462224679614
+U-Zero,cancer_history,Enlarged Cardiomediastinum,0.16898791967414156
+U-Zero,cancer_history,Lung Opacity,0.2373385418171858
+U-Zero,cancer_history,Pleural Effusion,0.4007094218128352
+U-Zero,cancer_history,Pneumonia,0.13738271334099014
+U-Zero,cancer_history,Pneumothorax,0.5016992729052745
+U-Zero,cancer_history,Support Devices,0.022679420756760917
+U-Zero,depression,Atelectasis,0.023452181129733286
+U-Zero,depression,Cardiomegaly,0.06255599513734518
+U-Zero,depression,Consolidation,0.0005358813151019347
+U-Zero,depression,Edema,0.12823789286438395
+U-Zero,depression,Enlarged Cardiomediastinum,0.05001255496649102
+U-Zero,depression,Lung Opacity,0.088205412688572
+U-Zero,depression,Pleural Effusion,0.03367194349920664
+U-Zero,depression,Pneumonia,0.08728104470579057
+U-Zero,depression,Pneumothorax,0.32157128681016556
+U-Zero,depression,Support Devices,0.02066556153957417
+U-Zero,age,Atelectasis,0.4445785443981163
+U-Zero,age,Cardiomegaly,0.6260903270548984
+U-Zero,age,Consolidation,0.20720427506069794
+U-Zero,age,Edema,0.6708925258959245
+U-Zero,age,Enlarged Cardiomediastinum,0.20715599050897832
+U-Zero,age,Lung Opacity,0.3795205258066642
+U-Zero,age,Pleural Effusion,0.7519366617462048
+U-Zero,age,Pneumonia,0.15321633229383017
+U-Zero,age,Pneumothorax,0.018597367640232967
+U-Zero,age,Support Devices,0.24048293142920144
+U-Zero,bmi,Atelectasis,0.029552373009268336
+U-Zero,bmi,Cardiomegaly,0.21514525822531283
+U-Zero,bmi,Consolidation,0.36345847763757166
+U-Zero,bmi,Edema,0.012381448302439061
+U-Zero,bmi,Enlarged Cardiomediastinum,0.013381627850015504
+U-Zero,bmi,Lung Opacity,0.252792651838313
+U-Zero,bmi,Pleural Effusion,0.3320475065318106
+U-Zero,bmi,Pneumonia,0.20457106572509764
+U-Zero,bmi,Pneumothorax,0.6404754151785307
+U-Zero,bmi,Support Devices,0.32228766556943345
+U-Zero,race_black_vs_white,Atelectasis,0.41451507014275857
+U-Zero,race_black_vs_white,Cardiomegaly,0.09864598926324901
+U-Zero,race_black_vs_white,Consolidation,0.2619512947949874
+U-Zero,race_black_vs_white,Edema,0.1883199283303479
+U-Zero,race_black_vs_white,Enlarged Cardiomediastinum,0.29978795200232217
+U-Zero,race_black_vs_white,Lung Opacity,0.21109477698350523
+U-Zero,race_black_vs_white,Pleural Effusion,0.6592276809601696
+U-Zero,race_black_vs_white,Pneumonia,0.0950559771283011
+U-Zero,race_black_vs_white,Pneumothorax,0.703055744486715
+U-Zero,race_black_vs_white,Support Devices,0.4683978275850917

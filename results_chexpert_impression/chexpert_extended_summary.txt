@@ -1,0 +1,16 @@
+MULTI-METRIC SUBGROUP GAPS (mean across models x findings, by dimension)
+  Age      AUROC 0.055 [CI 0.025,0.104] sens 0.069 spec 0.145 FPR 0.145 FNR 0.069 ECE 0.013
+  Gender   AUROC 0.021 [CI 0.003,0.059] sens 0.022 spec 0.040 FPR 0.040 FNR 0.022 ECE 0.008
+  Race     AUROC 0.056 [CI 0.021,0.143] sens 0.080 spec 0.094 FPR 0.094 FNR 0.080 ECE 0.032
+
+NONLINEAR CONCEPT ERASURE (collateral-corrected NET drop), mean across models
+[RAW] attr: decode(lin/mlp) | concept/random/NET
+  age_bin                0.672/0.779 | +0.0041/-0.0003/NET +0.0044
+  race_black_vs_white    0.617/0.641 | +0.0027/+0.0001/NET +0.0026
+  sex                    0.684/0.880 | +0.0005/-0.0005/NET +0.0010
+[RFF] attr: decode(lin/mlp) | concept/random/NET
+  age_bin                0.522/0.776 | +0.0185/+0.0000/NET +0.0185
+  race_black_vs_white    0.527/0.490 | +0.0055/+0.0001/NET +0.0053
+  sex                    0.529/0.860 | +0.0081/+0.0002/NET +0.0079
+
+total elapsed=3396s

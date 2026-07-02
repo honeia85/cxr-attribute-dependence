@@ -1,0 +1,321 @@
+model,model_group,label_source,attribute,finding,auroc_baseline,auroc_residualized,auroc_drop
+ResNet50-ImageNet,clean,impression_fixed.json,sex,Atelectasis,0.6758911786739035,0.6761738681818825,-0.00028268950797905035
+ResNet50-ImageNet,clean,impression_fixed.json,sex,Cardiomegaly,0.864428454576098,0.8640018496634055,0.00042660491269241874
+ResNet50-ImageNet,clean,impression_fixed.json,sex,Consolidation,0.8957335196780033,0.8961182742771467,-0.00038475459914344423
+ResNet50-ImageNet,clean,impression_fixed.json,sex,Edema,0.8625414126531088,0.8625624146622464,-2.1002009137571775e-05
+ResNet50-ImageNet,clean,impression_fixed.json,sex,Enlarged Cardiomediastinum,0.7808891226049323,0.7791750658369747,0.0017140567679575502
+ResNet50-ImageNet,clean,impression_fixed.json,sex,Lung Opacity,0.7967121244824678,0.7963696538011237,0.0003424706813440759
+ResNet50-ImageNet,clean,impression_fixed.json,sex,Pleural Effusion,0.9074089406012342,0.9077488865983474,-0.00033994599711317797
+ResNet50-ImageNet,clean,impression_fixed.json,sex,Pneumonia,0.6949825256787283,0.692569151429911,0.0024133742488172683
+ResNet50-ImageNet,clean,impression_fixed.json,sex,Pneumothorax,0.7567803497755581,0.7564408252564193,0.00033952451913876747
+ResNet50-ImageNet,clean,impression_fixed.json,sex,Support Devices,0.6746629978495955,0.6746101266185176,5.2871231077888936e-05
+ResNet50-ImageNet,clean,impression_fixed.json,race_black_vs_white,Atelectasis,0.6829498379885978,0.692209097247857,-0.00925925925925919
+ResNet50-ImageNet,clean,impression_fixed.json,race_black_vs_white,Cardiomegaly,0.8442623806877311,0.8432116494280099,0.001050731259721216
+ResNet50-ImageNet,clean,impression_fixed.json,race_black_vs_white,Consolidation,0.8794872312880161,0.8787805707493884,0.0007066605386276681
+ResNet50-ImageNet,clean,impression_fixed.json,race_black_vs_white,Edema,0.8531389480439918,0.8532007990987979,-6.185105480605024e-05
+ResNet50-ImageNet,clean,impression_fixed.json,race_black_vs_white,Enlarged Cardiomediastinum,0.7594410500063069,0.7595970638417466,-0.0001560138354397278
+ResNet50-ImageNet,clean,impression_fixed.json,race_black_vs_white,Lung Opacity,0.7592509936964816,0.7584130658525343,0.000837927843947317
+ResNet50-ImageNet,clean,impression_fixed.json,race_black_vs_white,Pleural Effusion,0.8985529109529838,0.897231416783877,0.0013214941691068738
+ResNet50-ImageNet,clean,impression_fixed.json,race_black_vs_white,Pneumonia,0.6702543218085106,0.6708776595744681,-0.0006233377659574657
+ResNet50-ImageNet,clean,impression_fixed.json,race_black_vs_white,Pneumothorax,0.7420865658401686,0.740016498989082,0.0020700668510866826
+ResNet50-ImageNet,clean,impression_fixed.json,race_black_vs_white,Support Devices,0.6389300742749019,0.6389740410116584,-4.396673675655105e-05
+ResNet50-ImageNet,clean,impression_fixed.json,age,Atelectasis,0.6758911786739035,0.6616665959942898,0.014224582679613684
+ResNet50-ImageNet,clean,impression_fixed.json,age,Cardiomegaly,0.864428454576098,0.8525082436212477,0.011920210954850297
+ResNet50-ImageNet,clean,impression_fixed.json,age,Consolidation,0.8957335196780033,0.8931991949463624,0.0025343247316409467
+ResNet50-ImageNet,clean,impression_fixed.json,age,Edema,0.8625414126531088,0.8580346221402196,0.004506790512889158
+ResNet50-ImageNet,clean,impression_fixed.json,age,Enlarged Cardiomediastinum,0.7808891226049323,0.7697571439899503,0.011131978614981941
+ResNet50-ImageNet,clean,impression_fixed.json,age,Lung Opacity,0.7967121244824678,0.7849175545657306,0.011794569916737108
+ResNet50-ImageNet,clean,impression_fixed.json,age,Pleural Effusion,0.9074089406012342,0.9016457976520711,0.005763142949163136
+ResNet50-ImageNet,clean,impression_fixed.json,age,Pneumonia,0.6949825256787283,0.69501981843754,-3.729275881170224e-05
+ResNet50-ImageNet,clean,impression_fixed.json,age,Pneumothorax,0.7567803497755581,0.760565981798725,-0.0037856320231669516
+ResNet50-ImageNet,clean,impression_fixed.json,age,Support Devices,0.6746629978495955,0.6750441786465796,-0.0003811807969841263
+ResNet50-ImageNet,clean,impression_fixed.json,bmi,Atelectasis,0.695968474167572,0.6960726671925934,-0.00010419302502140404
+ResNet50-ImageNet,clean,impression_fixed.json,bmi,Cardiomegaly,0.8575960145899265,0.8526448711759553,0.004951143413971182
+ResNet50-ImageNet,clean,impression_fixed.json,bmi,Consolidation,0.8813361104148253,0.8795622303724323,0.0017738800423929835
+ResNet50-ImageNet,clean,impression_fixed.json,bmi,Edema,0.856866244671436,0.8569304827352766,-6.423806384059372e-05
+ResNet50-ImageNet,clean,impression_fixed.json,bmi,Enlarged Cardiomediastinum,0.7650282047255357,0.7645548696374711,0.0004733350880645748
+ResNet50-ImageNet,clean,impression_fixed.json,bmi,Lung Opacity,0.7915496360313055,0.7919311536235054,-0.0003815175921999536
+ResNet50-ImageNet,clean,impression_fixed.json,bmi,Pleural Effusion,0.9016013256414308,0.9007870167285252,0.0008143089129055703
+ResNet50-ImageNet,clean,impression_fixed.json,bmi,Pneumonia,0.6911502140383332,0.6874287435196936,0.0037214705186395802
+ResNet50-ImageNet,clean,impression_fixed.json,bmi,Pneumothorax,0.7459882417503811,0.731970631547058,0.01401761020332315
+ResNet50-ImageNet,clean,impression_fixed.json,bmi,Support Devices,0.6497932681778196,0.6501115032918579,-0.00031823511403827887
+DINOv2-base,clean,impression_fixed.json,sex,Atelectasis,0.7870181910698385,0.7851277049852294,0.0018904860846090665
+DINOv2-base,clean,impression_fixed.json,sex,Cardiomegaly,0.8865843412975722,0.8863384963612106,0.00024584493636159443
+DINOv2-base,clean,impression_fixed.json,sex,Consolidation,0.9263761761689111,0.9264053312937153,-2.915512480416993e-05
+DINOv2-base,clean,impression_fixed.json,sex,Edema,0.8804789880094389,0.8803518820999712,0.00012710590946773959
+DINOv2-base,clean,impression_fixed.json,sex,Enlarged Cardiomediastinum,0.8245493662539075,0.822277729782519,0.002271636471388505
+DINOv2-base,clean,impression_fixed.json,sex,Lung Opacity,0.8266624806231972,0.8262233385004807,0.0004391421227165626
+DINOv2-base,clean,impression_fixed.json,sex,Pleural Effusion,0.9333301455329808,0.9334137338742097,-8.35883412289018e-05
+DINOv2-base,clean,impression_fixed.json,sex,Pneumonia,0.7812673144951626,0.7802763926181647,0.0009909218769978967
+DINOv2-base,clean,impression_fixed.json,sex,Pneumothorax,0.7924787912651038,0.7918357918200234,0.0006429994450803944
+DINOv2-base,clean,impression_fixed.json,sex,Support Devices,0.7288636287026601,0.7286397917658483,0.0002238369368118276
+DINOv2-base,clean,impression_fixed.json,race_black_vs_white,Atelectasis,0.7387617406997251,0.7398178909806816,-0.0010561502809565138
+DINOv2-base,clean,impression_fixed.json,race_black_vs_white,Cardiomegaly,0.8800357330687545,0.8792356554854737,0.0008000775832808227
+DINOv2-base,clean,impression_fixed.json,race_black_vs_white,Consolidation,0.9196183107151454,0.9185934635373262,0.0010248471778192547
+DINOv2-base,clean,impression_fixed.json,race_black_vs_white,Edema,0.8761855486763593,0.876157778815018,2.7769861341342406e-05
+DINOv2-base,clean,impression_fixed.json,race_black_vs_white,Enlarged Cardiomediastinum,0.814314767318089,0.8142273553109985,8.741200709050378e-05
+DINOv2-base,clean,impression_fixed.json,race_black_vs_white,Lung Opacity,0.8090127491171955,0.8077031836406544,0.0013095654765410414
+DINOv2-base,clean,impression_fixed.json,race_black_vs_white,Pleural Effusion,0.9280250802339767,0.9270358178527398,0.0009892623812368662
+DINOv2-base,clean,impression_fixed.json,race_black_vs_white,Pneumonia,0.7620789007092199,0.762037344858156,4.1555851063912463e-05
+DINOv2-base,clean,impression_fixed.json,race_black_vs_white,Pneumothorax,0.7910535888704022,0.7898006303110929,0.0012529585593092918
+DINOv2-base,clean,impression_fixed.json,race_black_vs_white,Support Devices,0.7163994644402168,0.715349397559429,0.0010500668807879032
+DINOv2-base,clean,impression_fixed.json,age,Atelectasis,0.7870181910698385,0.7826647726469631,0.004353418422875399
+DINOv2-base,clean,impression_fixed.json,age,Cardiomegaly,0.8865843412975722,0.8758930708107311,0.010691270486841153
+DINOv2-base,clean,impression_fixed.json,age,Consolidation,0.9263761761689111,0.9239580066951333,0.0024181694737778203
+DINOv2-base,clean,impression_fixed.json,age,Edema,0.8804789880094389,0.8758517641004017,0.004627223909037248
+DINOv2-base,clean,impression_fixed.json,age,Enlarged Cardiomediastinum,0.8245493662539075,0.8135784847688088,0.010970881485098727
+DINOv2-base,clean,impression_fixed.json,age,Lung Opacity,0.8266624806231972,0.8185770068481054,0.008085473775091834
+DINOv2-base,clean,impression_fixed.json,age,Pleural Effusion,0.9333301455329808,0.9273263688284579,0.006003776704522901
+DINOv2-base,clean,impression_fixed.json,age,Pneumonia,0.7812673144951626,0.7792428504453821,0.0020244640497805166
+DINOv2-base,clean,impression_fixed.json,age,Pneumothorax,0.7924787912651038,0.7955841000375681,-0.003105308772464288
+DINOv2-base,clean,impression_fixed.json,age,Support Devices,0.7288636287026601,0.7286781176364112,0.00018551106624886682
+DINOv2-base,clean,impression_fixed.json,bmi,Atelectasis,0.7427250941458405,0.7458508848964768,-0.003125790750636237
+DINOv2-base,clean,impression_fixed.json,bmi,Cardiomegaly,0.8837655777861217,0.8799062203865615,0.003859357399560226
+DINOv2-base,clean,impression_fixed.json,bmi,Consolidation,0.9191862139781967,0.9181698197425648,0.0010163942356318234
+DINOv2-base,clean,impression_fixed.json,bmi,Edema,0.8761674138703092,0.8762600797565696,-9.26658862604457e-05
+DINOv2-base,clean,impression_fixed.json,bmi,Enlarged Cardiomediastinum,0.8201223445864695,0.8199940575065269,0.0001282870799426128
+DINOv2-base,clean,impression_fixed.json,bmi,Lung Opacity,0.8196800630848683,0.8193534712631104,0.00032659182175787116
+DINOv2-base,clean,impression_fixed.json,bmi,Pleural Effusion,0.9287311196830423,0.9280031439417797,0.0007279757412625987
+DINOv2-base,clean,impression_fixed.json,bmi,Pneumonia,0.7589218491191085,0.7550390431733602,0.003882805945748302
+DINOv2-base,clean,impression_fixed.json,bmi,Pneumothorax,0.7886276540116472,0.7782219524416935,0.010405701569953796
+DINOv2-base,clean,impression_fixed.json,bmi,Support Devices,0.7179130068620203,0.7178181413375313,9.486552448900731e-05
+BiomedCLIP,clean,impression_fixed.json,sex,Atelectasis,0.8044954699006346,0.8044318647613394,6.36051392951531e-05
+BiomedCLIP,clean,impression_fixed.json,sex,Cardiomegaly,0.920745276792977,0.9208240040153726,-7.872722239554708e-05
+BiomedCLIP,clean,impression_fixed.json,sex,Consolidation,0.9415283116422306,0.9417424777451799,-0.00021416610294933136
+BiomedCLIP,clean,impression_fixed.json,sex,Edema,0.886085922829102,0.8853952630077776,0.0006906598213244353
+BiomedCLIP,clean,impression_fixed.json,sex,Enlarged Cardiomediastinum,0.8433676812447048,0.8427195365744742,0.0006481446702306659
+BiomedCLIP,clean,impression_fixed.json,sex,Lung Opacity,0.8390271373349292,0.8387842159998431,0.00024292133508607705
+BiomedCLIP,clean,impression_fixed.json,sex,Pleural Effusion,0.9363774417566613,0.9370160343131215,-0.0006385925564602601
+BiomedCLIP,clean,impression_fixed.json,sex,Pneumonia,0.8573711801559903,0.8580744150364403,-0.0007032348804499877
+BiomedCLIP,clean,impression_fixed.json,sex,Pneumothorax,0.7811931449070474,0.7803709593396692,0.0008221855673782308
+BiomedCLIP,clean,impression_fixed.json,sex,Support Devices,0.7296886738740853,0.7323670981174609,-0.00267842424337561
+BiomedCLIP,clean,impression_fixed.json,race_black_vs_white,Atelectasis,0.7772958451253025,0.7758705549403223,0.0014252901849801658
+BiomedCLIP,clean,impression_fixed.json,race_black_vs_white,Cardiomegaly,0.9144815907556538,0.9131768488506113,0.0013047419050424836
+BiomedCLIP,clean,impression_fixed.json,race_black_vs_white,Consolidation,0.9381059645684867,0.9377545282672632,0.00035143630122347336
+BiomedCLIP,clean,impression_fixed.json,race_black_vs_white,Edema,0.879351873876583,0.8791267696975273,0.00022510417905563518
+BiomedCLIP,clean,impression_fixed.json,race_black_vs_white,Enlarged Cardiomediastinum,0.8454500390587829,0.8456458862139093,-0.00019584715512643847
+BiomedCLIP,clean,impression_fixed.json,race_black_vs_white,Lung Opacity,0.8235960896700616,0.8225699919256746,0.001026097744387
+BiomedCLIP,clean,impression_fixed.json,race_black_vs_white,Pleural Effusion,0.9325167976955053,0.9318085245721446,0.0007082731233607475
+BiomedCLIP,clean,impression_fixed.json,race_black_vs_white,Pneumonia,0.8537234042553192,0.854651484929078,-0.0009280806737588243
+BiomedCLIP,clean,impression_fixed.json,race_black_vs_white,Pneumothorax,0.777562203348857,0.7755002735530021,0.0020619297958548444
+BiomedCLIP,clean,impression_fixed.json,race_black_vs_white,Support Devices,0.7167104408483719,0.7164222501213097,0.0002881907270622097
+BiomedCLIP,clean,impression_fixed.json,age,Atelectasis,0.8044954699006346,0.8010819940917893,0.003413475808845323
+BiomedCLIP,clean,impression_fixed.json,age,Cardiomegaly,0.920745276792977,0.9105555015549337,0.01018977523804332
+BiomedCLIP,clean,impression_fixed.json,age,Consolidation,0.9415283116422306,0.9399418386276248,0.0015864730146057937
+BiomedCLIP,clean,impression_fixed.json,age,Edema,0.886085922829102,0.8808968951756361,0.005189027653465961
+BiomedCLIP,clean,impression_fixed.json,age,Enlarged Cardiomediastinum,0.8433676812447048,0.8354371950735997,0.007930486171105144
+BiomedCLIP,clean,impression_fixed.json,age,Lung Opacity,0.8390271373349292,0.8297801673109249,0.00924697002400432
+BiomedCLIP,clean,impression_fixed.json,age,Pleural Effusion,0.9363774417566613,0.9309609344531247,0.0054165073035366
+BiomedCLIP,clean,impression_fixed.json,age,Pneumonia,0.8573711801559903,0.8571527511400929,0.00021842901589741448
+BiomedCLIP,clean,impression_fixed.json,age,Pneumothorax,0.7811931449070474,0.7843269641825259,-0.003133819275478511
+BiomedCLIP,clean,impression_fixed.json,age,Support Devices,0.7296886738740853,0.7316023122967401,-0.0019136384226547953
+BiomedCLIP,clean,impression_fixed.json,bmi,Atelectasis,0.7942336603009689,0.7974115475641159,-0.00317788726314705
+BiomedCLIP,clean,impression_fixed.json,bmi,Cardiomegaly,0.9218632104990255,0.9179267464106277,0.003936464088397873
+BiomedCLIP,clean,impression_fixed.json,bmi,Consolidation,0.9372177293455939,0.9353765111237174,0.0018412182218764395
+BiomedCLIP,clean,impression_fixed.json,bmi,Edema,0.8841590477164305,0.8840253928769133,0.00013365483951721657
+BiomedCLIP,clean,impression_fixed.json,bmi,Enlarged Cardiomediastinum,0.8381982890632315,0.8387615725636698,-0.0005632835004383274
+BiomedCLIP,clean,impression_fixed.json,bmi,Lung Opacity,0.8367382752852266,0.8361557430476738,0.0005825322375527797
+BiomedCLIP,clean,impression_fixed.json,bmi,Pleural Effusion,0.9336810969027239,0.932824652687617,0.0008564442151068885
+BiomedCLIP,clean,impression_fixed.json,bmi,Pneumonia,0.858820745584787,0.8533676081485145,0.005453137436272515
+BiomedCLIP,clean,impression_fixed.json,bmi,Pneumothorax,0.7736778161233339,0.7626625206394119,0.011015295483921994
+BiomedCLIP,clean,impression_fixed.json,bmi,Support Devices,0.7148889262650451,0.7162213996778929,-0.0013324734128478122
+XRV-DenseNet-nih,clean,impression_fixed.json,sex,Atelectasis,0.8134213911150688,0.8131563697013386,0.00026502141373019317
+XRV-DenseNet-nih,clean,impression_fixed.json,sex,Cardiomegaly,0.884425026957679,0.8844575694376944,-3.254248001538507e-05
+XRV-DenseNet-nih,clean,impression_fixed.json,sex,Consolidation,0.8771209190191596,0.8782481988181008,-0.0011272797989412275
+XRV-DenseNet-nih,clean,impression_fixed.json,sex,Edema,0.8345561807846384,0.8348169557314291,-0.00026077494679066504
+XRV-DenseNet-nih,clean,impression_fixed.json,sex,Enlarged Cardiomediastinum,0.8125547250289016,0.81073299194097,0.001821733087931543
+XRV-DenseNet-nih,clean,impression_fixed.json,sex,Lung Opacity,0.7724008921505144,0.7747165590722681,-0.0023156669217536674
+XRV-DenseNet-nih,clean,impression_fixed.json,sex,Pleural Effusion,0.8631846852564471,0.8643493078913309,-0.0011646226348838162
+XRV-DenseNet-nih,clean,impression_fixed.json,sex,Pneumonia,0.7668190342240976,0.7683586924093253,-0.0015396581852277214
+XRV-DenseNet-nih,clean,impression_fixed.json,sex,Pneumothorax,0.6766164605734253,0.6779885218944735,-0.001372061321048168
+XRV-DenseNet-nih,clean,impression_fixed.json,sex,Support Devices,0.6434647002570604,0.6399736982941293,0.003491001962931062
+XRV-DenseNet-nih,clean,impression_fixed.json,race_black_vs_white,Atelectasis,0.8010028300725975,0.8032176694967393,-0.0022148394241418012
+XRV-DenseNet-nih,clean,impression_fixed.json,race_black_vs_white,Cardiomegaly,0.8830737899059675,0.8825609196602747,0.000512870245692798
+XRV-DenseNet-nih,clean,impression_fixed.json,race_black_vs_white,Consolidation,0.8699479453392391,0.8698549304619094,9.301487732971125e-05
+XRV-DenseNet-nih,clean,impression_fixed.json,race_black_vs_white,Edema,0.8248350077531208,0.8246655835485731,0.0001694242045476857
+XRV-DenseNet-nih,clean,impression_fixed.json,race_black_vs_white,Enlarged Cardiomediastinum,0.8143247256480106,0.814215184018872,0.00010954162913856536
+XRV-DenseNet-nih,clean,impression_fixed.json,race_black_vs_white,Lung Opacity,0.7551348204415582,0.7551053647481192,2.9455693439039976e-05
+XRV-DenseNet-nih,clean,impression_fixed.json,race_black_vs_white,Pleural Effusion,0.8574347223662832,0.8566929445117729,0.0007417778545102394
+XRV-DenseNet-nih,clean,impression_fixed.json,race_black_vs_white,Pneumonia,0.776277149822695,0.7765403368794326,-0.00026318705673755716
+XRV-DenseNet-nih,clean,impression_fixed.json,race_black_vs_white,Pneumothorax,0.6753280934642876,0.6739345857691484,0.001393507695139129
+XRV-DenseNet-nih,clean,impression_fixed.json,race_black_vs_white,Support Devices,0.6231408809778716,0.6252958929291218,-0.0021550119512502297
+XRV-DenseNet-nih,clean,impression_fixed.json,age,Atelectasis,0.8134213911150688,0.8082128369305572,0.005208554184511605
+XRV-DenseNet-nih,clean,impression_fixed.json,age,Cardiomegaly,0.884425026957679,0.8739400956891019,0.01048493126857708
+XRV-DenseNet-nih,clean,impression_fixed.json,age,Consolidation,0.8771209190191596,0.8741171657620824,0.0030037532570771353
+XRV-DenseNet-nih,clean,impression_fixed.json,age,Edema,0.8345561807846384,0.8297455174520405,0.004810663332597942
+XRV-DenseNet-nih,clean,impression_fixed.json,age,Enlarged Cardiomediastinum,0.8125547250289016,0.8012904464393779,0.011264278589523724
+XRV-DenseNet-nih,clean,impression_fixed.json,age,Lung Opacity,0.7724008921505144,0.7605699559811365,0.011830936169377915
+XRV-DenseNet-nih,clean,impression_fixed.json,age,Pleural Effusion,0.8631846852564471,0.8536015379050219,0.00958314735142518
+XRV-DenseNet-nih,clean,impression_fixed.json,age,Pneumonia,0.7668190342240976,0.7671067212206453,-0.0002876869965476869
+XRV-DenseNet-nih,clean,impression_fixed.json,age,Pneumothorax,0.6766164605734253,0.6809692233101873,-0.004352762736761995
+XRV-DenseNet-nih,clean,impression_fixed.json,age,Support Devices,0.6434647002570604,0.641951982763517,0.001512717493543425
+XRV-DenseNet-nih,clean,impression_fixed.json,bmi,Atelectasis,0.7990190970930146,0.8014155366685024,-0.002396439575487852
+XRV-DenseNet-nih,clean,impression_fixed.json,bmi,Cardiomegaly,0.8849042983067817,0.8819921239428562,0.002912174363925546
+XRV-DenseNet-nih,clean,impression_fixed.json,bmi,Consolidation,0.8642008799588387,0.8621054257531982,0.0020954542056405012
+XRV-DenseNet-nih,clean,impression_fixed.json,bmi,Edema,0.8326061834260066,0.8325448101814797,6.137324452681892e-05
+XRV-DenseNet-nih,clean,impression_fixed.json,bmi,Enlarged Cardiomediastinum,0.8023966090923099,0.8036293447110702,-0.00123273561876025
+XRV-DenseNet-nih,clean,impression_fixed.json,bmi,Lung Opacity,0.7637426100908441,0.7636268329481692,0.0001157771426748555
+XRV-DenseNet-nih,clean,impression_fixed.json,bmi,Pleural Effusion,0.8555345861219427,0.8549840648264884,0.0005505212954542982
+XRV-DenseNet-nih,clean,impression_fixed.json,bmi,Pneumonia,0.7423473229074795,0.7390130574139007,0.0033342654935788474
+XRV-DenseNet-nih,clean,impression_fixed.json,bmi,Pneumothorax,0.6672492435065217,0.6460388687282573,0.021210374778264374
+XRV-DenseNet-nih,clean,impression_fixed.json,bmi,Support Devices,0.6380333311956323,0.6378000394466339,0.00023329174899844318
+CLIP-ViT-B16,clean,impression_fixed.json,sex,Atelectasis,0.7971172737423851,0.7993257855234703,-0.002208511781085276
+CLIP-ViT-B16,clean,impression_fixed.json,sex,Cardiomegaly,0.846773946007336,0.8466430655527759,0.00013088045456011166
+CLIP-ViT-B16,clean,impression_fixed.json,sex,Consolidation,0.9003163020880341,0.899886419077625,0.0004298830104091378
+CLIP-ViT-B16,clean,impression_fixed.json,sex,Edema,0.8520510731671167,0.8520541359601158,-3.062792999108943e-06
+CLIP-ViT-B16,clean,impression_fixed.json,sex,Enlarged Cardiomediastinum,0.8009887023334044,0.8005951412103987,0.00039356112300570345
+CLIP-ViT-B16,clean,impression_fixed.json,sex,Lung Opacity,0.8082540928385953,0.807791927476797,0.0004621653617983279
+CLIP-ViT-B16,clean,impression_fixed.json,sex,Pleural Effusion,0.8977020024871296,0.8977229533477464,-2.095086061681961e-05
+CLIP-ViT-B16,clean,impression_fixed.json,sex,Pneumonia,0.7626156075523163,0.7632602395260624,-0.0006446319737460904
+CLIP-ViT-B16,clean,impression_fixed.json,sex,Pneumothorax,0.752297351910501,0.7517168950586255,0.000580456851875466
+CLIP-ViT-B16,clean,impression_fixed.json,sex,Support Devices,0.7035750187358096,0.7037597217264743,-0.00018470299066464246
+CLIP-ViT-B16,clean,impression_fixed.json,race_black_vs_white,Atelectasis,0.7374389893769738,0.7371313727902875,0.0003076165866863212
+CLIP-ViT-B16,clean,impression_fixed.json,race_black_vs_white,Cardiomegaly,0.8407506182417688,0.8401157781267368,0.0006348401150320093
+CLIP-ViT-B16,clean,impression_fixed.json,race_black_vs_white,Consolidation,0.8941579081164531,0.8932580628326018,0.0008998452838513415
+CLIP-ViT-B16,clean,impression_fixed.json,race_black_vs_white,Edema,0.8494612646899761,0.8494626672082257,-1.4025182496490984e-06
+CLIP-ViT-B16,clean,impression_fixed.json,race_black_vs_white,Enlarged Cardiomediastinum,0.7983471385292211,0.7984068885087513,-5.974997953017702e-05
+CLIP-ViT-B16,clean,impression_fixed.json,race_black_vs_white,Lung Opacity,0.7785063537663435,0.778373976414653,0.00013237735169047138
+CLIP-ViT-B16,clean,impression_fixed.json,race_black_vs_white,Pleural Effusion,0.8922758136497262,0.8914242303738014,0.0008515832759248276
+CLIP-ViT-B16,clean,impression_fixed.json,race_black_vs_white,Pneumonia,0.750498670212766,0.7502216312056738,0.00027703900709219464
+CLIP-ViT-B16,clean,impression_fixed.json,race_black_vs_white,Pneumothorax,0.7442780967339044,0.742173262465007,0.002104834268897404
+CLIP-ViT-B16,clean,impression_fixed.json,race_black_vs_white,Support Devices,0.6927517785668256,0.6930589038739509,-0.00030712530712528885
+CLIP-ViT-B16,clean,impression_fixed.json,age,Atelectasis,0.7971172737423851,0.785095902415582,0.012021371326803032
+CLIP-ViT-B16,clean,impression_fixed.json,age,Cardiomegaly,0.846773946007336,0.8348668088872518,0.011907137120084177
+CLIP-ViT-B16,clean,impression_fixed.json,age,Consolidation,0.9003163020880341,0.8988890966966934,0.00142720539134078
+CLIP-ViT-B16,clean,impression_fixed.json,age,Edema,0.8520510731671167,0.8470349839326428,0.005016089234473942
+CLIP-ViT-B16,clean,impression_fixed.json,age,Enlarged Cardiomediastinum,0.8009887023334044,0.7882791404257805,0.012709561907623845
+CLIP-ViT-B16,clean,impression_fixed.json,age,Lung Opacity,0.8082540928385953,0.795381224286901,0.012872868551694339
+CLIP-ViT-B16,clean,impression_fixed.json,age,Pleural Effusion,0.8977020024871296,0.8900101327740356,0.007691869713093991
+CLIP-ViT-B16,clean,impression_fixed.json,age,Pneumonia,0.7626156075523163,0.7661104718066745,-0.0034948642543581876
+CLIP-ViT-B16,clean,impression_fixed.json,age,Pneumothorax,0.752297351910501,0.7575855989361175,-0.005288247025616588
+CLIP-ViT-B16,clean,impression_fixed.json,age,Support Devices,0.7035750187358096,0.7037766913137415,-0.00020167257793191062
+CLIP-ViT-B16,clean,impression_fixed.json,bmi,Atelectasis,0.7837101647738267,0.7834124704166233,0.000297694357203393
+CLIP-ViT-B16,clean,impression_fixed.json,bmi,Cardiomegaly,0.8473236156555634,0.8426272595612294,0.004696356094333942
+CLIP-ViT-B16,clean,impression_fixed.json,bmi,Consolidation,0.8977581058677115,0.8962601749363447,0.0014979309313668532
+CLIP-ViT-B16,clean,impression_fixed.json,bmi,Edema,0.8504056363777401,0.850680769217208,-0.00027513283946789535
+CLIP-ViT-B16,clean,impression_fixed.json,bmi,Enlarged Cardiomediastinum,0.7883034623503224,0.7892486579623146,-0.0009451956119921334
+CLIP-ViT-B16,clean,impression_fixed.json,bmi,Lung Opacity,0.8069470843760114,0.8077452173556319,-0.0007981329796205028
+CLIP-ViT-B16,clean,impression_fixed.json,bmi,Pleural Effusion,0.8929059841337015,0.8924992164086064,0.00040676772509506964
+CLIP-ViT-B16,clean,impression_fixed.json,bmi,Pneumonia,0.7570933809452105,0.7529416826209477,0.004151698324262765
+CLIP-ViT-B16,clean,impression_fixed.json,bmi,Pneumothorax,0.744402521256769,0.7315545624444678,0.012847958812301163
+CLIP-ViT-B16,clean,impression_fixed.json,bmi,Support Devices,0.7047559814286215,0.7059756810291942,-0.0012196996005726657
+ConvNeXtV2-Base,clean,impression_fixed.json,sex,Atelectasis,0.784477519116878,0.7862513957794456,-0.001773876662567564
+ConvNeXtV2-Base,clean,impression_fixed.json,sex,Cardiomegaly,0.8760921625771143,0.8760238091583918,6.835341872246659e-05
+ConvNeXtV2-Base,clean,impression_fixed.json,sex,Consolidation,0.9161999520491245,0.91616645467169,3.3497377434521525e-05
+ConvNeXtV2-Base,clean,impression_fixed.json,sex,Edema,0.8740435676834866,0.873878340939725,0.00016522674376151514
+ConvNeXtV2-Base,clean,impression_fixed.json,sex,Enlarged Cardiomediastinum,0.8188287487427329,0.816149778595784,0.0026789701469489557
+ConvNeXtV2-Base,clean,impression_fixed.json,sex,Lung Opacity,0.8203033573376763,0.8199453198071804,0.0003580375304959027
+ConvNeXtV2-Base,clean,impression_fixed.json,sex,Pleural Effusion,0.9208826025408575,0.921047606700808,-0.0001650041599504659
+ConvNeXtV2-Base,clean,impression_fixed.json,sex,Pneumonia,0.7653805992413587,0.7662596428419213,-0.0008790436005625679
+ConvNeXtV2-Base,clean,impression_fixed.json,sex,Pneumothorax,0.7822600323522535,0.7814027528509971,0.0008572795012563583
+ConvNeXtV2-Base,clean,impression_fixed.json,sex,Support Devices,0.7156368166624262,0.7155853307037785,5.148595864767902e-05
+ConvNeXtV2-Base,clean,impression_fixed.json,race_black_vs_white,Atelectasis,0.7229399942578236,0.7190332636069071,0.003906730650916512
+ConvNeXtV2-Base,clean,impression_fixed.json,race_black_vs_white,Cardiomegaly,0.8630905001510636,0.8622561068858892,0.0008343932651744268
+ConvNeXtV2-Base,clean,impression_fixed.json,race_black_vs_white,Consolidation,0.9110445276106878,0.9096530923869217,0.0013914352237660577
+ConvNeXtV2-Base,clean,impression_fixed.json,race_black_vs_white,Edema,0.8647760627161281,0.8647164556905216,5.960702560647846e-05
+ConvNeXtV2-Base,clean,impression_fixed.json,race_black_vs_white,Enlarged Cardiomediastinum,0.804500279939719,0.8043442661042791,0.00015601383543983882
+ConvNeXtV2-Base,clean,impression_fixed.json,race_black_vs_white,Lung Opacity,0.778791900723917,0.7783233819294519,0.00046851879446507816
+ConvNeXtV2-Base,clean,impression_fixed.json,race_black_vs_white,Pleural Effusion,0.9154659866163521,0.9145208153350985,0.0009451712812535984
+ConvNeXtV2-Base,clean,impression_fixed.json,race_black_vs_white,Pneumonia,0.7187915558510638,0.7176556959219857,0.0011358599290780536
+ConvNeXtV2-Base,clean,impression_fixed.json,race_black_vs_white,Pneumothorax,0.7787400051071118,0.7771995865784157,0.0015404185286961303
+ConvNeXtV2-Base,clean,impression_fixed.json,race_black_vs_white,Support Devices,0.7045322966169361,0.7039321667064614,0.0006001299104746449
+ConvNeXtV2-Base,clean,impression_fixed.json,age,Atelectasis,0.784477519116878,0.7803219833495879,0.004155535767290108
+ConvNeXtV2-Base,clean,impression_fixed.json,age,Cardiomegaly,0.8760921625771143,0.8662454333947802,0.00984672918233409
+ConvNeXtV2-Base,clean,impression_fixed.json,age,Consolidation,0.9161999520491245,0.9148575756645275,0.0013423763845969994
+ConvNeXtV2-Base,clean,impression_fixed.json,age,Edema,0.8740435676834866,0.8694239460642152,0.004619621619271319
+ConvNeXtV2-Base,clean,impression_fixed.json,age,Enlarged Cardiomediastinum,0.8188287487427329,0.8094433802017471,0.009385368540985817
+ConvNeXtV2-Base,clean,impression_fixed.json,age,Lung Opacity,0.8203033573376763,0.8132418944462976,0.007061462891378767
+ConvNeXtV2-Base,clean,impression_fixed.json,age,Pleural Effusion,0.9208826025408575,0.9160413834993301,0.004841219041527456
+ConvNeXtV2-Base,clean,impression_fixed.json,age,Pneumonia,0.7653805992413587,0.76644610663598,-0.0010655073946213012
+ConvNeXtV2-Base,clean,impression_fixed.json,age,Pneumothorax,0.7822600323522535,0.7860112075477548,-0.0037511751955012773
+ConvNeXtV2-Base,clean,impression_fixed.json,age,Support Devices,0.7156368166624262,0.7156737572605592,-3.69405981329729e-05
+ConvNeXtV2-Base,clean,impression_fixed.json,bmi,Atelectasis,0.8021300031257907,0.8029263355313101,-0.000796332405519351
+ConvNeXtV2-Base,clean,impression_fixed.json,bmi,Cardiomegaly,0.8705561962488154,0.8656817125283842,0.0048744837204312
+ConvNeXtV2-Base,clean,impression_fixed.json,bmi,Consolidation,0.9066214593860077,0.9047101544875262,0.0019113048984814585
+ConvNeXtV2-Base,clean,impression_fixed.json,bmi,Edema,0.8699621050516021,0.8702286434331289,-0.000266538381526793
+ConvNeXtV2-Base,clean,impression_fixed.json,bmi,Enlarged Cardiomediastinum,0.8108045738030409,0.8115462795640893,-0.0007417057610483724
+ConvNeXtV2-Base,clean,impression_fixed.json,bmi,Lung Opacity,0.8117971894414893,0.812481140632763,-0.000683951191273735
+ConvNeXtV2-Base,clean,impression_fixed.json,bmi,Pleural Effusion,0.9164764500860569,0.9157423971377461,0.0007340529483108593
+ConvNeXtV2-Base,clean,impression_fixed.json,bmi,Pneumonia,0.7630950588336524,0.7588573149482651,0.004237743885387224
+ConvNeXtV2-Base,clean,impression_fixed.json,bmi,Pneumothorax,0.7821994695534825,0.7721856233800153,0.010013846173467233
+ConvNeXtV2-Base,clean,impression_fixed.json,bmi,Support Devices,0.7120557867364928,0.7124904257211414,-0.0004346389846485721
+RAD-DINO,overlap,impression_fixed.json,sex,Atelectasis,0.8328174249812718,0.8338174391157472,-0.0010000141344754798
+RAD-DINO,overlap,impression_fixed.json,sex,Cardiomegaly,0.9424478425046284,0.9422264399550033,0.00022140254962510486
+RAD-DINO,overlap,impression_fixed.json,sex,Consolidation,0.9539099348569057,0.9539490151305793,-3.9080273673608446e-05
+RAD-DINO,overlap,impression_fixed.json,sex,Edema,0.8973480861508979,0.8973848396668884,-3.675351599052856e-05
+RAD-DINO,overlap,impression_fixed.json,sex,Enlarged Cardiomediastinum,0.8800515009995535,0.8791809087380585,0.0008705922614949957
+RAD-DINO,overlap,impression_fixed.json,sex,Lung Opacity,0.8656519435669014,0.865954123579852,-0.0003021800129505703
+RAD-DINO,overlap,impression_fixed.json,sex,Pleural Effusion,0.9523282740876766,0.9522899430469998,3.8331040676853334e-05
+RAD-DINO,overlap,impression_fixed.json,sex,Pneumonia,0.8725919532881558,0.8727198141755104,-0.00012786088735461387
+RAD-DINO,overlap,impression_fixed.json,sex,Pneumothorax,0.8586406255873322,0.8581421430681464,0.0004984825191858278
+RAD-DINO,overlap,impression_fixed.json,sex,Support Devices,0.810671238373524,0.8110102838007627,-0.00033904542723872666
+RAD-DINO,overlap,impression_fixed.json,race_black_vs_white,Atelectasis,0.8221053279192814,0.821213239817891,0.0008920881013904092
+RAD-DINO,overlap,impression_fixed.json,race_black_vs_white,Cardiomegaly,0.9364413891883222,0.9345969212865397,0.0018444679017824983
+RAD-DINO,overlap,impression_fixed.json,race_black_vs_white,Consolidation,0.9484895394037957,0.9479748009649978,0.0005147384387979015
+RAD-DINO,overlap,impression_fixed.json,race_black_vs_white,Edema,0.8897445341058777,0.8897997933249107,-5.525921903293263e-05
+RAD-DINO,overlap,impression_fixed.json,race_black_vs_white,Enlarged Cardiomediastinum,0.8712255163394064,0.8716426597150149,-0.00041714337560849746
+RAD-DINO,overlap,impression_fixed.json,race_black_vs_white,Lung Opacity,0.851572414223288,0.8513488974907214,0.00022351673256659765
+RAD-DINO,overlap,impression_fixed.json,race_black_vs_white,Pleural Effusion,0.9480989190303832,0.9473098966894284,0.0007890223409547925
+RAD-DINO,overlap,impression_fixed.json,race_black_vs_white,Pneumonia,0.8367132092198581,0.8363669104609929,0.00034629875886527106
+RAD-DINO,overlap,impression_fixed.json,race_black_vs_white,Pneumothorax,0.8521926109028847,0.8515799646171249,0.0006126462857597437
+RAD-DINO,overlap,impression_fixed.json,race_black_vs_white,Support Devices,0.8234411384881604,0.823459110292966,-1.7971804805672065e-05
+RAD-DINO,overlap,impression_fixed.json,age,Atelectasis,0.8328174249812718,0.8310541491752534,0.0017632758060183162
+RAD-DINO,overlap,impression_fixed.json,age,Cardiomegaly,0.9424478425046284,0.9343396491323805,0.008108193372247885
+RAD-DINO,overlap,impression_fixed.json,age,Consolidation,0.9539099348569057,0.9522141301242848,0.0016958047326208758
+RAD-DINO,overlap,impression_fixed.json,age,Edema,0.8973480861508979,0.8946254819455188,0.0027226042053790644
+RAD-DINO,overlap,impression_fixed.json,age,Enlarged Cardiomediastinum,0.8800515009995535,0.8753654943302992,0.004686006669254339
+RAD-DINO,overlap,impression_fixed.json,age,Lung Opacity,0.8656519435669014,0.8613295920569826,0.004322351509918887
+RAD-DINO,overlap,impression_fixed.json,age,Pleural Effusion,0.9523282740876766,0.9471995507309494,0.005128723356727205
+RAD-DINO,overlap,impression_fixed.json,age,Pneumonia,0.8725919532881558,0.8718887184077058,0.0007032348804499877
+RAD-DINO,overlap,impression_fixed.json,age,Pneumothorax,0.8586406255873322,0.8582605386393236,0.00038008694800861775
+RAD-DINO,overlap,impression_fixed.json,age,Support Devices,0.810671238373524,0.8121107673070166,-0.0014395289334926398
+RAD-DINO,overlap,impression_fixed.json,bmi,Atelectasis,0.7545286754089575,0.7554366431984281,-0.000907967789470554
+RAD-DINO,overlap,impression_fixed.json,bmi,Cardiomegaly,0.9405163242682686,0.9369459493286131,0.0035703749396555073
+RAD-DINO,overlap,impression_fixed.json,bmi,Consolidation,0.946547227975743,0.9457004160125243,0.0008468119632186744
+RAD-DINO,overlap,impression_fixed.json,bmi,Edema,0.8975484418908866,0.8977610996322454,-0.00021265774135881266
+RAD-DINO,overlap,impression_fixed.json,bmi,Enlarged Cardiomediastinum,0.8716325563117612,0.8712934065601884,0.00033914975157278704
+RAD-DINO,overlap,impression_fixed.json,bmi,Lung Opacity,0.8634312880890846,0.8638242010693432,-0.000392912980258564
+RAD-DINO,overlap,impression_fixed.json,bmi,Pleural Effusion,0.9500525033857411,0.9487829564175859,0.0012695469681551774
+RAD-DINO,overlap,impression_fixed.json,bmi,Pneumonia,0.8385570159399401,0.8326736506980447,0.005883365241895477
+RAD-DINO,overlap,impression_fixed.json,bmi,Pneumothorax,0.8529419375659754,0.8468377731597168,0.006104164406258605
+RAD-DINO,overlap,impression_fixed.json,bmi,Support Devices,0.7912503493931148,0.7909079138901762,0.00034243550293855396
+CheXzero,overlap,impression_fixed.json,sex,Atelectasis,0.8317538057075011,0.829933991999887,0.001819813707614082
+CheXzero,overlap,impression_fixed.json,sex,Cardiomegaly,0.9386587041328665,0.9387969741462077,-0.00013827001334121292
+CheXzero,overlap,impression_fixed.json,sex,Consolidation,0.956172868799147,0.9560533017713598,0.00011956702778714856
+CheXzero,overlap,impression_fixed.json,sex,Edema,0.8979090148116122,0.8978736286139248,3.5386197687392595e-05
+CheXzero,overlap,impression_fixed.json,sex,Enlarged Cardiomediastinum,0.8619188921859545,0.8602862186830935,0.001632673502861004
+CheXzero,overlap,impression_fixed.json,sex,Lung Opacity,0.8653478013460746,0.8655470308524486,-0.00019922950637396575
+CheXzero,overlap,impression_fixed.json,sex,Pleural Effusion,0.9573939297613148,0.9575038034738721,-0.00010987371255732903
+CheXzero,overlap,impression_fixed.json,sex,Pneumonia,0.8599177428291351,0.8594915398712868,0.00042620295784834283
+CheXzero,overlap,impression_fixed.json,sex,Pneumothorax,0.8021681149152723,0.8016257782517849,0.0005423366634873528
+CheXzero,overlap,impression_fixed.json,sex,Support Devices,0.7570560005614971,0.7557803955322193,0.0012756050292778154
+CheXzero,overlap,impression_fixed.json,race_black_vs_white,Atelectasis,0.8466223698781838,0.8469504942373159,-0.00032812435913209814
+CheXzero,overlap,impression_fixed.json,race_black_vs_white,Cardiomegaly,0.9344507066419494,0.9333123211947825,0.0011383854471669341
+CheXzero,overlap,impression_fixed.json,race_black_vs_white,Consolidation,0.9512686219151469,0.9509605364391044,0.0003080854760425522
+CheXzero,overlap,impression_fixed.json,race_black_vs_white,Edema,0.8930649960617287,0.8930656973208535,-7.012591247690381e-07
+CheXzero,overlap,impression_fixed.json,race_black_vs_white,Enlarged Cardiomediastinum,0.8544866702221594,0.8547920590064242,-0.0003053887842647818
+CheXzero,overlap,impression_fixed.json,race_black_vs_white,Lung Opacity,0.8496158631037984,0.8493538807009763,0.00026198240282215846
+CheXzero,overlap,impression_fixed.json,race_black_vs_white,Pleural Effusion,0.9543878978433427,0.9537834612313095,0.0006044366120331324
+CheXzero,overlap,impression_fixed.json,race_black_vs_white,Pneumonia,0.8579066932624112,0.8573110593971631,0.0005956338652480797
+CheXzero,overlap,impression_fixed.json,race_black_vs_white,Pneumothorax,0.7918575299273494,0.7904789648245457,0.0013785651028036527
+CheXzero,overlap,impression_fixed.json,race_black_vs_white,Support Devices,0.7519881309066262,0.7518401844420652,0.00014794646456095517
+CheXzero,overlap,impression_fixed.json,age,Atelectasis,0.8317538057075011,0.8281989851446663,0.0035548205628348484
+CheXzero,overlap,impression_fixed.json,age,Cardiomegaly,0.9386587041328665,0.9313359355948794,0.007322768537987079
+CheXzero,overlap,impression_fixed.json,age,Consolidation,0.956172868799147,0.9544734972161508,0.0016993715829961564
+CheXzero,overlap,impression_fixed.json,age,Edema,0.8979090148116122,0.8945647183201236,0.0033442964914885964
+CheXzero,overlap,impression_fixed.json,age,Enlarged Cardiomediastinum,0.8619188921859545,0.8576848756505445,0.004234016535410001
+CheXzero,overlap,impression_fixed.json,age,Lung Opacity,0.8653478013460746,0.8574852343857308,0.00786256696034382
+CheXzero,overlap,impression_fixed.json,age,Pleural Effusion,0.9573939297613148,0.9531017781408402,0.004292151620474582
+CheXzero,overlap,impression_fixed.json,age,Pneumonia,0.8599177428291351,0.8590866470613306,0.0008310957678044906
+CheXzero,overlap,impression_fixed.json,age,Pneumothorax,0.8021681149152723,0.804071469725456,-0.0019033548101836661
+CheXzero,overlap,impression_fixed.json,age,Support Devices,0.7570560005614971,0.7571837919431632,-0.00012779138166607584
+CheXzero,overlap,impression_fixed.json,bmi,Atelectasis,0.8195079112275427,0.8198130479436762,-0.000305136716133414
+CheXzero,overlap,impression_fixed.json,bmi,Cardiomegaly,0.9392578090078494,0.9364634179048437,0.0027943911030057222
+CheXzero,overlap,impression_fixed.json,bmi,Consolidation,0.9522492601045748,0.9509706592435255,0.0012786008610492505
+CheXzero,overlap,impression_fixed.json,bmi,Edema,0.8970991060000775,0.8972336423224605,-0.0001345363223830276
+CheXzero,overlap,impression_fixed.json,bmi,Enlarged Cardiomediastinum,0.8556969416802511,0.8564084188764853,-0.0007114771962342115
+CheXzero,overlap,impression_fixed.json,bmi,Lung Opacity,0.8614537324454048,0.8624011450085922,-0.000947412563187422
+CheXzero,overlap,impression_fixed.json,bmi,Pleural Effusion,0.9553649399664023,0.9545850317285455,0.0007799082378567856
+CheXzero,overlap,impression_fixed.json,bmi,Pneumonia,0.8641878374599351,0.8614343795039474,0.0027534579559876926
+CheXzero,overlap,impression_fixed.json,bmi,Pneumothorax,0.794624797533677,0.7853904108918056,0.009234386641871373
+CheXzero,overlap,impression_fixed.json,bmi,Support Devices,0.7509891303953256,0.7505172228117707,0.00047190758355486473
